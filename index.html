@@ -1040,7 +1040,7 @@
         <button onclick="speakQuestionsPhrase('nextGoal')">
             <span id="questionsNextGoalButton">
                 QUELS SONT<br>
-                MES OBJECTIFs ?
+                MES OBJECTIFS ?
             </span>
         </button>
 
@@ -1540,6 +1540,328 @@
     </h1>
 
     <div class="phrase-buttons">
+
+        <button onclick="showScreen('planningNumbersScreen')">
+            <span id="planningNumbersButton">
+                CHIFFRES
+            </span>
+        </button>
+
+        <button onclick="showScreen('planningDaysScreen')">
+            <span id="planningDaysButton">
+                JOURS DE<br>
+                LA SEMAINE
+            </span>
+        </button>
+
+        <button onclick="showScreen('planningMonthsScreen')">
+            <span id="planningMonthsButton">
+                MOIS
+            </span>
+        </button>
+
+        <button onclick="showScreen('planningDayPartsScreen')">
+            <span id="planningDayPartsButton">
+                MOMENT DE<br>
+                LA JOURNÉE
+            </span>
+        </button>
+
+    </div>
+
+</section>
+
+<section
+    id="planningNumbersScreen"
+    class="screen"
+>
+
+    <button
+        class="back-button"
+        onclick="showScreen('planningScreen')"
+    >
+        ← RETOUR
+    </button>
+
+    <h1 id="planningNumbersTitle">
+        Chiffres
+    </h1>
+
+    <h2 id="planningNumberDisplay">
+        —
+    </h2>
+
+    <div
+        id="planningNumbersButtons"
+        class="phrase-buttons"
+    >
+
+        <button onclick="appendPlanningDigit('1')">
+            1
+        </button>
+
+        <button onclick="appendPlanningDigit('2')">
+            2
+        </button>
+
+        <button onclick="appendPlanningDigit('3')">
+            3
+        </button>
+
+        <button onclick="appendPlanningDigit('4')">
+            4
+        </button>
+
+        <button onclick="appendPlanningDigit('5')">
+            5
+        </button>
+
+        <button onclick="appendPlanningDigit('6')">
+            6
+        </button>
+
+        <button onclick="appendPlanningDigit('7')">
+            7
+        </button>
+
+        <button onclick="appendPlanningDigit('8')">
+            8
+        </button>
+
+        <button onclick="appendPlanningDigit('9')">
+            9
+        </button>
+
+        <button onclick="appendPlanningDigit('0')">
+            0
+        </button>
+
+        <button onclick="deletePlanningDigit()">
+            ⌫ EFFACER
+        </button>
+
+        <button onclick="clearPlanningNumber()">
+            🗑️ TOUT EFFACER
+        </button>
+
+        <button onclick="speakPlanningNumber()">
+            🔊 DIRE
+        </button>
+
+    </div>
+
+</section>
+
+
+<section
+    id="planningDaysScreen"
+    class="screen"
+>
+
+    <button
+        class="back-button"
+        onclick="showScreen('planningScreen')"
+    >
+        ← RETOUR
+    </button>
+
+    <h1 id="planningDaysTitle">
+        Jours de la semaine
+    </h1>
+
+    <div
+        id="planningDaysButtons"
+        class="phrase-buttons"
+    >
+
+        <button onclick="speakPlanningDay('monday')">
+            <span id="planningMondayButton">
+                LUNDI
+            </span>
+        </button>
+
+        <button onclick="speakPlanningDay('tuesday')">
+            <span id="planningTuesdayButton">
+                MARDI
+            </span>
+        </button>
+
+        <button onclick="speakPlanningDay('wednesday')">
+            <span id="planningWednesdayButton">
+                MERCREDI
+            </span>
+        </button>
+
+        <button onclick="speakPlanningDay('thursday')">
+            <span id="planningThursdayButton">
+                JEUDI
+            </span>
+        </button>
+
+        <button onclick="speakPlanningDay('friday')">
+            <span id="planningFridayButton">
+                VENDREDI
+            </span>
+        </button>
+
+        <button onclick="speakPlanningDay('saturday')">
+            <span id="planningSaturdayButton">
+                SAMEDI
+            </span>
+        </button>
+
+        <button onclick="speakPlanningDay('sunday')">
+            <span id="planningSundayButton">
+                DIMANCHE
+            </span>
+        </button>
+
+    </div>
+
+</section>
+
+
+<section
+    id="planningMonthsScreen"
+    class="screen"
+>
+
+    <button
+        class="back-button"
+        onclick="showScreen('planningScreen')"
+    >
+        ← RETOUR
+    </button>
+
+    <h1 id="planningMonthsTitle">
+        Mois
+    </h1>
+
+    <div
+        id="planningMonthsButtons"
+        class="phrase-buttons"
+    >
+
+        <button onclick="speakPlanningMonth('january')">
+            <span id="planningJanuaryButton">
+                JANVIER
+            </span>
+        </button>
+
+        <button onclick="speakPlanningMonth('february')">
+            <span id="planningFebruaryButton">
+                FÉVRIER
+            </span>
+        </button>
+
+        <button onclick="speakPlanningMonth('march')">
+            <span id="planningMarchButton">
+                MARS
+            </span>
+        </button>
+
+        <button onclick="speakPlanningMonth('april')">
+            <span id="planningAprilButton">
+                AVRIL
+            </span>
+        </button>
+
+        <button onclick="speakPlanningMonth('may')">
+            <span id="planningMayButton">
+                MAI
+            </span>
+        </button>
+
+        <button onclick="speakPlanningMonth('june')">
+            <span id="planningJuneButton">
+                JUIN
+            </span>
+        </button>
+
+        <button onclick="speakPlanningMonth('july')">
+            <span id="planningJulyButton">
+                JUILLET
+            </span>
+        </button>
+
+        <button onclick="speakPlanningMonth('august')">
+            <span id="planningAugustButton">
+                AOÛT
+            </span>
+        </button>
+
+        <button onclick="speakPlanningMonth('september')">
+            <span id="planningSeptemberButton">
+                SEPTEMBRE
+            </span>
+        </button>
+
+        <button onclick="speakPlanningMonth('october')">
+            <span id="planningOctoberButton">
+                OCTOBRE
+            </span>
+        </button>
+
+        <button onclick="speakPlanningMonth('november')">
+            <span id="planningNovemberButton">
+                NOVEMBRE
+            </span>
+        </button>
+
+        <button onclick="speakPlanningMonth('december')">
+            <span id="planningDecemberButton">
+                DÉCEMBRE
+            </span>
+        </button>
+
+    </div>
+
+</section>
+
+<section
+    id="planningDayPartsScreen"
+    class="screen"
+>
+
+    <button
+        class="back-button"
+        onclick="showScreen('planningScreen')"
+    >
+        ← RETOUR
+    </button>
+
+    <h1 id="planningDayPartsTitle">
+        Moment de la journée
+    </h1>
+
+    <div
+        id="planningDayPartsButtons"
+        class="phrase-buttons"
+    >
+
+        <button onclick="speakPlanningDayPart('morning')">
+            <span id="planningMorningButton">
+                MATIN
+            </span>
+        </button>
+
+        <button onclick="speakPlanningDayPart('noon')">
+            <span id="planningNoonButton">
+                MIDI
+            </span>
+        </button>
+
+        <button onclick="speakPlanningDayPart('afternoon')">
+            <span id="planningAfternoonButton">
+                APRÈS-MIDI
+            </span>
+        </button>
+
+        <button onclick="speakPlanningDayPart('evening')">
+            <span id="planningEveningButton">
+                SOIR
+            </span>
+        </button>
 
     </div>
 

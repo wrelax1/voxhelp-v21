@@ -3415,6 +3415,755 @@ const MOVEMENT_TRANSLATIONS = {
 
 };
 
+const PLANNING_TRANSLATIONS = {
+
+    fr: {
+
+        title: "Planning / Temps",
+
+        numbers: "CHIFFRES",
+        days: "JOURS DE<br>LA SEMAINE",
+        months: "MOIS",
+        dayParts: "MOMENT DE<br>LA JOURNÉE",
+
+        numbersTitle: "Chiffres",
+        daysTitle: "Jours de la semaine",
+		monthsTitle: "Mois",
+        dayPartsTitle: "Moment de la journée",
+
+        monday: {
+            label: "LUNDI",
+            speech: "Lundi"
+        },
+
+        tuesday: {
+            label: "MARDI",
+            speech: "Mardi"
+        },
+
+        wednesday: {
+            label: "MERCREDI",
+            speech: "Mercredi"
+        },
+
+        thursday: {
+            label: "JEUDI",
+            speech: "Jeudi"
+        },
+
+        friday: {
+            label: "VENDREDI",
+            speech: "Vendredi"
+        },
+
+        saturday: {
+            label: "SAMEDI",
+            speech: "Samedi"
+        },
+
+        sunday: {
+            label: "DIMANCHE",
+            speech: "Dimanche"
+        },
+		
+        january: {
+            label: "JANVIER",
+            speech: "Janvier"
+        },
+
+        february: {
+            label: "FÉVRIER",
+            speech: "Février"
+        },
+
+        march: {
+            label: "MARS",
+            speech: "Mars"
+        },
+
+        april: {
+            label: "AVRIL",
+            speech: "Avril"
+        },
+
+        may: {
+            label: "MAI",
+            speech: "Mai"
+        },
+
+        june: {
+            label: "JUIN",
+            speech: "Juin"
+        },
+
+        july: {
+            label: "JUILLET",
+            speech: "Juillet"
+        },
+
+        august: {
+            label: "AOÛT",
+            speech: "Août"
+        },
+
+        september: {
+            label: "SEPTEMBRE",
+            speech: "Septembre"
+        },
+
+        october: {
+            label: "OCTOBRE",
+            speech: "Octobre"
+        },
+
+        november: {
+            label: "NOVEMBRE",
+            speech: "Novembre"
+        },
+
+        december: {
+            label: "DÉCEMBRE",
+            speech: "Décembre"
+        },
+
+        morning: {
+            label: "MATIN",
+            speech: "Matin"
+        },
+
+        noon: {
+            label: "MIDI",
+            speech: "Midi"
+        },
+
+        afternoon: {
+            label: "APRÈS-MIDI",
+            speech: "Après-midi"
+        },
+
+        evening: {
+            label: "SOIR",
+            speech: "Soir"
+        }		
+
+    },
+
+
+    en: {
+
+        title: "Planning / Time",
+
+        numbers: "NUMBERS",
+        days: "DAYS OF<br>THE WEEK",
+        months: "MONTHS",
+        dayParts: "TIME OF<br>DAY",
+
+        numbersTitle: "Numbers",
+        daysTitle: "Days of the week",
+        monthsTitle: "Months",
+        dayPartsTitle: "Time of day",
+
+        monday: {
+            label: "MONDAY",
+            speech: "Monday"
+        },
+
+        tuesday: {
+            label: "TUESDAY",
+            speech: "Tuesday"
+        },
+
+        wednesday: {
+            label: "WEDNESDAY",
+            speech: "Wednesday"
+        },
+
+        thursday: {
+            label: "THURSDAY",
+            speech: "Thursday"
+        },
+
+        friday: {
+            label: "FRIDAY",
+            speech: "Friday"
+        },
+
+        saturday: {
+            label: "SATURDAY",
+            speech: "Saturday"
+        },
+
+        sunday: {
+            label: "SUNDAY",
+            speech: "Sunday"
+        },
+		
+        january: {
+            label: "JANUARY",
+            speech: "January"
+        },
+
+        february: {
+            label: "FEBRUARY",
+            speech: "February"
+        },
+
+        march: {
+            label: "MARCH",
+            speech: "March"
+        },
+
+        april: {
+            label: "APRIL",
+            speech: "April"
+        },
+
+        may: {
+            label: "MAY",
+            speech: "May"
+        },
+
+        june: {
+            label: "JUNE",
+            speech: "June"
+        },
+
+        july: {
+            label: "JULY",
+            speech: "July"
+        },
+
+        august: {
+            label: "AUGUST",
+            speech: "August"
+        },
+
+        september: {
+            label: "SEPTEMBER",
+            speech: "September"
+        },
+
+        october: {
+            label: "OCTOBER",
+            speech: "October"
+        },
+
+        november: {
+            label: "NOVEMBER",
+            speech: "November"
+        },
+
+        december: {
+            label: "DECEMBER",
+            speech: "December"
+        },
+		
+        morning: {
+            label: "MORNING",
+            speech: "Morning"
+        },
+
+        noon: {
+            label: "NOON",
+            speech: "Noon"
+        },
+
+        afternoon: {
+            label: "AFTERNOON",
+            speech: "Afternoon"
+        },
+
+        evening: {
+            label: "EVENING",
+            speech: "Evening"
+        }
+
+    },
+
+
+    de: {
+
+        title: "Planung / Zeit",
+
+        numbers: "ZAHLEN",
+        days: "WOCHEN-<br>TAGE",
+        months: "MONATE",
+        dayParts: "TAGES-<br>ZEIT",
+
+        numbersTitle: "Zahlen",
+        daysTitle: "Wochentage",
+        monthsTitle: "Monate",
+        dayPartsTitle: "Tageszeit",
+
+        monday: {
+            label: "MONTAG",
+            speech: "Montag"
+        },
+
+        tuesday: {
+            label: "DIENSTAG",
+            speech: "Dienstag"
+        },
+
+        wednesday: {
+            label: "MITTWOCH",
+            speech: "Mittwoch"
+        },
+
+        thursday: {
+            label: "DONNERSTAG",
+            speech: "Donnerstag"
+        },
+
+        friday: {
+            label: "FREITAG",
+            speech: "Freitag"
+        },
+
+        saturday: {
+            label: "SAMSTAG",
+            speech: "Samstag"
+        },
+
+        sunday: {
+            label: "SONNTAG",
+            speech: "Sonntag"
+        },
+		
+        january: {
+            label: "JANUAR",
+            speech: "Januar"
+        },
+
+        february: {
+            label: "FEBRUAR",
+            speech: "Februar"
+        },
+
+        march: {
+            label: "MÄRZ",
+            speech: "März"
+        },
+
+        april: {
+            label: "APRIL",
+            speech: "April"
+        },
+
+        may: {
+            label: "MAI",
+            speech: "Mai"
+        },
+
+        june: {
+            label: "JUNI",
+            speech: "Juni"
+        },
+
+        july: {
+            label: "JULI",
+            speech: "Juli"
+        },
+
+        august: {
+            label: "AUGUST",
+            speech: "August"
+        },
+
+        september: {
+            label: "SEPTEMBER",
+            speech: "September"
+        },
+
+        october: {
+            label: "OKTOBER",
+            speech: "Oktober"
+        },
+
+        november: {
+            label: "NOVEMBER",
+            speech: "November"
+        },
+
+        december: {
+            label: "DEZEMBER",
+            speech: "Dezember"
+        },
+		
+        morning: {
+            label: "MORGEN",
+            speech: "Morgen"
+        },
+
+        noon: {
+            label: "MITTAG",
+            speech: "Mittag"
+        },
+
+        afternoon: {
+            label: "NACHMITTAG",
+            speech: "Nachmittag"
+        },
+
+        evening: {
+            label: "ABEND",
+            speech: "Abend"
+        }
+
+    },
+
+
+    it: {
+
+        title: "Pianificazione / Tempo",
+
+        numbers: "NUMERI",
+        days: "GIORNI DELLA<br>SETTIMANA",
+        months: "MESI",
+        dayParts: "MOMENTO DELLA<br>GIORNATA",
+
+        numbersTitle: "Numeri",
+        daysTitle: "Giorni della settimana",
+        monthsTitle: "Mesi",
+        dayPartsTitle: "Momento della giornata",
+
+        monday: {
+            label: "LUNEDÌ",
+            speech: "Lunedì"
+        },
+
+        tuesday: {
+            label: "MARTEDÌ",
+            speech: "Martedì"
+        },
+
+        wednesday: {
+            label: "MERCOLEDÌ",
+            speech: "Mercoledì"
+        },
+
+        thursday: {
+            label: "GIOVEDÌ",
+            speech: "Giovedì"
+        },
+
+        friday: {
+            label: "VENERDÌ",
+            speech: "Venerdì"
+        },
+
+        saturday: {
+            label: "SABATO",
+            speech: "Sabato"
+        },
+
+        sunday: {
+            label: "DOMENICA",
+            speech: "Domenica"
+        },
+		
+        january: {
+            label: "GENNAIO",
+            speech: "Gennaio"
+        },
+
+        february: {
+            label: "FEBBRAIO",
+            speech: "Febbraio"
+        },
+
+        march: {
+            label: "MARZO",
+            speech: "Marzo"
+        },
+
+        april: {
+            label: "APRILE",
+            speech: "Aprile"
+        },
+
+        may: {
+            label: "MAGGIO",
+            speech: "Maggio"
+        },
+
+        june: {
+            label: "GIUGNO",
+            speech: "Giugno"
+        },
+
+        july: {
+            label: "LUGLIO",
+            speech: "Luglio"
+        },
+
+        august: {
+            label: "AGOSTO",
+            speech: "Agosto"
+        },
+
+        september: {
+            label: "SETTEMBRE",
+            speech: "Settembre"
+        },
+
+        october: {
+            label: "OTTOBRE",
+            speech: "Ottobre"
+        },
+
+        november: {
+            label: "NOVEMBRE",
+            speech: "Novembre"
+        },
+
+        december: {
+            label: "DICEMBRE",
+            speech: "Dicembre"
+        },
+		
+        morning: {
+            label: "MATTINA",
+            speech: "Mattina"
+        },
+
+        noon: {
+            label: "MEZZOGIORNO",
+            speech: "Mezzogiorno"
+        },
+
+        afternoon: {
+            label: "POMERIGGIO",
+            speech: "Pomeriggio"
+        },
+
+        evening: {
+            label: "SERA",
+            speech: "Sera"
+        }
+
+    },
+
+
+    es: {
+
+        title: "Planificación / Tiempo",
+
+        numbers: "NÚMEROS",
+        days: "DÍAS DE<br>LA SEMANA",
+        months: "MESES",
+        dayParts: "MOMENTO<br>DEL DÍA",
+
+        numbersTitle: "Números",
+        daysTitle: "Días de la semana",
+        monthsTitle: "Meses",
+        dayPartsTitle: "Momento del día",
+
+        monday: {
+            label: "LUNES"
+        },
+
+        tuesday: {
+            label: "MARTES"
+        },
+
+        wednesday: {
+            label: "MIÉRCOLES"
+        },
+
+        thursday: {
+            label: "JUEVES"
+        },
+
+        friday: {
+            label: "VIERNES"
+        },
+
+        saturday: {
+            label: "SÁBADO"
+        },
+
+        sunday: {
+            label: "DOMINGO"
+        },
+		
+        january: {
+            label: "ENERO"
+        },
+
+        february: {
+            label: "FEBRERO"
+        },
+
+        march: {
+            label: "MARZO"
+        },
+
+        april: {
+            label: "ABRIL"
+        },
+
+        may: {
+            label: "MAYO"
+        },
+
+        june: {
+            label: "JUNIO"
+        },
+
+        july: {
+            label: "JULIO"
+        },
+
+        august: {
+            label: "AGOSTO"
+        },
+
+        september: {
+            label: "SEPTIEMBRE"
+        },
+
+        october: {
+            label: "OCTUBRE"
+        },
+
+        november: {
+            label: "NOVIEMBRE"
+        },
+
+        december: {
+            label: "DICIEMBRE"
+        },
+		
+        morning: {
+            label: "MAÑANA"
+        },
+
+        noon: {
+            label: "MEDIODÍA"
+        },
+
+        afternoon: {
+            label: "TARDE"
+        },
+
+        evening: {
+            label: "NOCHE"
+        }
+
+    },
+
+
+    pt: {
+
+        title: "Planeamento / Tempo",
+
+        numbers: "NÚMEROS",
+        days: "DIAS DA<br>SEMANA",
+        months: "MESES",
+        dayParts: "MOMENTO<br>DO DIA",
+
+        numbersTitle: "Números",
+        daysTitle: "Dias da semana",
+        monthsTitle: "Meses",
+        dayPartsTitle: "Momento do dia",
+
+        monday: {
+            label: "SEGUNDA-FEIRA"
+        },
+
+        tuesday: {
+            label: "TERÇA-FEIRA"
+        },
+
+        wednesday: {
+            label: "QUARTA-FEIRA"
+        },
+
+        thursday: {
+            label: "QUINTA-FEIRA"
+        },
+
+        friday: {
+            label: "SEXTA-FEIRA"
+        },
+
+        saturday: {
+            label: "SÁBADO"
+        },
+
+        sunday: {
+            label: "DOMINGO"
+        },
+		
+        january: {
+            label: "JANEIRO"
+        },
+
+        february: {
+            label: "FEVEREIRO"
+        },
+
+        march: {
+            label: "MARÇO"
+        },
+
+        april: {
+            label: "ABRIL"
+        },
+
+        may: {
+            label: "MAIO"
+        },
+
+        june: {
+            label: "JUNHO"
+        },
+
+        july: {
+            label: "JULHO"
+        },
+
+        august: {
+            label: "AGOSTO"
+        },
+
+        september: {
+            label: "SETEMBRO"
+        },
+
+        october: {
+            label: "OUTUBRO"
+        },
+
+        november: {
+            label: "NOVEMBRO"
+        },
+
+        december: {
+            label: "DEZEMBRO"
+        },
+		
+        morning: {
+            label: "MANHÃ"
+        },
+
+        noon: {
+            label: "MEIO-DIA"
+        },
+
+        afternoon: {
+            label: "TARDE"
+        },
+
+        evening: {
+            label: "NOITE"
+        }
+
+    }
+
+};
+
 const HYGIENE_TRANSLATIONS = {
 
     fr: {
@@ -7194,6 +7943,303 @@ function speakMovementPhrase(phraseKey) {
     );
 }
 
+let planningNumber = "";
+
+
+function updatePlanningNumberDisplay() {
+
+    const display =
+        document.getElementById(
+            "planningNumberDisplay"
+        );
+
+    if (!display) {
+        return;
+    }
+
+    display.textContent =
+        planningNumber !== ""
+            ? planningNumber
+            : "—";
+}
+
+
+function appendPlanningDigit(digit) {
+
+    planningNumber +=
+        digit;
+
+    updatePlanningNumberDisplay();
+}
+
+
+function deletePlanningDigit() {
+
+    planningNumber =
+        planningNumber.slice(
+            0,
+            -1
+        );
+
+    updatePlanningNumberDisplay();
+}
+
+
+function clearPlanningNumber() {
+
+    planningNumber =
+        "";
+
+    updatePlanningNumberDisplay();
+}
+
+
+function speakPlanningNumber() {
+
+    if (planningNumber === "") {
+        return;
+    }
+
+    speak(
+        planningNumber,
+        caregiverLanguage
+    );
+}
+
+function updatePlanningLanguage() {
+
+    const translation =
+        PLANNING_TRANSLATIONS[
+            patientLanguage
+        ];
+
+    if (!translation) {
+        return;
+    }
+
+    const title =
+        document.getElementById(
+            "planningTitle"
+        );
+
+    if (title) {
+        title.textContent =
+            translation.title;
+    }
+
+    const elements = {
+
+        planningNumbersButton:
+            translation.numbers,
+
+        planningDaysButton:
+            translation.days,
+
+        planningMonthsButton:
+            translation.months,
+
+        planningDayPartsButton:
+            translation.dayParts,
+
+        planningMondayButton:
+            translation.monday.label,
+
+        planningTuesdayButton:
+            translation.tuesday.label,
+
+        planningWednesdayButton:
+            translation.wednesday.label,
+
+        planningThursdayButton:
+            translation.thursday.label,
+
+        planningFridayButton:
+            translation.friday.label,
+
+        planningSaturdayButton:
+            translation.saturday.label,
+
+        planningSundayButton:
+            translation.sunday.label,
+
+        planningJanuaryButton:
+            translation.january.label,
+
+        planningFebruaryButton:
+            translation.february.label,
+
+        planningMarchButton:
+            translation.march.label,
+
+        planningAprilButton:
+            translation.april.label,
+
+        planningMayButton:
+            translation.may.label,
+
+        planningJuneButton:
+            translation.june.label,
+
+        planningJulyButton:
+            translation.july.label,
+
+        planningAugustButton:
+            translation.august.label,
+
+        planningSeptemberButton:
+            translation.september.label,
+
+        planningOctoberButton:
+            translation.october.label,
+
+        planningNovemberButton:
+            translation.november.label,
+
+        planningDecemberButton:
+            translation.december.label,
+
+        planningMorningButton:
+            translation.morning.label,
+
+        planningNoonButton:
+            translation.noon.label,
+
+        planningAfternoonButton:
+            translation.afternoon.label,
+
+        planningEveningButton:
+            translation.evening.label
+    };
+
+    Object.entries(elements).forEach(
+        function(entry) {
+
+            const element =
+                document.getElementById(
+                    entry[0]
+                );
+
+            if (element) {
+                element.innerHTML =
+                    entry[1];
+            }
+        }
+    );
+
+    const numbersTitle =
+        document.getElementById(
+            "planningNumbersTitle"
+        );
+
+    if (numbersTitle) {
+        numbersTitle.textContent =
+            translation.numbersTitle;
+    }
+
+    const daysTitle =
+        document.getElementById(
+            "planningDaysTitle"
+        );
+
+    if (daysTitle) {
+        daysTitle.textContent =
+            translation.daysTitle;
+    }
+	
+    const monthsTitle =
+        document.getElementById(
+            "planningMonthsTitle"
+        );
+
+    if (monthsTitle) {
+        monthsTitle.textContent =
+            translation.monthsTitle;
+    }
+	
+    const dayPartsTitle =
+        document.getElementById(
+            "planningDayPartsTitle"
+        );
+
+    if (dayPartsTitle) {
+        dayPartsTitle.textContent =
+            translation.dayPartsTitle;
+    }
+}
+
+
+function speakPlanningDay(dayKey) {
+
+    const translation =
+        PLANNING_TRANSLATIONS[
+            caregiverLanguage
+        ];
+
+    if (!translation) {
+        return;
+    }
+
+    const day =
+        translation[dayKey];
+
+    if (!day) {
+        return;
+    }
+
+    speak(
+        day.speech,
+        caregiverLanguage
+    );
+}
+
+function speakPlanningMonth(monthKey) {
+
+    const translation =
+        PLANNING_TRANSLATIONS[
+            caregiverLanguage
+        ];
+
+    if (!translation) {
+        return;
+    }
+
+    const month =
+        translation[monthKey];
+
+    if (!month) {
+        return;
+    }
+
+    speak(
+        month.speech,
+        caregiverLanguage
+    );
+}
+
+function speakPlanningDayPart(dayPartKey) {
+
+    const translation =
+        PLANNING_TRANSLATIONS[
+            caregiverLanguage
+        ];
+
+    if (!translation) {
+        return;
+    }
+
+    const dayPart =
+        translation[dayPartKey];
+
+    if (!dayPart) {
+        return;
+    }
+
+    speak(
+        dayPart.speech,
+        caregiverLanguage
+    );
+}
+
 function updateHygieneLanguage() {
 
     const translation =
@@ -9448,6 +10494,8 @@ function choosePatientLanguage(language) {
 	updateCareTeamLanguage();
 	
 	updateMovementLanguage();
+	
+	updatePlanningLanguage();
 		
 	updateHygieneLanguage();
 	
@@ -11161,6 +12209,8 @@ document.addEventListener(
 		
 		updateMovementLanguage();
 		
+		updatePlanningLanguage();	
+			
 		updateHygieneLanguage();
 		
 		updateEmotionLanguage();
