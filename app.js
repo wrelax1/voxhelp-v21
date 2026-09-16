@@ -3258,6 +3258,160 @@ const CARE_TEAM_TRANSLATIONS = {
 
 };
 
+const MOVEMENT_TRANSLATIONS = {
+
+    fr: {
+
+        title: "Déplacements",
+
+        room: {
+            label: "ALLER DANS<br>MA CHAMBRE",
+            speech: "Je voudrais aller dans ma chambre"
+        },
+
+        loggia: {
+            label: "ALLER À<br>LA LOGGIA",
+            speech: "Je voudrais aller à la loggia"
+        },
+
+        outside: {
+            label: "ALLER<br>DEHORS",
+            speech: "Je voudrais aller dehors"
+        },
+
+        home: {
+            label: "RENTRER<br>CHEZ MOI",
+            speech: "Je voudrais rentrer chez moi"
+        }
+
+    }
+
+    en: {
+
+        title: "Getting around",
+
+        room: {
+            label: "GO TO<br>MY ROOM",
+            speech: "I would like to go to my room"
+        },
+
+        loggia: {
+            label: "GO TO<br>THE LOGGIA",
+            speech: "I would like to go to the loggia"
+        },
+
+        outside: {
+            label: "GO<br>OUTSIDE",
+            speech: "I would like to go outside"
+        },
+
+        home: {
+            label: "GO<br>HOME",
+            speech: "I would like to go home"
+        }
+
+    }
+
+    de: {
+
+        title: "Mobilität",
+
+        room: {
+            label: "IN MEIN<br>ZIMMER",
+            speech: "Ich möchte in mein Zimmer"
+        },
+
+        loggia: {
+            label: "ZUR<br>LOGGIA",
+            speech: "Ich möchte zur Loggia"
+        },
+
+        outside: {
+            label: "NACH<br>DRAUSSEN",
+            speech: "Ich möchte nach draußen"
+        },
+
+        home: {
+            label: "NACH<br>HAUSE",
+            speech: "Ich möchte nach Hause"
+        }
+
+    }
+
+    it: {
+
+        title: "Spostamenti",
+
+        room: {
+            label: "ANDARE NELLA<br>MIA STANZA",
+            speech: "Vorrei andare nella mia stanza"
+        },
+
+        loggia: {
+            label: "ANDARE ALLA<br>LOGGIA",
+            speech: "Vorrei andare alla loggia"
+        },
+
+        outside: {
+            label: "ANDARE<br>FUORI",
+            speech: "Vorrei andare fuori"
+        },
+
+        home: {
+            label: "TORNARE<br>A CASA",
+            speech: "Vorrei tornare a casa"
+        }
+
+    },
+
+
+    es: {
+
+        title: "Desplazamientos",
+
+        room: {
+            label: "IR A<br>MI HABITACIÓN"
+        },
+
+        loggia: {
+            label: "IR A<br>LA LOGIA"
+        },
+
+        outside: {
+            label: "SALIR<br>FUERA"
+        },
+
+        home: {
+            label: "VOLVER<br>A CASA"
+        }
+
+    },
+
+
+    pt: {
+
+        title: "Deslocações",
+
+        room: {
+            label: "IR PARA<br>O MEU QUARTO"
+        },
+
+        loggia: {
+            label: "IR PARA<br>A LOGGIA"
+        },
+
+        outside: {
+            label: "IR<br>LÁ FORA"
+        },
+
+        home: {
+            label: "VOLTAR<br>PARA CASA"
+        }
+
+    }
+
+};
+
 const HYGIENE_TRANSLATIONS = {
 
     fr: {
@@ -6960,6 +7114,83 @@ function speakCareTeamPhrase(phraseKey) {
     );
 }
 
+function updateMovementLanguage() {
+
+    const translation =
+        MOVEMENT_TRANSLATIONS[
+            patientLanguage
+        ];
+
+    if (!translation) {
+        return;
+    }
+
+    const title =
+        document.getElementById(
+            "movementTitle"
+        );
+
+    if (title) {
+        title.textContent =
+            translation.title;
+    }
+
+    const elements = {
+
+        movementRoomButton:
+            translation.room.label,
+
+        movementLoggiaButton:
+            translation.loggia.label,
+
+        movementOutsideButton:
+            translation.outside.label,
+
+        movementHomeButton:
+            translation.home.label
+    };
+
+    Object.entries(elements).forEach(
+        function(entry) {
+
+            const element =
+                document.getElementById(
+                    entry[0]
+                );
+
+            if (element) {
+                element.innerHTML =
+                    entry[1];
+            }
+        }
+    );
+}
+
+
+function speakMovementPhrase(phraseKey) {
+
+    const translation =
+        MOVEMENT_TRANSLATIONS[
+            caregiverLanguage
+        ];
+
+    if (!translation) {
+        return;
+    }
+
+    const phrase =
+        translation[phraseKey];
+
+    if (!phrase) {
+        return;
+    }
+
+    speak(
+        phrase.speech,
+        caregiverLanguage
+    );
+}
+
 function updateHygieneLanguage() {
 
     const translation =
@@ -9213,6 +9444,8 @@ function choosePatientLanguage(language) {
 	
 	updateCareTeamLanguage();
 	
+	updateMovementLanguage();
+		
 	updateHygieneLanguage();
 	
 	updateEmotionLanguage();
@@ -10922,6 +11155,8 @@ document.addEventListener(
 		updateCareLanguage();
 		
 		updateCareTeamLanguage();
+		
+		updateMovementLanguage();
 		
 		updateHygieneLanguage();
 		
