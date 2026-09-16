@@ -3284,7 +3284,8 @@ const MOVEMENT_TRANSLATIONS = {
             speech: "Je voudrais rentrer chez moi"
         }
 
-    }
+    },
+
 
     en: {
 
@@ -3310,7 +3311,8 @@ const MOVEMENT_TRANSLATIONS = {
             speech: "I would like to go home"
         }
 
-    }
+    },
+
 
     de: {
 
@@ -3336,7 +3338,8 @@ const MOVEMENT_TRANSLATIONS = {
             speech: "Ich möchte nach Hause"
         }
 
-    }
+    },
+
 
     it: {
 
