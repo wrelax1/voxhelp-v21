@@ -144,7 +144,6 @@ const HOME_TRANSLATIONS = {
 		careTeam: "ÉQUIPE SOIGNANTE",
         movement: "DÉPLACEMENTS",
         planning: "PLANNING / TEMPS",
-        understand: "COMPRENDRE",
         talk: "FAMILLE / AMIS",
         emotions: "ÉMOTIONS",
         recharge: "RECHARGEZ<br>MON TÉLÉPHONE",
@@ -166,7 +165,6 @@ const HOME_TRANSLATIONS = {
         careTeam: "CARE TEAM",
         movement: "GETTING AROUND",
         planning: "PLANNING / TIME",
-        understand: "UNDERSTAND",
         talk: "FAMILY / FRIENDS",
         emotions: "EMOTIONS",
         recharge: "CHARGE<br>MY PHONE",
@@ -188,7 +186,6 @@ const HOME_TRANSLATIONS = {
         careTeam: "BEHANDLUNGSTEAM",
         movement: "MOBILITÄT",
         planning: "PLANUNG / ZEIT",
-        understand: "VERSTEHEN",
         talk: "FAMILIE / FREUNDE",
         emotions: "GEFÜHLE",
         recharge: "BITTE MEIN<br>HANDY LADEN",
@@ -210,7 +207,6 @@ const HOME_TRANSLATIONS = {
         careTeam: "TEAM CURANTE",
         movement: "SPOSTAMENTI",
         planning: "PIANIFICAZIONE / TEMPO",
-        understand: "CAPIRE",
         talk: "FAMIGLIA / AMICI",
         emotions: "EMOZIONI",
         recharge: "CARICATE<br>IL MIO TELEFONO",
@@ -232,7 +228,6 @@ const HOME_TRANSLATIONS = {
         careTeam: "EQUIPO ASISTENCIAL",
         movement: "DESPLAZAMIENTOS",
         planning: "PLANIFICACIÓN / TIEMPO",
-        understand: "COMPRENDER",
         talk: "FAMILIA / AMIGOS",
         emotions: "EMOCIONES",
         recharge: "CARGUE<br>MI TELÉFONO",
@@ -254,7 +249,6 @@ const HOME_TRANSLATIONS = {
         careTeam: "EQUIPA DE CUIDADOS",
         movement: "DESLOCAÇÕES",
         planning: "PLANEAMENTO / TEMPO",
-        understand: "COMPREENDER",
         talk: "FAMÍLIA / AMIGOS",
         emotions: "EMOÇÕES",
         recharge: "CARREGUE<br>O MEU TELEFONE",
@@ -5232,329 +5226,6 @@ const ENVIRONMENT_TRANSLATIONS = {
 };
 
 /* =========================================
-   COMPRENDRE — TRADUCTIONS
-   ========================================= */
-
-const UNDERSTAND_TRANSLATIONS = {
-
-    fr: {
-
-        title: "Comprendre",
-
-        wait: {
-            label: "ATTENDEZ<br>JE N'AI PAS FINI",
-            speech: "Attendez, je n’ai pas fini"
-        },
-
-        choices: {
-            label: "DONNEZ-MOI<br>LES CHOIX",
-            speech: "Donnez-moi les choix possibles"
-        },
-
-        notUnderstand: {
-            label: "JE N'AI PAS<br>COMPRIS",
-            speech: "Je n’ai pas compris"
-        },
-
-        write: {
-            label: "JE VEUX<br>L'ÉCRIRE",
-            speech: "Je veux essayer de l’écrire"
-        },
-
-        louder: {
-            label: "PARLEZ<br>PLUS FORT",
-            speech: "Parlez plus fort, s’il vous plaît"
-        },
-
-        slower: {
-            label: "PARLEZ PLUS<br>LENTEMENT",
-            speech: "Parlez plus lentement, s’il vous plaît"
-        },
-
-        yesNo: {
-            label: "QUESTION<br>OUI / NON",
-            speech: "Posez-moi une question à laquelle je peux répondre par oui ou non"
-        },
-
-        repeat: {
-            label: "RÉPÉTEZ",
-            speech: "Répétez, s’il vous plaît"
-        },
-
-        oneQuestion: {
-            label: "UNE QUESTION<br>À LA FOIS",
-            speech: "Posez-moi une seule question à la fois"
-        },
-
-        misunderstood: {
-            label: "VOUS AVEZ<br>MAL COMPRIS",
-            speech: "Vous avez mal compris ce que je voulais dire"
-        }
-    },
-
-
-    en: {
-
-        title: "Understand",
-
-        wait: {
-            label: "WAIT<br>I'M NOT FINISHED",
-            speech: "Wait, I haven't finished"
-        },
-
-        choices: {
-            label: "GIVE ME<br>THE CHOICES",
-            speech: "Please give me the possible choices"
-        },
-
-        notUnderstand: {
-            label: "I DON'T<br>UNDERSTAND",
-            speech: "I don't understand"
-        },
-
-        write: {
-            label: "I WANT TO<br>WRITE IT",
-            speech: "I want to try to write it"
-        },
-
-        louder: {
-            label: "SPEAK<br>LOUDER",
-            speech: "Please speak louder"
-        },
-
-        slower: {
-            label: "SPEAK MORE<br>SLOWLY",
-            speech: "Please speak more slowly"
-        },
-
-        yesNo: {
-            label: "YES / NO<br>QUESTION",
-            speech: "Ask me a question I can answer with yes or no"
-        },
-
-        repeat: {
-            label: "REPEAT",
-            speech: "Please repeat"
-        },
-
-        oneQuestion: {
-            label: "ONE QUESTION<br>AT A TIME",
-            speech: "Please ask me one question at a time"
-        },
-
-        misunderstood: {
-            label: "YOU<br>MISUNDERSTOOD ME",
-            speech: "You misunderstood what I meant"
-        }
-    },
-
-
-    de: {
-
-        title: "Verstehen",
-
-        wait: {
-            label: "WARTEN SIE<br>ICH BIN NOCH NICHT FERTIG",
-            speech: "Warten Sie, ich bin noch nicht fertig"
-        },
-
-        choices: {
-            label: "NENNEN SIE MIR<br>DIE MÖGLICHKEITEN",
-            speech: "Nennen Sie mir bitte die möglichen Antworten"
-        },
-
-        notUnderstand: {
-            label: "ICH HABE ES<br>NICHT VERSTANDEN",
-            speech: "Ich habe es nicht verstanden"
-        },
-
-        write: {
-            label: "ICH MÖCHTE<br>ES SCHREIBEN",
-            speech: "Ich möchte versuchen, es zu schreiben"
-        },
-
-        louder: {
-            label: "SPRECHEN SIE<br>LAUTER",
-            speech: "Bitte sprechen Sie lauter"
-        },
-
-        slower: {
-            label: "SPRECHEN SIE<br>LANGSAMER",
-            speech: "Bitte sprechen Sie langsamer"
-        },
-
-        yesNo: {
-            label: "JA / NEIN<br>FRAGE",
-            speech: "Stellen Sie mir eine Frage, die ich mit Ja oder Nein beantworten kann"
-        },
-
-        repeat: {
-            label: "WIEDERHOLEN",
-            speech: "Bitte wiederholen Sie"
-        },
-
-        oneQuestion: {
-            label: "EINE FRAGE<br>NACH DER ANDEREN",
-            speech: "Stellen Sie mir bitte nur eine Frage nach der anderen"
-        },
-
-        misunderstood: {
-            label: "SIE HABEN MICH<br>FALSCH VERSTANDEN",
-            speech: "Sie haben falsch verstanden, was ich sagen wollte"
-        }
-    },
-
-
-    it: {
-
-        title: "Capire",
-
-        wait: {
-            label: "ASPETTI<br>NON HO FINITO",
-            speech: "Aspetti, non ho ancora finito"
-        },
-
-        choices: {
-            label: "MI DIA<br>LE POSSIBILITÀ",
-            speech: "Mi dia le possibili scelte"
-        },
-
-        notUnderstand: {
-            label: "NON HO<br>CAPITO",
-            speech: "Non ho capito"
-        },
-
-        write: {
-            label: "VOGLIO<br>SCRIVERLO",
-            speech: "Voglio provare a scriverlo"
-        },
-
-        louder: {
-            label: "PARLI<br>PIÙ FORTE",
-            speech: "Parli più forte, per favore"
-        },
-
-        slower: {
-            label: "PARLI PIÙ<br>LENTAMENTE",
-            speech: "Parli più lentamente, per favore"
-        },
-
-        yesNo: {
-            label: "DOMANDA<br>SÌ / NO",
-            speech: "Mi faccia una domanda a cui posso rispondere sì o no"
-        },
-
-        repeat: {
-            label: "RIPETA",
-            speech: "Ripeta, per favore"
-        },
-
-        oneQuestion: {
-            label: "UNA DOMANDA<br>ALLA VOLTA",
-            speech: "Mi faccia una sola domanda alla volta"
-        },
-
-        misunderstood: {
-            label: "HA CAPITO<br>MALE",
-            speech: "Ha capito male quello che volevo dire"
-        }
-    },
-
-
-    es: {
-
-        title: "Comprender",
-
-        wait: {
-            label: "ESPERE<br>NO HE TERMINADO"
-        },
-
-        choices: {
-            label: "DÉME<br>LAS OPCIONES"
-        },
-
-        notUnderstand: {
-            label: "NO HE<br>ENTENDIDO"
-        },
-
-        write: {
-            label: "QUIERO<br>ESCRIBIRLO"
-        },
-
-        louder: {
-            label: "HABLE<br>MÁS ALTO"
-        },
-
-        slower: {
-            label: "HABLE MÁS<br>DESPACIO"
-        },
-
-        yesNo: {
-            label: "PREGUNTA<br>SÍ / NO"
-        },
-
-        repeat: {
-            label: "REPITA"
-        },
-
-        oneQuestion: {
-            label: "UNA PREGUNTA<br>A LA VEZ"
-        },
-
-        misunderstood: {
-            label: "ME HA<br>ENTENDIDO MAL"
-        }
-    },
-
-
-    pt: {
-
-        title: "Compreender",
-
-        wait: {
-            label: "ESPERE<br>AINDA NÃO TERMINEI"
-        },
-
-        choices: {
-            label: "DÊ-ME<br>AS OPÇÕES"
-        },
-
-        notUnderstand: {
-            label: "NÃO<br>PERCEBI"
-        },
-
-        write: {
-            label: "QUERO<br>ESCREVER"
-        },
-
-        louder: {
-            label: "FALE<br>MAIS ALTO"
-        },
-
-        slower: {
-            label: "FALE MAIS<br>DEVAGAR"
-        },
-
-        yesNo: {
-            label: "PERGUNTA<br>SIM / NÃO"
-        },
-
-        repeat: {
-            label: "REPITA"
-        },
-
-        oneQuestion: {
-            label: "UMA PERGUNTA<br>DE CADA VEZ"
-        },
-
-        misunderstood: {
-            label: "NÃO ME<br>PERCEBEU BEM"
-        }
-    }
-
-};
-
-/* =========================================
    FAMILLE / AMIS — TRADUCTIONS
    ========================================= */
 
@@ -6876,101 +6547,6 @@ function speakTalkPhrase(phraseKey) {
     );
 }
 
-function updateUnderstandLanguage() {
-
-    const translation =
-        UNDERSTAND_TRANSLATIONS[
-            patientLanguage
-        ];
-
-    if (!translation) {
-        return;
-    }
-
-    const title =
-        document.getElementById(
-            "understandTitle"
-        );
-
-    if (title) {
-        title.textContent =
-            translation.title;
-    }
-
-    const elements = {
-
-        understandWaitButton:
-            translation.wait.label,
-
-        understandChoicesButton:
-            translation.choices.label,
-
-        understandNotUnderstandButton:
-            translation.notUnderstand.label,
-
-        understandWriteButton:
-            translation.write.label,
-
-        understandLouderButton:
-            translation.louder.label,
-
-        understandSlowerButton:
-            translation.slower.label,
-
-        understandYesNoButton:
-            translation.yesNo.label,
-
-        understandRepeatButton:
-            translation.repeat.label,
-
-        understandOneQuestionButton:
-            translation.oneQuestion.label,
-
-        understandMisunderstoodButton:
-            translation.misunderstood.label
-    };
-
-    Object.entries(elements).forEach(
-        function(entry) {
-
-            const element =
-                document.getElementById(
-                    entry[0]
-                );
-
-            if (element) {
-                element.innerHTML =
-                    entry[1];
-            }
-        }
-    );
-}
-
-
-function speakUnderstandPhrase(phraseKey) {
-
-    const translation =
-        UNDERSTAND_TRANSLATIONS[
-            caregiverLanguage
-        ];
-
-    if (!translation) {
-        return;
-    }
-
-    const phrase =
-        translation[phraseKey];
-
-    if (!phrase) {
-        return;
-    }
-
-    speak(
-        phrase.speech,
-        caregiverLanguage
-    );
-}
-
 function updateEnvironmentLanguage() {
 
     const translation =
@@ -8088,9 +7664,6 @@ function updateHomeLanguage() {
 
         homePlanningButton:
             translation.planning,
-
-        homeUnderstandButton:
-            translation.understand,
 
         homeTalkButton:
             translation.talk,
@@ -9647,8 +9220,6 @@ function choosePatientLanguage(language) {
 	updateQuestionsLanguage();
 	
 	updateEnvironmentLanguage();
-	
-	updateUnderstandLanguage();
 	
 	updateTalkLanguage();
 	
@@ -11359,8 +10930,6 @@ document.addEventListener(
 		updateQuestionsLanguage();
 		
 		updateEnvironmentLanguage();
-		
-		updateUnderstandLanguage();
 		
 		updateTalkLanguage();
 		
