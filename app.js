@@ -159,7 +159,7 @@ const HOME_TRANSLATIONS = {
         respiration: "BREATHING /<br>THROAT",
         pain: "I'M IN PAIN",
         position: "POSITIONING",
-        care: "I NEED CARE",
+        care: "DISCOMFORT",
         hygiene: "DAILY LIVING",
         environment: "MY ROOM",
         questions: "QUESTIONS<br>FOR THE DOCTOR",
@@ -181,7 +181,7 @@ const HOME_TRANSLATIONS = {
         respiration: "ATMUNG /<br>HALS",
         pain: "ICH HABE SCHMERZEN",
         position: "POSITIONIERUNG",
-        care: "ICH BRAUCHE PFLEGE",
+        care: "BESCHWERDEN",
         hygiene: "ALLTAG",
         environment: "MEIN ZIMMER",
         questions: "FRAGEN AN<br>DEN ARZT",
@@ -203,7 +203,7 @@ const HOME_TRANSLATIONS = {
         respiration: "RESPIRAZIONE /<br>GOLA",
         pain: "HO DOLORE",
         position: "POSIZIONAMENTO",
-        care: "HO BISOGNO DI CURE",
+        care: "DISAGIO",
         hygiene: "VITA QUOTIDIANA",
         environment: "LA MIA STANZA",
         questions: "DOMANDE<br>AL MEDICO",
@@ -225,7 +225,7 @@ const HOME_TRANSLATIONS = {
         respiration: "RESPIRACIÓN /<br>GARGANTA",
         pain: "TENGO DOLOR",
         position: "POSICIONAMIENTO",
-        care: "NECESITO CUIDADOS",
+        care: "MALESTAR",
         hygiene: "VIDA DIARIA",
         environment: "MI HABITACIÓN",
         questions: "PREGUNTAS<br>AL MÉDICO",
@@ -247,7 +247,7 @@ const HOME_TRANSLATIONS = {
         respiration: "RESPIRAÇÃO /<br>GARGANTA",
         pain: "TENHO DOR",
         position: "POSICIONAMENTO",
-        care: "PRECISO DE CUIDADOS",
+        care: "DESCONFORTO",
         hygiene: "VIDA QUOTIDIANA",
         environment: "O MEU QUARTO",
         questions: "PERGUNTAS<br>AO MÉDICO",
@@ -2455,243 +2455,188 @@ const CARE_TRANSLATIONS = {
 
     fr: {
 
-        title: "Soins",
+        title: "Inconfort",
 
-        nurse: {
-            label: "INFIRMIÈRE",
-            speech: "Je voudrais voir une infirmière"
+        help: {
+            label: "BESOIN D'AIDE",
+            speech: "J’ai besoin d’aide"
         },
 
-        doctor: {
-            label: "MÉDECIN",
-            speech: "Je voudrais voir un médecin"
+        unwell: {
+            label: "JE NE ME SENS<br>PAS BIEN",
+            speech: "Je ne me sens pas bien"
         },
 
-        physio: {
-            label: "PHYSIO",
-            speech: "Je voudrais voir le physio thérapeute"
+        better: {
+            label: "ÇA VA MIEUX",
+            speech: "Ça va mieux"
         },
 
-        ergo: {
-            label: "ERGO",
-            speech: "Je voudrais voir l’ergo thérapeute"
+        privacy: {
+            label: "JE VEUX<br>DE L'INTIMITÉ",
+            speech: "Je voudrais un peu d’intimité"
         },
 
-        logo: {
-            label: "LOGO",
-            speech: "Je voudrais voir le logopédiste"
+        constipation: {
+            label: "CONSTIPÉ",
+            speech: "Je suis constipé"
+        },
+
+        gas: {
+            label: "GAZ",
+            speech: "J’ai des gaz"
+        },
+
+        diarrhea: {
+            label: "DIARRHÉE",
+            speech: "J’ai la diarrhée"
         },
 
         nausea: {
-            label: "J'AI DES<br>NAUSÉES",
+            label: "NAUSÉES",
             speech: "J’ai des nausées"
         },
 
         vomit: {
-            label: "JE VAIS<br>VOMIR",
-            speech: "Je vais vomir"
+            label: "ENVIE DE<br>VOMIR",
+            speech: "J’ai envie de vomir"
         },
 
         dizziness: {
-            label: "J'AI DES<br>VERTIGES",
+            label: "VERTIGES",
             speech: "J’ai des vertiges"
         },
 
         weakness: {
-            label: "JE ME SENS<br>FAIBLE",
+            label: "FAIBLE",
             speech: "Je me sens faible"
         },
 
         chills: {
-            label: "J'AI DES<br>FRISSONS",
+            label: "FRISSONS",
             speech: "J’ai des frissons"
         },
 
-        urinationPain: {
-            label: "J'AI MAL<br>QUAND J'URINE",
-            speech: "J’ai mal quand j’urine"
-        },
-
-        constipation: {
-            label: "JE SUIS<br>CONSTIPÉ",
-            speech: "Je suis constipé"
-        },
-
-        diarrhea: {
-            label: "J'AI LA<br>DIARRHÉE",
-            speech: "J’ai la diarrhée"
-        },
-
-        gas: {
-            label: "J'AI<br>DES GAZ",
-            speech: "J’ai des gaz"
-        },
-
-        painMedication: {
-            label: "MÉDICAMENT<br>/ DOULEUR",
-            speech: "J’ai besoin d’un médicament contre la douleur"
-        },
-
         medicationNotEnough: {
-            label: "MÉDICAMENT<br>SUFFIT PAS",
-            speech: "Mon médicament ne me soulage pas assez"
+            label: "MÉDICAMENTS<br>PAS EFFICACES",
+            speech: "Mes médicaments ne sont pas efficaces"
         },
 
-        sideEffect: {
-            label: "EFFET<br>INDÉSIRABLE",
-            speech: "Ce médicament me donne un effet désagréable"
-        }
-    },
+        hot: {
+            label: "J'AI CHAUD",
+            speech: "J’ai chaud"
+        },
 
+        cold: {
+            label: "J'AI FROID",
+            speech: "J’ai froid"
+        }
+
+    },
 
     en: {
 
-        title: "Care",
+        title: "Discomfort",
 
-        nurse: {
-            label: "NURSE",
-            speech: "I would like to see a nurse"
+        help: {
+            label: "I NEED HELP",
+            speech: "I need help"
         },
 
-        doctor: {
-            label: "DOCTOR",
-            speech: "I would like to see a doctor"
+        unwell: {
+            label: "I DON'T FEEL<br>WELL",
+            speech: "I don't feel well"
         },
 
-        physio: {
-            label: "PHYSIOTHERAPIST",
-            speech: "I would like to see the physiotherapist"
+        better: {
+            label: "I FEEL BETTER",
+            speech: "I feel better"
         },
 
-        ergo: {
-            label: "OCCUPATIONAL<br>THERAPIST",
-            speech: "I would like to see the occupational therapist"
+        privacy: {
+            label: "I WANT<br>PRIVACY",
+            speech: "I would like some privacy"
         },
 
-        logo: {
-            label: "SPEECH<br>THERAPIST",
-            speech: "I would like to see the speech therapist"
+        constipation: {
+            label: "CONSTIPATED",
+            speech: "I'm constipated"
+        },
+
+        gas: {
+            label: "GAS",
+            speech: "I have gas"
+        },
+
+        diarrhea: {
+            label: "DIARRHEA",
+            speech: "I have diarrhea"
         },
 
         nausea: {
-            label: "I FEEL<br>NAUSEOUS",
+            label: "NAUSEA",
             speech: "I feel nauseous"
         },
 
         vomit: {
-            label: "I'M GOING<br>TO VOMIT",
-            speech: "I'm going to vomit"
+            label: "I FEEL LIKE<br>VOMITING",
+            speech: "I feel like vomiting"
         },
 
         dizziness: {
-            label: "I FEEL<br>DIZZY",
+            label: "DIZZY",
             speech: "I feel dizzy"
         },
 
         weakness: {
-            label: "I FEEL<br>WEAK",
+            label: "WEAK",
             speech: "I feel weak"
         },
 
         chills: {
-            label: "I HAVE<br>CHILLS",
+            label: "CHILLS",
             speech: "I have chills"
         },
 
-        urinationPain: {
-            label: "PAIN WHEN<br>I URINATE",
-            speech: "It hurts when I urinate"
-        },
-
-        constipation: {
-            label: "I'M<br>CONSTIPATED",
-            speech: "I'm constipated"
-        },
-
-        diarrhea: {
-            label: "I HAVE<br>DIARRHEA",
-            speech: "I have diarrhea"
-        },
-
-        gas: {
-            label: "I HAVE<br>GAS",
-            speech: "I have gas"
-        },
-
-        painMedication: {
-            label: "PAIN<br>MEDICATION",
-            speech: "I need medication for the pain"
-        },
-
         medicationNotEnough: {
-            label: "PAIN MEDICATION<br>IS NOT ENOUGH",
-            speech: "My pain medication is not helping enough"
+            label: "MEDICATION<br>NOT WORKING",
+            speech: "My medication is not working"
         },
 
-        sideEffect: {
-            label: "SIDE<br>EFFECT",
-            speech: "This medication is causing an unpleasant side effect"
-        }
-    },
+        hot: {
+            label: "I'M HOT",
+            speech: "I'm hot"
+        },
 
+        cold: {
+            label: "I'M COLD",
+            speech: "I'm cold"
+        }
+
+    },
 
     de: {
 
-        title: "Pflege",
+        title: "Beschwerden",
 
-        nurse: {
-            label: "PFLEGEKRAFT",
-            speech: "Ich möchte eine Pflegekraft sehen"
+        help: {
+            label: "ICH BRAUCHE HILFE",
+            speech: "Ich brauche Hilfe"
         },
 
-        doctor: {
-            label: "ARZT",
-            speech: "Ich möchte einen Arzt sehen"
+        unwell: {
+            label: "MIR GEHT ES<br>NICHT GUT",
+            speech: "Mir geht es nicht gut"
         },
 
-        physio: {
-            label: "PHYSIOTHERAPIE",
-            speech: "Ich möchte den Physiotherapeuten sehen"
+        better: {
+            label: "MIR GEHT ES<br>BESSER",
+            speech: "Mir geht es besser"
         },
 
-        ergo: {
-            label: "ERGOTHERAPIE",
-            speech: "Ich möchte den Ergotherapeuten sehen"
-        },
-
-        logo: {
-            label: "LOGOPÄDIE",
-            speech: "Ich möchte den Logopäden sehen"
-        },
-
-        nausea: {
-            label: "MIR IST<br>ÜBEL",
-            speech: "Mir ist übel"
-        },
-
-        vomit: {
-            label: "ICH MUSS<br>ERBRECHEN",
-            speech: "Ich muss erbrechen"
-        },
-
-        dizziness: {
-            label: "MIR IST<br>SCHWINDELIG",
-            speech: "Mir ist schwindelig"
-        },
-
-        weakness: {
-            label: "ICH FÜHLE MICH<br>SCHWACH",
-            speech: "Ich fühle mich schwach"
-        },
-
-        chills: {
-            label: "ICH HABE<br>SCHÜTTELFROST",
-            speech: "Ich habe Schüttelfrost"
-        },
-
-        urinationPain: {
-            label: "SCHMERZEN BEIM<br>WASSERLASSEN",
-            speech: "Ich habe Schmerzen beim Wasserlassen"
+        privacy: {
+            label: "ICH MÖCHTE<br>PRIVATSPHÄRE",
+            speech: "Ich möchte etwas Privatsphäre"
         },
 
         constipation: {
@@ -2699,269 +2644,269 @@ const CARE_TRANSLATIONS = {
             speech: "Ich habe Verstopfung"
         },
 
-        diarrhea: {
-            label: "DURCHFALL",
-            speech: "Ich habe Durchfall"
-        },
-
         gas: {
             label: "BLÄHUNGEN",
             speech: "Ich habe Blähungen"
         },
 
-        painMedication: {
-            label: "SCHMERZMITTEL",
-            speech: "Ich brauche ein Schmerzmittel"
-        },
-
-        medicationNotEnough: {
-            label: "SCHMERZMITTEL<br>REICHT NICHT",
-            speech: "Mein Schmerzmittel wirkt nicht ausreichend"
-        },
-
-        sideEffect: {
-            label: "NEBENWIRKUNG",
-            speech: "Dieses Medikament verursacht eine unangenehme Nebenwirkung"
-        }
-    },
-
-
-    it: {
-
-        title: "Cure",
-
-        nurse: {
-            label: "INFERMIERE",
-            speech: "Vorrei vedere un infermiere"
-        },
-
-        doctor: {
-            label: "MEDICO",
-            speech: "Vorrei vedere un medico"
-        },
-
-        physio: {
-            label: "FISIOTERAPISTA",
-            speech: "Vorrei vedere il fisioterapista"
-        },
-
-        ergo: {
-            label: "ERGOTERAPISTA",
-            speech: "Vorrei vedere l’ergoterapista"
-        },
-
-        logo: {
-            label: "LOGOPEDISTA",
-            speech: "Vorrei vedere il logopedista"
+        diarrhea: {
+            label: "DURCHFALL",
+            speech: "Ich habe Durchfall"
         },
 
         nausea: {
-            label: "HO<br>NAUSEA",
+            label: "ÜBELKEIT",
+            speech: "Mir ist übel"
+        },
+
+        vomit: {
+            label: "BRECHREIZ",
+            speech: "Ich habe Brechreiz"
+        },
+
+        dizziness: {
+            label: "SCHWINDEL",
+            speech: "Mir ist schwindelig"
+        },
+
+        weakness: {
+            label: "SCHWACH",
+            speech: "Ich fühle mich schwach"
+        },
+
+        chills: {
+            label: "SCHÜTTELFROST",
+            speech: "Ich habe Schüttelfrost"
+        },
+
+        medicationNotEnough: {
+            label: "MEDIKAMENTE<br>WIRKEN NICHT",
+            speech: "Meine Medikamente wirken nicht"
+        },
+
+        hot: {
+            label: "MIR IST WARM",
+            speech: "Mir ist warm"
+        },
+
+        cold: {
+            label: "MIR IST KALT",
+            speech: "Mir ist kalt"
+        }
+
+    },
+
+    it: {
+
+        title: "Disagio",
+
+        help: {
+            label: "HO BISOGNO<br>DI AIUTO",
+            speech: "Ho bisogno di aiuto"
+        },
+
+        unwell: {
+            label: "NON MI SENTO<br>BENE",
+            speech: "Non mi sento bene"
+        },
+
+        better: {
+            label: "VA MEGLIO",
+            speech: "Va meglio"
+        },
+
+        privacy: {
+            label: "VOGLIO<br>PRIVACY",
+            speech: "Vorrei un po’ di privacy"
+        },
+
+        constipation: {
+            label: "STITICHEZZA",
+            speech: "Ho stitichezza"
+        },
+
+        gas: {
+            label: "GAS",
+            speech: "Ho gas intestinali"
+        },
+
+        diarrhea: {
+            label: "DIARREA",
+            speech: "Ho diarrea"
+        },
+
+        nausea: {
+            label: "NAUSEA",
             speech: "Ho nausea"
         },
 
         vomit: {
-            label: "STO PER<br>VOMITARE",
-            speech: "Sto per vomitare"
+            label: "VOGLIA DI<br>VOMITARE",
+            speech: "Ho voglia di vomitare"
         },
 
         dizziness: {
-            label: "HO LE<br>VERTIGINI",
+            label: "VERTIGINI",
             speech: "Ho le vertigini"
         },
 
         weakness: {
-            label: "MI SENTO<br>DEBOLE",
+            label: "DEBOLE",
             speech: "Mi sento debole"
         },
 
         chills: {
-            label: "HO I<br>BRIVIDI",
+            label: "BRIVIDI",
             speech: "Ho i brividi"
         },
 
-        urinationPain: {
-            label: "HO DOLORE<br>QUANDO URINO",
-            speech: "Ho dolore quando urino"
-        },
-
-        constipation: {
-            label: "HO<br>STITICHEZZA",
-            speech: "Ho stitichezza"
-        },
-
-        diarrhea: {
-            label: "HO<br>DIARREA",
-            speech: "Ho diarrea"
-        },
-
-        gas: {
-            label: "HO<br>GAS INTESTINALI",
-            speech: "Ho gas intestinali"
-        },
-
-        painMedication: {
-            label: "ANTIDOLORIFICO",
-            speech: "Ho bisogno di un antidolorifico"
-        },
-
         medicationNotEnough: {
-            label: "ANTIDOLORIFICO<br>NON BASTA",
-            speech: "L’antidolorifico non mi allevia abbastanza il dolore"
+            label: "FARMACI<br>NON EFFICACI",
+            speech: "I miei farmaci non sono efficaci"
         },
 
-        sideEffect: {
-            label: "EFFETTO<br>INDESIDERATO",
-            speech: "Questo farmaco mi provoca un effetto indesiderato"
-        }
-    },
+        hot: {
+            label: "HO CALDO",
+            speech: "Ho caldo"
+        },
 
+        cold: {
+            label: "HO FREDDO",
+            speech: "Ho freddo"
+        }
+
+    },
 
     es: {
 
-        title: "Cuidados",
+        title: "Malestar",
 
-        nurse: {
-            label: "ENFERMERO/A"
+        help: {
+            label: "NECESITO AYUDA"
         },
 
-        doctor: {
-            label: "MÉDICO"
+        unwell: {
+            label: "NO ME SIENTO<br>BIEN"
         },
 
-        physio: {
-            label: "FISIOTERAPEUTA"
+        better: {
+            label: "ESTOY MEJOR"
         },
 
-        ergo: {
-            label: "TERAPEUTA<br>OCUPACIONAL"
-        },
-
-        logo: {
-            label: "LOGOPEDA"
-        },
-
-        nausea: {
-            label: "TENGO<br>NÁUSEAS"
-        },
-
-        vomit: {
-            label: "VOY A<br>VOMITAR"
-        },
-
-        dizziness: {
-            label: "TENGO<br>MAREOS"
-        },
-
-        weakness: {
-            label: "ME SIENTO<br>DÉBIL"
-        },
-
-        chills: {
-            label: "TENGO<br>ESCALOFRÍOS"
-        },
-
-        urinationPain: {
-            label: "ME DUELE<br>AL ORINAR"
+        privacy: {
+            label: "QUIERO<br>PRIVACIDAD"
         },
 
         constipation: {
-            label: "ESTOY<br>ESTREÑIDO/A"
-        },
-
-        diarrhea: {
-            label: "TENGO<br>DIARREA"
+            label: "ESTREÑIMIENTO"
         },
 
         gas: {
-            label: "TENGO<br>GASES"
+            label: "GASES"
         },
 
-        painMedication: {
-            label: "MEDICAMENTO<br>PARA EL DOLOR"
+        diarrhea: {
+            label: "DIARREA"
+        },
+
+        nausea: {
+            label: "NÁUSEAS"
+        },
+
+        vomit: {
+            label: "GANAS DE<br>VOMITAR"
+        },
+
+        dizziness: {
+            label: "MAREOS"
+        },
+
+        weakness: {
+            label: "DÉBIL"
+        },
+
+        chills: {
+            label: "ESCALOFRÍOS"
         },
 
         medicationNotEnough: {
-            label: "EL ANALGÉSICO<br>NO ES SUFICIENTE"
+            label: "MEDICAMENTOS<br>NO EFICACES"
         },
 
-        sideEffect: {
-            label: "EFECTO<br>SECUNDARIO"
-        }
-    },
+        hot: {
+            label: "TENGO CALOR"
+        },
 
+        cold: {
+            label: "TENGO FRÍO"
+        }
+
+    },
 
     pt: {
 
-        title: "Cuidados",
+        title: "Desconforto",
 
-        nurse: {
-            label: "ENFERMEIRO/A"
+        help: {
+            label: "PRECISO DE AJUDA"
         },
 
-        doctor: {
-            label: "MÉDICO"
+        unwell: {
+            label: "NÃO ME SINTO<br>BEM"
         },
 
-        physio: {
-            label: "FISIOTERAPEUTA"
+        better: {
+            label: "ESTOU MELHOR"
         },
 
-        ergo: {
-            label: "TERAPEUTA<br>OCUPACIONAL"
-        },
-
-        logo: {
-            label: "TERAPEUTA<br>DA FALA"
-        },
-
-        nausea: {
-            label: "TENHO<br>NÁUSEAS"
-        },
-
-        vomit: {
-            label: "VOU<br>VOMITAR"
-        },
-
-        dizziness: {
-            label: "TENHO<br>TONTURAS"
-        },
-
-        weakness: {
-            label: "SINTO-ME<br>FRACO/A"
-        },
-
-        chills: {
-            label: "TENHO<br>ARREPIOS"
-        },
-
-        urinationPain: {
-            label: "TENHO DOR<br>AO URINAR"
+        privacy: {
+            label: "QUERO<br>PRIVACIDADE"
         },
 
         constipation: {
-            label: "ESTOU<br>OBSTIPADO/A"
-        },
-
-        diarrhea: {
-            label: "TENHO<br>DIARREIA"
+            label: "OBSTIPAÇÃO"
         },
 
         gas: {
-            label: "TENHO<br>GASES"
+            label: "GASES"
         },
 
-        painMedication: {
-            label: "ANALGÉSICO"
+        diarrhea: {
+            label: "DIARREIA"
+        },
+
+        nausea: {
+            label: "NÁUSEAS"
+        },
+
+        vomit: {
+            label: "VONTADE DE<br>VOMITAR"
+        },
+
+        dizziness: {
+            label: "TONTURAS"
+        },
+
+        weakness: {
+            label: "FRACO/A"
+        },
+
+        chills: {
+            label: "ARREPIOS"
         },
 
         medicationNotEnough: {
-            label: "O ANALGÉSICO<br>NÃO É SUFICIENTE"
+            label: "MEDICAMENTOS<br>NÃO EFICAZES"
         },
 
-        sideEffect: {
-            label: "EFEITO<br>SECUNDÁRIO"
+        hot: {
+            label: "TENHO CALOR"
+        },
+
+        cold: {
+            label: "TENHO FRIO"
         }
+
     }
 
 };
@@ -7857,20 +7802,26 @@ function updateCareLanguage() {
 
     const elements = {
 
-        careNurseButton:
-            translation.nurse.label,
+        careHelpButton:
+            translation.help.label,
 
-        careDoctorButton:
-            translation.doctor.label,
+        careUnwellButton:
+            translation.unwell.label,
 
-        carePhysioButton:
-            translation.physio.label,
+        careBetterButton:
+            translation.better.label,
 
-        careErgoButton:
-            translation.ergo.label,
+        carePrivacyButton:
+            translation.privacy.label,
 
-        careLogoButton:
-            translation.logo.label,
+        careConstipationButton:
+            translation.constipation.label,
+
+        careGasButton:
+            translation.gas.label,
+
+        careDiarrheaButton:
+            translation.diarrhea.label,
 
         careNauseaButton:
             translation.nausea.label,
@@ -7887,26 +7838,14 @@ function updateCareLanguage() {
         careChillsButton:
             translation.chills.label,
 
-        careUrinationPainButton:
-            translation.urinationPain.label,
-
-        careConstipationButton:
-            translation.constipation.label,
-
-        careDiarrheaButton:
-            translation.diarrhea.label,
-
-        careGasButton:
-            translation.gas.label,
-
-        carePainMedicationButton:
-            translation.painMedication.label,
-
         careMedicationNotEnoughButton:
             translation.medicationNotEnough.label,
 
-        careSideEffectButton:
-            translation.sideEffect.label
+        careHotButton:
+            translation.hot.label,
+
+        careColdButton:
+            translation.cold.label
     };
 
     Object.entries(elements).forEach(
