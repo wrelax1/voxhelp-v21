@@ -158,7 +158,7 @@ const HOME_TRANSLATIONS = {
         title: "I want to tell you…",
         respiration: "BREATHING /<br>THROAT",
         pain: "I'M IN PAIN",
-        position: "POSITION",
+        position: "POSITIONING",
         care: "I NEED CARE",
         hygiene: "DAILY LIVING",
         environment: "MY ROOM",
@@ -180,7 +180,7 @@ const HOME_TRANSLATIONS = {
         title: "Ich möchte Ihnen sagen…",
         respiration: "ATMUNG /<br>HALS",
         pain: "ICH HABE SCHMERZEN",
-        position: "POSITION",
+        position: "POSITIONIERUNG",
         care: "ICH BRAUCHE PFLEGE",
         hygiene: "ALLTAG",
         environment: "MEIN ZIMMER",
@@ -202,7 +202,7 @@ const HOME_TRANSLATIONS = {
         title: "Vorrei dirle…",
         respiration: "RESPIRAZIONE /<br>GOLA",
         pain: "HO DOLORE",
-        position: "POSIZIONE",
+        position: "POSIZIONAMENTO",
         care: "HO BISOGNO DI CURE",
         hygiene: "VITA QUOTIDIANA",
         environment: "LA MIA STANZA",
@@ -224,7 +224,7 @@ const HOME_TRANSLATIONS = {
         title: "Quiero decirle…",
         respiration: "RESPIRACIÓN /<br>GARGANTA",
         pain: "TENGO DOLOR",
-        position: "POSICIÓN",
+        position: "POSICIONAMIENTO",
         care: "NECESITO CUIDADOS",
         hygiene: "VIDA DIARIA",
         environment: "MI HABITACIÓN",
@@ -246,7 +246,7 @@ const HOME_TRANSLATIONS = {
         title: "Quero dizer-lhe…",
         respiration: "RESPIRAÇÃO /<br>GARGANTA",
         pain: "TENHO DOR",
-        position: "POSIÇÃO",
+        position: "POSICIONAMENTO",
         care: "PRECISO DE CUIDADOS",
         hygiene: "VIDA QUOTIDIANA",
         environment: "O MEU QUARTO",
@@ -1852,7 +1852,7 @@ const POSITION_TRANSLATIONS = {
 
     fr: {
 
-        title: "Position / Confort",
+        title: "Positionnement",
 
         bed: {
             label: "COUCHEZ-MOI",
@@ -1958,7 +1958,7 @@ const POSITION_TRANSLATIONS = {
 
     en: {
 
-        title: "Position / Comfort",
+        title: "Positioning",
 
         bed: {
             label: "PUT ME<br>BACK IN BED",
@@ -2064,7 +2064,7 @@ const POSITION_TRANSLATIONS = {
 
     de: {
 
-        title: "Position / Komfort",
+        title: "Positionierung",
 
         bed: {
             label: "INS BETT<br>LEGEN",
@@ -2170,7 +2170,7 @@ const POSITION_TRANSLATIONS = {
 
     it: {
 
-        title: "Posizione / Comfort",
+        title: "Posizionamento",
 
         bed: {
             label: "RIMETTETEMI<br>A LETTO",
@@ -2276,7 +2276,7 @@ const POSITION_TRANSLATIONS = {
 
     es: {
 
-        title: "Posición / Confort",
+        title: "Posicionamiento",
 
         bed: {
             label: "ACUÉSTEME"
@@ -2362,7 +2362,7 @@ const POSITION_TRANSLATIONS = {
 
     pt: {
 
-        title: "Posição / Conforto",
+        title: "Posicionamento",
 
         bed: {
             label: "DEITE-ME"
@@ -7982,9 +7982,6 @@ function updatePositionLanguage() {
         positionMoveUpButton:
             translation.moveUp.label,
 
-        positionMoveDownButton:
-            translation.moveDown.label,
-
         positionTurnLeftButton:
             translation.turnLeft.label,
 
@@ -7993,9 +7990,6 @@ function updatePositionLanguage() {
 
         positionSitUpButton:
             translation.sitUp.label,
-
-        positionFlatterButton:
-            translation.flatter.label,
 
         positionHeadUpButton:
             translation.headUp.label,
@@ -8012,20 +8006,8 @@ function updatePositionLanguage() {
         positionPillowButton:
             translation.pillow.label,
 
-        positionRemovePillowButton:
-            translation.removePillow.label,
-
-        positionHotButton:
-            translation.hot.label,
-
-        positionColdButton:
-            translation.cold.label,
-
         positionBlanketButton:
             translation.blanket.label,
-
-        positionRemoveBlanketButton:
-            translation.removeBlanket.label,
 
         positionHurtsButton:
             translation.positionHurts.label,
