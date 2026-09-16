@@ -161,7 +161,7 @@ const HOME_TRANSLATIONS = {
         position: "POSITIONING",
         care: "DISCOMFORT",
         hygiene: "DAILY LIVING",
-        environment: "MY ROOM",
+        environment: "ENVIRONMENT",
         questions: "QUESTIONS<br>FOR THE DOCTOR",
         careTeam: "CARE TEAM",
         movement: "GETTING AROUND",
@@ -183,7 +183,7 @@ const HOME_TRANSLATIONS = {
         position: "POSITIONIERUNG",
         care: "BESCHWERDEN",
         hygiene: "ALLTAG",
-        environment: "MEIN ZIMMER",
+        environment: "UMGEBUNG",
         questions: "FRAGEN AN<br>DEN ARZT",
         careTeam: "BEHANDLUNGSTEAM",
         movement: "MOBILITÄT",
@@ -205,7 +205,7 @@ const HOME_TRANSLATIONS = {
         position: "POSIZIONAMENTO",
         care: "DISAGIO",
         hygiene: "VITA QUOTIDIANA",
-        environment: "LA MIA STANZA",
+        environment: "AMBIENTE",
         questions: "DOMANDE<br>AL MEDICO",
         careTeam: "TEAM CURANTE",
         movement: "SPOSTAMENTI",
@@ -227,7 +227,7 @@ const HOME_TRANSLATIONS = {
         position: "POSICIONAMIENTO",
         care: "MALESTAR",
         hygiene: "VIDA DIARIA",
-        environment: "MI HABITACIÓN",
+        environment: "ENTORNO",
         questions: "PREGUNTAS<br>AL MÉDICO",
         careTeam: "EQUIPO ASISTENCIAL",
         movement: "DESPLAZAMIENTOS",
@@ -249,7 +249,7 @@ const HOME_TRANSLATIONS = {
         position: "POSICIONAMENTO",
         care: "DESCONFORTO",
         hygiene: "VIDA QUOTIDIANA",
-        environment: "O MEU QUARTO",
+        environment: "AMBIENTE",
         questions: "PERGUNTAS<br>AO MÉDICO",
         careTeam: "EQUIPA DE CUIDADOS",
         movement: "DESLOCAÇÕES",
@@ -4840,11 +4840,6 @@ const ENVIRONMENT_TRANSLATIONS = {
             speech: "Il y a trop de bruit"
         },
 
-        silence: {
-            label: "JE VEUX<br>DU SILENCE",
-            speech: "Je voudrais du silence, s’il vous plaît"
-        },
-
         openWindow: {
             label: "OUVREZ<br>LA FENÊTRE",
             speech: "Ouvrez la fenêtre, s’il vous plaît"
@@ -4860,66 +4855,31 @@ const ENVIRONMENT_TRANSLATIONS = {
             speech: "Je voudrais regarder la télévision"
         },
 
-        televisionOff: {
-            label: "ÉTEIGNEZ<br>LA TÉLÉVISION",
-            speech: "Éteignez la télévision, s’il vous plaît"
-        },
-
         music: {
             label: "MUSIQUE",
             speech: "Je voudrais écouter de la musique"
         },
 
-        musicOff: {
-            label: "ARRÊTEZ<br>LA MUSIQUE",
-            speech: "Arrêtez la musique, s’il vous plaît"
+        phone: {
+            label: "AVOIR MON<br>TÉLÉPHONE",
+            speech: "Je voudrais avoir mon téléphone"
         },
 
-        coverMe: {
-            label: "COUVREZ-MOI",
-            speech: "Couvrez-moi, s’il vous plaît"
-        },
-
-        glasses: {
-            label: "MES<br>LUNETTES",
-            speech: "Donnez-moi mes lunettes, s’il vous plaît"
-        },
-
-        hearingAid: {
-            label: "MON APPAREIL<br>AUDITIF",
-            speech: "Donnez-moi mon appareil auditif, s’il vous plaît"
-        },
-
-        privacy: {
-            label: "JE VEUX<br>DE L'INTIMITÉ",
-            speech: "Je voudrais un peu d’intimité"
-        },
-
-        noOneDuringCare: {
-            label: "PERSONNE<br>PENDANT LES SOINS",
-            speech: "Je préfère qu’il n’y ait personne pendant les soins"
-        },
-
-        notInFront: {
-            label: "PAS DEVANT<br>CETTE PERSONNE",
-            speech: "Je ne veux pas parler de cela devant cette personne"
+        rechargePhone: {
+            label: "RECHARGER MON<br>TÉLÉPHONE",
+            speech: "Rechargez mon téléphone, s’il vous plaît"
         },
 
         sleep: {
             label: "JE VEUX<br>DORMIR",
             speech: "Je voudrais dormir"
-        },
-
-        doNotWake: {
-            label: "LAISSEZ-MOI<br>DORMIR",
-            speech: "Ne me réveillez pas sauf si c’est nécessaire"
         }
-    },
 
+    },
 
     en: {
 
-        title: "My Room",
+        title: "Environment",
 
         closeDoor: {
             label: "CLOSE<br>THE DOOR",
@@ -4956,11 +4916,6 @@ const ENVIRONMENT_TRANSLATIONS = {
             speech: "There is too much noise"
         },
 
-        silence: {
-            label: "I WANT<br>QUIET",
-            speech: "I would like some quiet, please"
-        },
-
         openWindow: {
             label: "OPEN<br>THE WINDOW",
             speech: "Please open the window"
@@ -4976,66 +4931,31 @@ const ENVIRONMENT_TRANSLATIONS = {
             speech: "I would like to watch television"
         },
 
-        televisionOff: {
-            label: "TURN OFF<br>THE TELEVISION",
-            speech: "Please turn off the television"
-        },
-
         music: {
             label: "MUSIC",
             speech: "I would like to listen to music"
         },
 
-        musicOff: {
-            label: "STOP<br>THE MUSIC",
-            speech: "Please stop the music"
+        phone: {
+            label: "MY<br>PHONE",
+            speech: "I would like to have my phone"
         },
 
-        coverMe: {
-            label: "COVER ME",
-            speech: "Please cover me"
-        },
-
-        glasses: {
-            label: "MY<br>GLASSES",
-            speech: "Please give me my glasses"
-        },
-
-        hearingAid: {
-            label: "MY HEARING<br>AID",
-            speech: "Please give me my hearing aid"
-        },
-
-        privacy: {
-            label: "I WANT<br>PRIVACY",
-            speech: "I would like some privacy"
-        },
-
-        noOneDuringCare: {
-            label: "NO ONE DURING<br>MY CARE",
-            speech: "I would prefer no one else to be present during my care"
-        },
-
-        notInFront: {
-            label: "NOT IN FRONT OF<br>THIS PERSON",
-            speech: "I don't want to talk about this in front of this person"
+        rechargePhone: {
+            label: "CHARGE<br>MY PHONE",
+            speech: "Please charge my phone"
         },
 
         sleep: {
             label: "I WANT<br>TO SLEEP",
             speech: "I would like to sleep"
-        },
-
-        doNotWake: {
-            label: "LET ME<br>SLEEP",
-            speech: "Please don't wake me unless it is necessary"
         }
-    },
 
+    },
 
     de: {
 
-        title: "Mein Zimmer",
+        title: "Umgebung",
 
         closeDoor: {
             label: "TÜR<br>SCHLIESSEN",
@@ -5072,11 +4992,6 @@ const ENVIRONMENT_TRANSLATIONS = {
             speech: "Es ist zu laut"
         },
 
-        silence: {
-            label: "ICH MÖCHTE<br>RUHE",
-            speech: "Ich möchte bitte etwas Ruhe"
-        },
-
         openWindow: {
             label: "FENSTER<br>ÖFFNEN",
             speech: "Bitte öffnen Sie das Fenster"
@@ -5092,66 +5007,31 @@ const ENVIRONMENT_TRANSLATIONS = {
             speech: "Ich möchte fernsehen"
         },
 
-        televisionOff: {
-            label: "FERNSEHER<br>AUSSCHALTEN",
-            speech: "Bitte schalten Sie den Fernseher aus"
-        },
-
         music: {
             label: "MUSIK",
             speech: "Ich möchte Musik hören"
         },
 
-        musicOff: {
-            label: "MUSIK<br>AUS",
-            speech: "Bitte machen Sie die Musik aus"
+        phone: {
+            label: "MEIN<br>HANDY",
+            speech: "Ich möchte mein Handy haben"
         },
 
-        coverMe: {
-            label: "BITTE<br>ZUDECKEN",
-            speech: "Bitte decken Sie mich zu"
-        },
-
-        glasses: {
-            label: "MEINE<br>BRILLE",
-            speech: "Bitte geben Sie mir meine Brille"
-        },
-
-        hearingAid: {
-            label: "MEIN<br>HÖRGERÄT",
-            speech: "Bitte geben Sie mir mein Hörgerät"
-        },
-
-        privacy: {
-            label: "ICH MÖCHTE<br>PRIVATSPHÄRE",
-            speech: "Ich möchte etwas Privatsphäre"
-        },
-
-        noOneDuringCare: {
-            label: "NIEMAND<br>BEI DER PFLEGE",
-            speech: "Ich möchte während der Pflege lieber allein sein"
-        },
-
-        notInFront: {
-            label: "NICHT VOR<br>DIESER PERSON",
-            speech: "Ich möchte darüber nicht vor dieser Person sprechen"
+        rechargePhone: {
+            label: "HANDY<br>AUFLADEN",
+            speech: "Bitte laden Sie mein Handy auf"
         },
 
         sleep: {
             label: "ICH MÖCHTE<br>SCHLAFEN",
             speech: "Ich möchte schlafen"
-        },
-
-        doNotWake: {
-            label: "BITTE NICHT<br>WECKEN",
-            speech: "Bitte wecken Sie mich nur, wenn es notwendig ist"
         }
-    },
 
+    },
 
     it: {
 
-        title: "La mia stanza",
+        title: "Ambiente",
 
         closeDoor: {
             label: "CHIUDETE<br>LA PORTA",
@@ -5188,11 +5068,6 @@ const ENVIRONMENT_TRANSLATIONS = {
             speech: "C’è troppo rumore"
         },
 
-        silence: {
-            label: "VOGLIO<br>SILENZIO",
-            speech: "Vorrei un po’ di silenzio, per favore"
-        },
-
         openWindow: {
             label: "APRITE<br>LA FINESTRA",
             speech: "Aprite la finestra, per favore"
@@ -5208,66 +5083,31 @@ const ENVIRONMENT_TRANSLATIONS = {
             speech: "Vorrei guardare la televisione"
         },
 
-        televisionOff: {
-            label: "SPEGNETE<br>LA TELEVISIONE",
-            speech: "Spegnete la televisione, per favore"
-        },
-
         music: {
             label: "MUSICA",
             speech: "Vorrei ascoltare della musica"
         },
 
-        musicOff: {
-            label: "SPEGNETE<br>LA MUSICA",
-            speech: "Spegnete la musica, per favore"
+        phone: {
+            label: "IL MIO<br>TELEFONO",
+            speech: "Vorrei avere il mio telefono"
         },
 
-        coverMe: {
-            label: "COPRITEMI",
-            speech: "Copritemi, per favore"
-        },
-
-        glasses: {
-            label: "I MIEI<br>OCCHIALI",
-            speech: "Datemi i miei occhiali, per favore"
-        },
-
-        hearingAid: {
-            label: "APPARECCHIO<br>ACUSTICO",
-            speech: "Datemi il mio apparecchio acustico, per favore"
-        },
-
-        privacy: {
-            label: "VOGLIO<br>PRIVACY",
-            speech: "Vorrei un po’ di privacy"
-        },
-
-        noOneDuringCare: {
-            label: "NESSUNO<br>DURANTE LE CURE",
-            speech: "Preferirei che non ci fosse nessuno durante le cure"
-        },
-
-        notInFront: {
-            label: "NON DAVANTI A<br>QUESTA PERSONA",
-            speech: "Non voglio parlare di questo davanti a questa persona"
+        rechargePhone: {
+            label: "RICARICARE<br>IL TELEFONO",
+            speech: "Ricaricate il mio telefono, per favore"
         },
 
         sleep: {
             label: "VOGLIO<br>DORMIRE",
             speech: "Vorrei dormire"
-        },
-
-        doNotWake: {
-            label: "LASCIATEMI<br>DORMIRE",
-            speech: "Non svegliatemi a meno che non sia necessario"
         }
-    },
 
+    },
 
     es: {
 
-        title: "Mi habitación",
+        title: "Entorno",
 
         closeDoor: {
             label: "CIERRE<br>LA PUERTA"
@@ -5297,10 +5137,6 @@ const ENVIRONMENT_TRANSLATIONS = {
             label: "DEMASIADO<br>RUIDO"
         },
 
-        silence: {
-            label: "QUIERO<br>SILENCIO"
-        },
-
         openWindow: {
             label: "ABRA<br>LA VENTANA"
         },
@@ -5313,55 +5149,27 @@ const ENVIRONMENT_TRANSLATIONS = {
             label: "TELEVISIÓN"
         },
 
-        televisionOff: {
-            label: "APAGUE<br>LA TELEVISIÓN"
-        },
-
         music: {
             label: "MÚSICA"
         },
 
-        musicOff: {
-            label: "APAGUE<br>LA MÚSICA"
+        phone: {
+            label: "MI<br>TELÉFONO"
         },
 
-        coverMe: {
-            label: "TÁPEME"
-        },
-
-        glasses: {
-            label: "MIS<br>GAFAS"
-        },
-
-        hearingAid: {
-            label: "MI<br>AUDÍFONO"
-        },
-
-        privacy: {
-            label: "QUIERO<br>PRIVACIDAD"
-        },
-
-        noOneDuringCare: {
-            label: "NADIE DURANTE<br>LOS CUIDADOS"
-        },
-
-        notInFront: {
-            label: "NO DELANTE DE<br>ESTA PERSONA"
+        rechargePhone: {
+            label: "CARGAR<br>MI TELÉFONO"
         },
 
         sleep: {
             label: "QUIERO<br>DORMIR"
-        },
-
-        doNotWake: {
-            label: "DÉJEME<br>DORMIR"
         }
-    },
 
+    },
 
     pt: {
 
-        title: "O meu quarto",
+        title: "Ambiente",
 
         closeDoor: {
             label: "FECHE<br>A PORTA"
@@ -5391,10 +5199,6 @@ const ENVIRONMENT_TRANSLATIONS = {
             label: "DEMASIADO<br>BARULHO"
         },
 
-        silence: {
-            label: "QUERO<br>SILÊNCIO"
-        },
-
         openWindow: {
             label: "ABRA<br>A JANELA"
         },
@@ -5407,49 +5211,22 @@ const ENVIRONMENT_TRANSLATIONS = {
             label: "TELEVISÃO"
         },
 
-        televisionOff: {
-            label: "DESLIGUE<br>A TELEVISÃO"
-        },
-
         music: {
             label: "MÚSICA"
         },
 
-        musicOff: {
-            label: "DESLIGUE<br>A MÚSICA"
+        phone: {
+            label: "O MEU<br>TELEFONE"
         },
 
-        coverMe: {
-            label: "TAPE-ME"
-        },
-
-        glasses: {
-            label: "OS MEUS<br>ÓCULOS"
-        },
-
-        hearingAid: {
-            label: "O MEU APARELHO<br>AUDITIVO"
-        },
-
-        privacy: {
-            label: "QUERO<br>PRIVACIDADE"
-        },
-
-        noOneDuringCare: {
-            label: "NINGUÉM DURANTE<br>OS CUIDADOS"
-        },
-
-        notInFront: {
-            label: "NÃO DIANTE<br>DESTA PESSOA"
+        rechargePhone: {
+            label: "CARREGAR<br>O MEU TELEFONE"
         },
 
         sleep: {
             label: "QUERO<br>DORMIR"
-        },
-
-        doNotWake: {
-            label: "DEIXE-ME<br>DORMIR"
         }
+
     }
 
 };
@@ -7249,9 +7026,6 @@ function updateEnvironmentLanguage() {
         environmentNoiseButton:
             translation.noise.label,
 
-        environmentSilenceButton:
-            translation.silence.label,
-
         environmentOpenWindowButton:
             translation.openWindow.label,
 
@@ -7261,38 +7035,17 @@ function updateEnvironmentLanguage() {
         environmentTelevisionButton:
             translation.television.label,
 
-        environmentTelevisionOffButton:
-            translation.televisionOff.label,
-
         environmentMusicButton:
             translation.music.label,
 
-        environmentMusicOffButton:
-            translation.musicOff.label,
+        environmentPhoneButton:
+            translation.phone.label,
 
-        environmentCoverMeButton:
-            translation.coverMe.label,
-			
-        environmentGlassesButton:
-            translation.glasses.label,
-
-        environmentHearingAidButton:
-            translation.hearingAid.label,
-
-        environmentPrivacyButton:
-            translation.privacy.label,
-
-        environmentNoOneDuringCareButton:
-            translation.noOneDuringCare.label,
-
-        environmentNotInFrontButton:
-            translation.notInFront.label,
+        environmentRechargePhoneButton:
+            translation.rechargePhone.label,
 
         environmentSleepButton:
-            translation.sleep.label,
-
-        environmentDoNotWakeButton:
-            translation.doNotWake.label
+            translation.sleep.label
     };
 
     Object.entries(elements).forEach(
