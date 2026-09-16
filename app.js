@@ -2952,6 +2952,75 @@ const CARE_TRANSLATIONS = {
    TOILETTES / HYGIÈNE — TRADUCTIONS
    ========================================= */
 
+/* =========================================
+   ÉQUIPE SOIGNANTE — TRADUCTIONS
+   ========================================= */
+
+const CARE_TEAM_TRANSLATIONS = {
+
+    fr: {
+
+        title: "Équipe soignante",
+
+        nurse: {
+            label: "INFIRMIÈRE",
+            speech: "Je voudrais voir une infirmière"
+        },
+
+        doctor: {
+            label: "MÉDECIN",
+            speech: "Je voudrais voir un médecin"
+        },
+
+        physio: {
+            label: "PHYSIO",
+            speech: "Je voudrais voir le physio thérapeute"
+        },
+
+        ergo: {
+            label: "ERGO",
+            speech: "Je voudrais voir l’ergo thérapeute"
+        },
+
+        logo: {
+            label: "LOGO",
+            speech: "Je voudrais voir le logopédiste"
+        },
+
+        assistant: {
+            label: "AIDE-SOIGNANTE",
+            speech: "Je voudrais voir une aide-soignante"
+        },
+
+        dietitian: {
+            label: "DIÉTÉTICIENNE",
+            speech: "Je voudrais voir la diététicienne"
+        },
+
+        neuropsychologist: {
+            label: "NEUROPSY",
+            speech: "Je voudrais voir le neuropsychologue"
+        },
+
+        psychologist: {
+            label: "PSY",
+            speech: "Je voudrais voir le psychologue"
+        },
+
+        socialWorker: {
+            label: "ASSISTANTE<br>SOCIALE",
+            speech: "Je voudrais voir l’assistante sociale"
+        },
+
+        hospitality: {
+            label: "AGENT<br>HÔTELIER",
+            speech: "Je voudrais voir l’agent hôtelier"
+        }
+
+    }
+
+};
+
 const HYGIENE_TRANSLATIONS = {
 
     fr: {
@@ -7107,6 +7176,104 @@ function speakEmotionPhrase(phraseKey) {
     );
 }
 
+function updateCareTeamLanguage() {
+
+    const translation =
+        CARE_TEAM_TRANSLATIONS[
+            patientLanguage
+        ];
+
+    if (!translation) {
+        return;
+    }
+
+    const title =
+        document.getElementById(
+            "careTeamTitle"
+        );
+
+    if (title) {
+        title.textContent =
+            translation.title;
+    }
+
+    const elements = {
+
+        careTeamNurseButton:
+            translation.nurse.label,
+
+        careTeamDoctorButton:
+            translation.doctor.label,
+
+        careTeamPhysioButton:
+            translation.physio.label,
+
+        careTeamErgoButton:
+            translation.ergo.label,
+
+        careTeamLogoButton:
+            translation.logo.label,
+
+        careTeamAssistantButton:
+            translation.assistant.label,
+
+        careTeamDietitianButton:
+            translation.dietitian.label,
+
+        careTeamNeuropsychologistButton:
+            translation.neuropsychologist.label,
+
+        careTeamPsychologistButton:
+            translation.psychologist.label,
+
+        careTeamSocialWorkerButton:
+            translation.socialWorker.label,
+
+        careTeamHospitalityButton:
+            translation.hospitality.label
+    };
+
+    Object.entries(elements).forEach(
+        function(entry) {
+
+            const element =
+                document.getElementById(
+                    entry[0]
+                );
+
+            if (element) {
+                element.innerHTML =
+                    entry[1];
+            }
+        }
+    );
+}
+
+
+function speakCareTeamPhrase(phraseKey) {
+
+    const translation =
+        CARE_TEAM_TRANSLATIONS[
+            caregiverLanguage
+        ];
+
+    if (!translation) {
+        return;
+    }
+
+    const phrase =
+        translation[phraseKey];
+
+    if (!phrase) {
+        return;
+    }
+
+    speak(
+        phrase.speech,
+        caregiverLanguage
+    );
+}
+
 function updateHygieneLanguage() {
 
     const translation =
@@ -9366,6 +9533,8 @@ function choosePatientLanguage(language) {
 	
 	updateCareLanguage();
 	
+	updateCareTeamLanguage();
+	
 	updateHygieneLanguage();
 	
 	updateEmotionLanguage();
@@ -11075,6 +11244,8 @@ document.addEventListener(
 		updatePositionLanguage();
 		
 		updateCareLanguage();
+		
+		updateCareTeamLanguage();
 		
 		updateHygieneLanguage();
 		

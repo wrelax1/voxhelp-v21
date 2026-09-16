@@ -123,28 +123,28 @@
 			<button onclick="showScreen('positionScreen')">
 				🛏️<br>
 				<span id="homePositionButton">
-					POSITION
+					POSITIONNEMENT
 				</span>
 			</button>
 
 			<button onclick="showScreen('careScreen')">
 				👩‍⚕️<br>
 				<span id="homeCareButton">
-					BESOIN DE SOINS
+					INCONFORT
 				</span>
 			</button>
 
 			<button onclick="showScreen('hygieneScreen')">
 				🚻<br>
 				<span id="homeHygieneButton">
-					TOILETTES
+					VIE QUOTIDIENNE
 				</span>
 			</button>
 
 			<button onclick="showScreen('environmentScreen')">
 				🏠<br>
 				<span id="homeEnvironmentButton">
-					MA CHAMBRE
+					ENVIRONNEMENT
 				</span>
 			</button>
 
@@ -156,12 +156,27 @@
 				</span>
 			</button>
 
-			<button onclick="showScreen('understandScreen')">
-				👂<br>
-				<span id="homeUnderstandButton">
-					COMPRENDRE
+			<button onclick="showScreen('careTeamScreen')">
+				🩺<br>
+				<span id="homeCareTeamButton">
+					ÉQUIPE SOIGNANTE
 				</span>
 			</button>
+
+			<button onclick="showScreen('movementScreen')">
+				🚶<br>
+				<span id="homeMovementButton">
+					DÉPLACEMENTS
+				</span>
+			</button>
+
+			<button onclick="showScreen('planningScreen')">
+				🗓️<br>
+				<span id="homePlanningButton">
+					PLANNING / TEMPS
+				</span>
+			</button>
+
 
 			<button onclick="showScreen('talkScreen')">
 				👥<br>
@@ -174,14 +189,6 @@
 				❤️<br>
 				<span id="homeEmotionButton">
 					ÉMOTIONS
-				</span>
-			</button>
-
-			<button onclick="speakHomePhrase('recharge')">
-				🔋<br>
-				<span id="homeRechargeButton">
-					RECHARGEZ<br>
-					MON TÉLÉPHONE
 				</span>
 			</button>
 
@@ -1519,6 +1526,85 @@
 <!-- ======================================= -->
 <!-- FAMILLE / AMIS -->
 <!-- ======================================= -->
+
+<!-- ======================================= -->
+<!-- ÉQUIPE SOIGNANTE -->
+<!-- ======================================= -->
+
+<section
+    id="careTeamScreen"
+    class="screen"
+>
+
+    <button
+        class="back-button"
+        onclick="showScreen('homeScreen')"
+    >
+        ← RETOUR
+    </button>
+
+    <h1 id="careTeamTitle">
+        Équipe soignante
+    </h1>
+
+    <div class="phrase-buttons">
+
+    </div>
+
+</section>
+
+<!-- ======================================= -->
+<!-- DÉPLACEMENTS -->
+<!-- ======================================= -->
+
+<section
+    id="movementScreen"
+    class="screen"
+>
+
+    <button
+        class="back-button"
+        onclick="showScreen('homeScreen')"
+    >
+        ← RETOUR
+    </button>
+
+    <h1 id="movementTitle">
+        Déplacements
+    </h1>
+
+    <div class="phrase-buttons">
+
+    </div>
+
+</section>
+
+<!-- ======================================= -->
+<!-- PLANNING / TEMPS -->
+<!-- ======================================= -->
+
+<section
+    id="planningScreen"
+    class="screen"
+>
+
+    <button
+        class="back-button"
+        onclick="showScreen('homeScreen')"
+    >
+        ← RETOUR
+    </button>
+
+    <h1 id="planningTitle">
+        Planning / Temps
+    </h1>
+
+    <div class="phrase-buttons">
+
+    </div>
+
+</section>
+
 
 <section
     id="talkScreen"
