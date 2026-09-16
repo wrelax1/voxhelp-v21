@@ -366,49 +366,49 @@
 
 			<button onclick="selectPainLocation('leftShoulder')">
 				<span id="painLocationLeftShoulder">
-					ÉPAULE<br>GAUCHE
+					ÉPAULE GAUCHE
 				</span>
 			</button>
 
 			<button onclick="selectPainLocation('rightShoulder')">
 				<span id="painLocationRightShoulder">
-					ÉPAULE<br>DROITE
+					ÉPAULE DROITE
 				</span>
 			</button>
 
 			<button onclick="selectPainLocation('leftArm')">
 				<span id="painLocationLeftArm">
-					BRAS<br>GAUCHE
+					BRAS GAUCHE
 				</span>
 			</button>
 
 			<button onclick="selectPainLocation('rightArm')">
 				<span id="painLocationRightArm">
-					BRAS<br>DROIT
+					BRAS DROIT
 				</span>
 			</button>
 
 			<button onclick="selectPainLocation('leftHand')">
 				<span id="painLocationLeftHand">
-					MAIN<br>GAUCHE
+					MAIN GAUCHE
 				</span>
 			</button>
 
 			<button onclick="selectPainLocation('rightHand')">
 				<span id="painLocationRightHand">
-					MAIN<br>DROITE
+					MAIN DROITE
 				</span>
 			</button>
 
 			<button onclick="selectPainLocation('leftHip')">
 				<span id="painLocationLeftHip">
-					HANCHE<br>GAUCHE
+					HANCHE GAUCHE
 				</span>
 			</button>
 
 			<button onclick="selectPainLocation('rightHip')">
 				<span id="painLocationRightHip">
-					HANCHE<br>DROITE
+					HANCHE DROITE
 				</span>
 			</button>
 			
@@ -426,13 +426,13 @@
 
 			<button onclick="selectPainLocation('leftLeg')">
 				<span id="painLocationLeftLeg">
-					JAMBE<br>GAUCHE
+					JAMBE GAUCHE
 				</span>
 			</button>
 
 			<button onclick="selectPainLocation('rightLeg')">
 				<span id="painLocationRightLeg">
-					JAMBE<br>DROITE
+					JAMBE DROITE
 				</span>
 			</button>
 
@@ -1665,29 +1665,37 @@
         __ . __ . ____
     </h2>
 
-    <div class="date-keypad">
+    <div class="date-month-keypad">
 
-        <button onclick="appendPlanningDateDigit('1')">1</button>
-        <button onclick="appendPlanningDateDigit('2')">2</button>
-        <button onclick="appendPlanningDateDigit('3')">3</button>
+        <button onclick="selectPlanningDateMonth(1)">1</button>
+        <button onclick="selectPlanningDateMonth(2)">2</button>
+        <button onclick="selectPlanningDateMonth(3)">3</button>
 
-        <button onclick="appendPlanningDateDigit('4')">4</button>
-        <button onclick="appendPlanningDateDigit('5')">5</button>
-        <button onclick="appendPlanningDateDigit('6')">6</button>
+        <button onclick="selectPlanningDateMonth(4)">4</button>
+        <button onclick="selectPlanningDateMonth(5)">5</button>
+        <button onclick="selectPlanningDateMonth(6)">6</button>
 
-        <button onclick="appendPlanningDateDigit('7')">7</button>
-        <button onclick="appendPlanningDateDigit('8')">8</button>
-        <button onclick="appendPlanningDateDigit('9')">9</button>
+        <button onclick="selectPlanningDateMonth(7)">7</button>
+        <button onclick="selectPlanningDateMonth(8)">8</button>
+        <button onclick="selectPlanningDateMonth(9)">9</button>
 
-        <button onclick="appendPlanningDateDigit('0')">0</button>
+        <button onclick="selectPlanningDateMonth(10)">10</button>
+        <button onclick="selectPlanningDateMonth(11)">11</button>
+        <button onclick="selectPlanningDateMonth(12)">12</button>
 
-        <button onclick="clearPlanningDatePart()">
+        <button
+            class="date-month-clear"
+            onclick="clearPlanningDatePart()"
+        >
             <span id="planningDateMonthClearButton">
                 EFFACER
             </span>
         </button>
 
-        <button onclick="validatePlanningDateMonth()">
+        <button
+            class="date-month-validate"
+            onclick="validatePlanningDateMonth()"
+        >
             <span id="planningDateMonthValidateButton">
                 VALIDER
             </span>

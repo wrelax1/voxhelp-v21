@@ -269,7 +269,7 @@ button:focus-visible {
 .buttons button {
     min-width: 0;
 
-    min-height: clamp(96px, 15vh, 145px);
+	min-height: clamp(80px, 11vh, 105px);
 
     padding:
         clamp(8px, 2vw, 14px)
@@ -304,9 +304,80 @@ button:focus-visible {
     font-size: clamp(17px, 3.8vw, 24px);
 }
 
+#positionScreen .phrase-buttons button {
+    min-height: clamp(76px, 10vh, 100px);
+}
+
+#careScreen .phrase-buttons button {
+    min-height: clamp(76px, 10vh, 100px);
+}
+
+#hygieneScreen .phrase-buttons button {
+	min-height: clamp(68px, 9vh, 90px);
+}
+
+#environmentScreen .phrase-buttons button {
+    min-height: clamp(76px, 10vh, 100px);
+}
+
+#talkScreen .phrase-buttons button {
+    min-height: clamp(76px, 10vh, 100px);
+}
+
+#emotionScreen .phrase-buttons button {
+    min-height: clamp(76px, 10vh, 100px);
+}
+
+#careTeamScreen .phrase-buttons button {
+    min-height: clamp(76px, 10vh, 100px);
+}
+
 /* =========================================
    DATE — PAVÉ NUMÉRIQUE
    ========================================= */
+
+/* =========================================
+   DATE — CHOIX DU MOIS
+   ========================================= */
+
+.date-month-keypad {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: clamp(10px, 2.5vw, 16px);
+
+    width: 100%;
+    max-width: 560px;
+
+    margin: 0 auto;
+}
+
+.date-month-keypad button {
+    min-width: 0;
+
+    min-height: clamp(82px, 12vh, 112px);
+
+    padding:
+        clamp(8px, 2vw, 14px);
+
+    font-size: clamp(28px, 6vw, 42px);
+
+    font-weight: 900;
+}
+
+.date-month-keypad .date-month-clear {
+    grid-column: 1 / span 2;
+
+    font-size: clamp(16px, 3.5vw, 22px);
+}
+
+.date-month-keypad .date-month-validate {
+    grid-column: 3;
+
+    font-size: clamp(16px, 3.5vw, 22px);
+}
 
 .date-keypad {
     display: grid;
@@ -486,7 +557,7 @@ button:focus-visible {
 .pain-locations button {
     min-width: 0;
 
-    min-height: clamp(76px, 11vh, 105px);
+    min-height: clamp(62px, 8vh, 82px);
 
     padding: clamp(6px, 1.5vw, 10px);
 
@@ -598,7 +669,7 @@ button:focus-visible {
 .quick-phrases button {
     min-width: 0;
 
-    min-height: clamp(66px, 10vh, 90px);
+	min-height: clamp(52px, 7vh, 68px);
 
     padding: clamp(6px, 1.5vw, 10px);
 

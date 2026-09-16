@@ -792,22 +792,22 @@ const PAIN_LOCATIONS = {
     leftShoulder: {
 
         fr: {
-            label: "ÉPAULE<br>GAUCHE",
+            label: "ÉPAULE GAUCHE",
             speech: "J’ai mal à l’épaule gauche"
         },
 
         en: {
-            label: "LEFT<br>SHOULDER",
+            label: "LEFT SHOULDER",
             speech: "I have pain in my left shoulder"
         },
 
         de: {
-            label: "LINKE<br>SCHULTER",
+            label: "LINKE SCHULTER",
             speech: "Ich habe Schmerzen in der linken Schulter"
         },
 
         it: {
-            label: "SPALLA<br>SINISTRA",
+            label: "SPALLA SINISTRA",
             speech: "Ho dolore alla spalla sinistra"
         }
     },
@@ -816,22 +816,22 @@ const PAIN_LOCATIONS = {
     rightShoulder: {
 
         fr: {
-            label: "ÉPAULE<br>DROITE",
+            label: "ÉPAULE DROITE",
             speech: "J’ai mal à l’épaule droite"
         },
 
         en: {
-            label: "RIGHT<br>SHOULDER",
+            label: "RIGHT SHOULDER",
             speech: "I have pain in my right shoulder"
         },
 
         de: {
-            label: "RECHTE<br>SCHULTER",
+            label: "RECHTE SCHULTER",
             speech: "Ich habe Schmerzen in der rechten Schulter"
         },
 
         it: {
-            label: "SPALLA<br>DESTRA",
+            label: "SPALLA DESTRA",
             speech: "Ho dolore alla spalla destra"
         }
     },
@@ -840,22 +840,22 @@ const PAIN_LOCATIONS = {
     leftArm: {
 
         fr: {
-            label: "BRAS<br>GAUCHE",
+            label: "BRAS GAUCHE",
             speech: "J’ai mal au bras gauche"
         },
 
         en: {
-            label: "LEFT<br>ARM",
+            label: "LEFT ARM",
             speech: "I have pain in my left arm"
         },
 
         de: {
-            label: "LINKER<br>ARM",
+            label: "LINKER ARM",
             speech: "Ich habe Schmerzen im linken Arm"
         },
 
         it: {
-            label: "BRACCIO<br>SINISTRO",
+            label: "BRACCIO SINISTRO",
             speech: "Ho dolore al braccio sinistro"
         }
     },
@@ -864,22 +864,22 @@ const PAIN_LOCATIONS = {
     rightArm: {
 
         fr: {
-            label: "BRAS<br>DROIT",
+            label: "BRAS DROIT",
             speech: "J’ai mal au bras droit"
         },
 
         en: {
-            label: "RIGHT<br>ARM",
+            label: "RIGHT ARM",
             speech: "I have pain in my right arm"
         },
 
         de: {
-            label: "RECHTER<br>ARM",
+            label: "RECHTER ARM",
             speech: "Ich habe Schmerzen im rechten Arm"
         },
 
         it: {
-            label: "BRACCIO<br>DESTRO",
+            label: "BRACCIO DESTRO",
             speech: "Ho dolore al braccio destro"
         }
     },
@@ -888,22 +888,22 @@ const PAIN_LOCATIONS = {
     leftHand: {
 
         fr: {
-            label: "MAIN<br>GAUCHE",
+            label: "MAIN GAUCHE",
             speech: "J’ai mal à la main gauche"
         },
 
         en: {
-            label: "LEFT<br>HAND",
+            label: "LEFT HAND",
             speech: "I have pain in my left hand"
         },
 
         de: {
-            label: "LINKE<br>HAND",
+            label: "LINKE HAND",
             speech: "Ich habe Schmerzen in der linken Hand"
         },
 
         it: {
-            label: "MANO<br>SINISTRA",
+            label: "MANO SINISTRA",
             speech: "Ho dolore alla mano sinistra"
         }
     },
@@ -912,22 +912,22 @@ const PAIN_LOCATIONS = {
     rightHand: {
 
         fr: {
-            label: "MAIN<br>DROITE",
+            label: "MAIN DROITE",
             speech: "J’ai mal à la main droite"
         },
 
         en: {
-            label: "RIGHT<br>HAND",
+            label: "RIGHT HAND",
             speech: "I have pain in my right hand"
         },
 
         de: {
-            label: "RECHTE<br>HAND",
+            label: "RECHTE HAND",
             speech: "Ich habe Schmerzen in der rechten Hand"
         },
 
         it: {
-            label: "MANO<br>DESTRA",
+            label: "MANO DESTRA",
             speech: "Ho dolore alla mano destra"
         }
     },
@@ -936,22 +936,22 @@ const PAIN_LOCATIONS = {
     leftHip: {
 
         fr: {
-            label: "HANCHE<br>GAUCHE",
+            label: "HANCHE GAUCHE",
             speech: "J’ai mal à la hanche gauche"
         },
 
         en: {
-            label: "LEFT<br>HIP",
+            label: "LEFT HIP",
             speech: "I have pain in my left hip"
         },
 
         de: {
-            label: "LINKE<br>HÜFTE",
+            label: "LINKE HÜFTE",
             speech: "Ich habe Schmerzen in der linken Hüfte"
         },
 
         it: {
-            label: "ANCA<br>SINISTRA",
+            label: "ANCA SINISTRA",
             speech: "Ho dolore all’anca sinistra"
         }
     },
@@ -960,22 +960,22 @@ const PAIN_LOCATIONS = {
     rightHip: {
 
         fr: {
-            label: "HANCHE<br>DROITE",
+            label: "HANCHE DROITE",
             speech: "J’ai mal à la hanche droite"
         },
 
         en: {
-            label: "RIGHT<br>HIP",
+            label: "RIGHT HIP",
             speech: "I have pain in my right hip"
         },
 
         de: {
-            label: "RECHTE<br>HÜFTE",
+            label: "RECHTE HÜFTE",
             speech: "Ich habe Schmerzen in der rechten Hüfte"
         },
 
         it: {
-            label: "ANCA<br>DESTRA",
+            label: "ANCA DESTRA",
             speech: "Ho dolore all’anca destra"
         }
     },
@@ -1030,22 +1030,22 @@ const PAIN_LOCATIONS = {
     leftLeg: {
 
         fr: {
-            label: "JAMBE<br>GAUCHE",
+            label: "JAMBE GAUCHE",
             speech: "J’ai mal à la jambe gauche"
         },
 
         en: {
-            label: "LEFT<br>LEG",
+            label: "LEFT LEG",
             speech: "I have pain in my left leg"
         },
 
         de: {
-            label: "LINKES<br>BEIN",
+            label: "LINKES BEIN",
             speech: "Ich habe Schmerzen im linken Bein"
         },
 
         it: {
-            label: "GAMBA<br>SINISTRA",
+            label: "GAMBA SINISTRA",
             speech: "Ho dolore alla gamba sinistra"
         }
     },
@@ -1054,22 +1054,22 @@ const PAIN_LOCATIONS = {
     rightLeg: {
 
         fr: {
-            label: "JAMBE<br>DROITE",
+            label: "JAMBE DROITE",
             speech: "J’ai mal à la jambe droite"
         },
 
         en: {
-            label: "RIGHT<br>LEG",
+            label: "RIGHT LEG",
             speech: "I have pain in my right leg"
         },
 
         de: {
-            label: "RECHTES<br>BEIN",
+            label: "RECHTES BEIN",
             speech: "Ich habe Schmerzen im rechten Bein"
         },
 
         it: {
-            label: "GAMBA<br>DESTRA",
+            label: "GAMBA DESTRA",
             speech: "Ho dolore alla gamba destra"
         }
     },
@@ -1078,22 +1078,22 @@ const PAIN_LOCATIONS = {
     leftFoot: {
 
         fr: {
-            label: "PIED<br>GAUCHE",
+            label: "PIED GAUCHE",
             speech: "J’ai mal au pied gauche"
         },
 
         en: {
-            label: "LEFT<br>FOOT",
+            label: "LEFT FOOT",
             speech: "I have pain in my left foot"
         },
 
         de: {
-            label: "LINKER<br>FUSS",
+            label: "LINKER FUSS",
             speech: "Ich habe Schmerzen im linken Fuß"
         },
 
         it: {
-            label: "PIEDE<br>SINISTRO",
+            label: "PIEDE SINISTRO",
             speech: "Ho dolore al piede sinistro"
         }
     },
@@ -1102,22 +1102,22 @@ const PAIN_LOCATIONS = {
     rightFoot: {
 
         fr: {
-            label: "PIED<br>DROIT",
+            label: "PIED DROIT",
             speech: "J’ai mal au pied droit"
         },
 
         en: {
-            label: "RIGHT<br>FOOT",
+            label: "RIGHT FOOT",
             speech: "I have pain in my right foot"
         },
 
         de: {
-            label: "RECHTER<br>FUSS",
+            label: "RECHTER FUSS",
             speech: "Ich habe Schmerzen im rechten Fuß"
         },
 
         it: {
-            label: "PIEDE<br>DESTRO",
+            label: "PIEDE DESTRO",
             speech: "Ho dolore al piede destro"
         }
     }
@@ -1134,26 +1134,26 @@ const PAIN_LOCATION_PATIENT_LABELS = {
         back: "ESPALDA",
         abdomen: "VIENTRE",
 
-        leftShoulder: "HOMBRO<br>IZQUIERDO",
-        rightShoulder: "HOMBRO<br>DERECHO",
+        leftShoulder: "HOMBRO IZQUIERDO",
+        rightShoulder: "HOMBRO DERECHO",
 
-        leftArm: "BRAZO<br>IZQUIERDO",
-        rightArm: "BRAZO<br>DERECHO",
+        leftArm: "BRAZO IZQUIERDO",
+        rightArm: "BRAZO DERECHO",
 
-        leftHand: "MANO<br>IZQUIERDA",
-        rightHand: "MANO<br>DERECHA",
+        leftHand: "MANO IZQUIERDA",
+        rightHand: "MANO DERECHA",
 
-        leftHip: "CADERA<br>IZQUIERDA",
-        rightHip: "CADERA<br>DERECHA",
+        leftHip: "CADERA IZQUIERDA",
+        rightHip: "CADERA DERECHA",
 
         buttocks: "NALGAS",
         anus: "ANO",
 
-        leftLeg: "PIERNA<br>IZQUIERDA",
-        rightLeg: "PIERNA<br>DERECHA",
+        leftLeg: "PIERNA IZQUIERDA",
+        rightLeg: "PIERNA DERECHA",
 
-        leftFoot: "PIE<br>IZQUIERDO",
-        rightFoot: "PIE<br>DERECHO"
+        leftFoot: "PIE IZQUIERDO",
+        rightFoot: "PIE DERECHO"
     },
 
     pt: {
@@ -1164,26 +1164,26 @@ const PAIN_LOCATION_PATIENT_LABELS = {
         back: "COSTAS",
         abdomen: "BARRIGA",
 
-        leftShoulder: "OMBRO<br>ESQUERDO",
-        rightShoulder: "OMBRO<br>DIREITO",
+        leftShoulder: "OMBRO ESQUERDO",
+        rightShoulder: "OMBRO DIREITO",
 
-        leftArm: "BRAÇO<br>ESQUERDO",
-        rightArm: "BRAÇO<br>DIREITO",
+        leftArm: "BRAÇO ESQUERDO",
+        rightArm: "BRAÇO DIREITO",
 
-        leftHand: "MÃO<br>ESQUERDA",
-        rightHand: "MÃO<br>DIREITA",
+        leftHand: "MÃO ESQUERDA",
+        rightHand: "MÃO DIREITA",
 
-        leftHip: "ANCA<br>ESQUERDA",
-        rightHip: "ANCA<br>DIREITA",
+        leftHip: "ANCA ESQUERDA",
+        rightHip: "ANCA DIREITA",
 
         buttocks: "NÁDEGAS",
         anus: "ÂNUS",
 
-        leftLeg: "PERNA<br>ESQUERDA",
-        rightLeg: "PERNA<br>DIREITA",
+        leftLeg: "PERNA ESQUERDA",
+        rightLeg: "PERNA DIREITA",
 
-        leftFoot: "PÉ<br>ESQUERDO",
-        rightFoot: "PÉ<br>DIREITO"
+        leftFoot: "PÉ ESQUERDO",
+        rightFoot: "PÉ DIREITO"
     }
 
 };
@@ -1214,9 +1214,9 @@ const PAIN_SUBLOCATIONS = {
         backHead: {
             label: {
                 fr: "ARRIÈRE",
-                en: "BACK OF<br>HEAD",
+                en: "BACK OF HEAD",
                 de: "HINTERKOPF",
-                it: "DIETRO<br>LA TESTA"
+                it: "DIETRO LA TESTA"
             },
             speech: {
                 fr: "J’ai mal à l’arrière de la tête",
@@ -1229,8 +1229,8 @@ const PAIN_SUBLOCATIONS = {
         leftTemple: {
             label: {
                 fr: "TEMPE G",
-                en: "LEFT<br>TEMPLE",
-                de: "LINKE<br>SCHLÄFE",
+                en: "LEFT TEMPLE",
+                de: "LINKE SCHLÄFE",
                 it: "TEMPIA SX"
             },
             speech: {
@@ -1244,8 +1244,8 @@ const PAIN_SUBLOCATIONS = {
         rightTemple: {
             label: {
                 fr: "TEMPE D",
-                en: "RIGHT<br>TEMPLE",
-                de: "RECHTE<br>SCHLÄFE",
+                en: "RIGHT TEMPLE",
+                de: "RECHTE SCHLÄFE",
                 it: "TEMPIA DX"
             },
             speech: {
@@ -1333,10 +1333,10 @@ const PAIN_SUBLOCATIONS = {
 
         wholeHead: {
             label: {
-                fr: "TOUTE<br>LA TÊTE",
-                en: "WHOLE<br>HEAD",
-                de: "GANZER<br>KOPF",
-                it: "TUTTA<br>LA TESTA"
+                fr: "TOUTE LA TÊTE",
+                en: "WHOLE HEAD",
+                de: "GANZER KOPF",
+                it: "TUTTA LA TESTA"
             },
             speech: {
                 fr: "J’ai mal à toute la tête",
@@ -1384,7 +1384,7 @@ const PAIN_SUBLOCATIONS = {
             label: {
                 fr: "CÔTES G",
                 en: "LEFT RIBS",
-                de: "LINKE<br>RIPPEN",
+                de: "LINKE RIPPEN",
                 it: "COSTOLE SX"
             },
             speech: {
@@ -1399,7 +1399,7 @@ const PAIN_SUBLOCATIONS = {
             label: {
                 fr: "CÔTES D",
                 en: "RIGHT RIBS",
-                de: "RECHTE<br>RIPPEN",
+                de: "RECHTE RIPPEN",
                 it: "COSTOLE DX"
             },
             speech: {
@@ -1427,10 +1427,10 @@ const PAIN_SUBLOCATIONS = {
 
         wholeChest: {
             label: {
-                fr: "TOUTE LA<br>POITRINE",
-                en: "WHOLE<br>CHEST",
-                de: "GANZE<br>BRUST",
-                it: "TUTTO<br>IL PETTO"
+                fr: "TOUTE LA POITRINE",
+                en: "WHOLE CHEST",
+                de: "GANZE BRUST",
+                it: "TUTTO IL PETTO"
             },
             speech: {
                 fr: "J’ai mal dans toute la poitrine",
@@ -1522,10 +1522,10 @@ const PAIN_SUBLOCATIONS = {
 
         wholeBack: {
             label: {
-                fr: "TOUT<br>LE DOS",
-                en: "WHOLE<br>BACK",
-                de: "GANZER<br>RÜCKEN",
-                it: "TUTTA LA<br>SCHIENA"
+                fr: "TOUT LE DOS",
+                en: "WHOLE BACK",
+                de: "GANZER RÜCKEN",
+                it: "TUTTA LA SCHIENA"
             },
             speech: {
                 fr: "J’ai mal dans tout le dos",
@@ -1603,9 +1603,9 @@ const PAIN_SUBLOCATIONS = {
         lowerAbdomen: {
             label: {
                 fr: "BAS-VENTRE",
-                en: "LOWER<br>ABDOMEN",
+                en: "LOWER ABDOMEN",
                 de: "UNTERBAUCH",
-                it: "BASSO<br>VENTRE"
+                it: "BASSO VENTRE"
             },
             speech: {
                 fr: "J’ai mal dans le bas-ventre",
@@ -1632,9 +1632,9 @@ const PAIN_SUBLOCATIONS = {
 
         genitals: {
             label: {
-                fr: "ORGANES<br>GÉNITAUX",
-                en: "GENITAL<br>AREA",
-                de: "GENITAL-<br>BEREICH",
+                fr: "ORGANES GÉNITAUX",
+                en: "GENITAL AREA",
+                de: "GENITAL BEREICH",
                 it: "GENITALI"
             },
             speech: {
@@ -1647,10 +1647,10 @@ const PAIN_SUBLOCATIONS = {
 
         wholeAbdomen: {
             label: {
-                fr: "TOUT LE<br>VENTRE",
-                en: "WHOLE<br>ABDOMEN",
-                de: "GANZER<br>BAUCH",
-                it: "TUTTO<br>L’ADDOME"
+                fr: "TOUT LE VENTRE",
+                en: "WHOLE ABDOMEN",
+                de: "GANZER BAUCH",
+                it: "TUTTO L’ADDOME"
             },
             speech: {
                 fr: "J’ai mal dans tout le ventre",
@@ -1695,10 +1695,10 @@ const PAIN_SUBLOCATIONS = {
 
         sacrumCoccyx: {
             label: {
-                fr: "SACRUM /<br>COCCYX",
-                en: "SACRUM /<br>COCCYX",
-                de: "KREUZBEIN /<br>STEISSBEIN",
-                it: "SACRO /<br>COCCIGE"
+                fr: "SACRUM / COCCYX",
+                en: "SACRUM / COCCYX",
+                de: "KREUZBEIN / STEISSBEIN",
+                it: "SACRO / COCCIGE"
             },
             speech: {
                 fr: "J’ai mal au niveau du sacrum ou du coccyx",
@@ -1710,10 +1710,10 @@ const PAIN_SUBLOCATIONS = {
 
         both: {
             label: {
-                fr: "LES DEUX<br>FESSES",
-                en: "BOTH<br>BUTTOCKS",
-                de: "BEIDE<br>GESÄSSHÄLFTEN",
-                it: "ENTRAMBE<br>LE NATICHE"
+                fr: "LES DEUX FESSES",
+                en: "BOTH BUTTOCKS",
+                de: "BEIDE GESÄSSHÄLFTEN",
+                it: "ENTRAMBE LE NATICHE"
             },
             speech: {
                 fr: "J’ai mal aux deux fesses",
@@ -1734,14 +1734,14 @@ const PAIN_SUBLOCATION_PATIENT_LABELS = {
         head: {
             front: "FRENTE",
             backHead: "PARTE POSTERIOR<br>DE LA CABEZA",
-            leftTemple: "SIEN<br>IZQUIERDA",
-            rightTemple: "SIEN<br>DERECHA",
-            leftEye: "OJO<br>IZQUIERDO",
-            rightEye: "OJO<br>DERECHO",
-            leftEar: "OÍDO<br>IZQUIERDO",
-            rightEar: "OÍDO<br>DERECHO",
+            leftTemple: "SIEN IZQUIERDA",
+            rightTemple: "SIEN DERECHA",
+            leftEye: "OJO IZQUIERDO",
+            rightEye: "OJO DERECHO",
+            leftEar: "OÍDO IZQUIERDO",
+            rightEar: "OÍDO DERECHO",
             jaw: "MANDÍBULA",
-            wholeHead: "TODA<br>LA CABEZA"
+            wholeHead: "TODA LA CABEZA"
         },
 
         chest: {
@@ -1750,34 +1750,34 @@ const PAIN_SUBLOCATION_PATIENT_LABELS = {
             leftRibs: "COSTILLAS<br>IZQUIERDAS",
             rightRibs: "COSTILLAS<br>DERECHAS",
             center: "CENTRO",
-            wholeChest: "TODO<br>EL PECHO"
+            wholeChest: "TODO EL PECHO"
         },
 
         back: {
-            upper: "PARTE<br>SUPERIOR",
+            upper: "PARTE SUPERIOR",
             middle: "CENTRO",
             left: "IZQUIERDA",
             right: "DERECHA",
-            lower: "PARTE<br>INFERIOR",
-            wholeBack: "TODA<br>LA ESPALDA"
+            lower: "PARTE INFERIOR",
+            wholeBack: "TODA LA ESPALDA"
         },
 
         abdomen: {
-            upper: "PARTE<br>SUPERIOR",
+            upper: "PARTE SUPERIOR",
             center: "CENTRO",
             left: "IZQUIERDA",
             right: "DERECHA",
-            lowerAbdomen: "BAJO<br>VIENTRE",
+            lowerAbdomen: "BAJO VIENTRE",
             bladder: "VEJIGA",
             genitals: "ÓRGANOS<br>GENITALES",
-            wholeAbdomen: "TODO<br>EL VIENTRE"
+            wholeAbdomen: "TODO EL VIENTRE"
         },
 
         buttocks: {
             left: "IZQUIERDA",
             right: "DERECHA",
-            sacrumCoccyx: "SACRO /<br>CÓCCIX",
-            both: "AMBAS<br>NALGAS"
+            sacrumCoccyx: "SACRO / CÓCCIX",
+            both: "AMBAS NALGAS"
         }
 
     },
@@ -1788,14 +1788,14 @@ const PAIN_SUBLOCATION_PATIENT_LABELS = {
         head: {
             front: "TESTA",
             backHead: "PARTE DE TRÁS<br>DA CABEÇA",
-            leftTemple: "TÊMPORA<br>ESQUERDA",
-            rightTemple: "TÊMPORA<br>DIREITA",
-            leftEye: "OLHO<br>ESQUERDO",
-            rightEye: "OLHO<br>DIREITO",
-            leftEar: "OUVIDO<br>ESQUERDO",
-            rightEar: "OUVIDO<br>DIREITO",
+            leftTemple: "TÊMPORA ESQUERDA",
+            rightTemple: "TÊMPORA DIREITA",
+            leftEye: "OLHO ESQUERDO",
+            rightEye: "OLHO DIREITO",
+            leftEar: "OUVIDO ESQUERDO",
+            rightEar: "OUVIDO DIREITO",
             jaw: "MANDÍBULA",
-            wholeHead: "TODA<br>A CABEÇA"
+            wholeHead: "TODA A CABEÇA"
         },
 
         chest: {
@@ -1804,33 +1804,33 @@ const PAIN_SUBLOCATION_PATIENT_LABELS = {
             leftRibs: "COSTELAS<br>ESQUERDAS",
             rightRibs: "COSTELAS<br>DIREITAS",
             center: "CENTRO",
-            wholeChest: "TODO<br>O PEITO"
+            wholeChest: "TODO O PEITO"
         },
 
         back: {
-            upper: "PARTE<br>SUPERIOR",
+            upper: "PARTE SUPERIOR",
             middle: "MEIO",
             left: "ESQUERDA",
             right: "DIREITA",
-            lower: "PARTE<br>INFERIOR",
-            wholeBack: "TODAS<br>AS COSTAS"
+            lower: "PARTE INFERIOR",
+            wholeBack: "TODAS AS COSTAS"
         },
 
         abdomen: {
-            upper: "PARTE<br>SUPERIOR",
+            upper: "PARTE SUPERIOR",
             center: "CENTRO",
             left: "ESQUERDA",
             right: "DIREITA",
-            lowerAbdomen: "BAIXO<br>VENTRE",
+            lowerAbdomen: "BAIXO VENTRE",
             bladder: "BEXIGA",
-            genitals: "ÓRGÃOS<br>GENITAIS",
-            wholeAbdomen: "TODA<br>A BARRIGA"
+            genitals: "ÓRGÃOS GENITAIS",
+            wholeAbdomen: "TODA A BARRIGA"
         },
 
         buttocks: {
             left: "ESQUERDA",
             right: "DIREITA",
-            sacrumCoccyx: "SACRO /<br>CÓCCIX",
+            sacrumCoccyx: "SACRO / CÓCCIX",
             both: "AMBAS<br>AS NÁDEGAS"
         }
 
@@ -8300,11 +8300,40 @@ function appendPlanningDateDigit(digit) {
     }
 
     if (
-        part === "year" &&
-        planningDateYear.length < 4
+        part === "year"
     ) {
+
+        if (
+            planningDateYear.length === 4
+        ) {
+            planningDateYear =
+                "";
+        }
+
         planningDateYear +=
             digit;
+
+        if (
+            planningDateYear.length === 2
+        ) {
+
+            const shortYear =
+                Number(
+                    planningDateYear
+                );
+
+            if (
+                shortYear <= 29
+            ) {
+                planningDateYear =
+                    "20" +
+                    planningDateYear;
+            } else {
+                planningDateYear =
+                    "19" +
+                    planningDateYear;
+            }
+        }
     }
 
     updatePlanningDateDisplays();
@@ -8362,6 +8391,16 @@ function validatePlanningDateDay() {
     );
 }
 
+function selectPlanningDateMonth(month) {
+
+    planningDateMonth =
+        String(month).padStart(
+            2,
+            "0"
+        );
+
+    updatePlanningDateDisplays();
+}
 
 function validatePlanningDateMonth() {
 
