@@ -1577,6 +1577,7 @@
 >
 
     <button
+        id="planningNumbersBackButton"
         class="back-button"
         onclick="showScreen('planningScreen')"
     >
@@ -1637,15 +1638,21 @@
         </button>
 
         <button onclick="deletePlanningDigit()">
-            ⌫ EFFACER
+            <span id="planningDeleteNumberButton">
+                ⌫ EFFACER
+            </span>
         </button>
 
         <button onclick="clearPlanningNumber()">
-            🗑️ TOUT EFFACER
+            <span id="planningClearNumberButton">
+                🗑️ TOUT EFFACER
+            </span>
         </button>
 
         <button onclick="speakPlanningNumber()">
-            🔊 DIRE
+            <span id="planningSpeakNumberButton">
+                🔊 DIRE
+            </span>
         </button>
 
     </div>
@@ -1659,6 +1666,7 @@
 >
 
     <button
+        id="planningDaysBackButton"
         class="back-button"
         onclick="showScreen('planningScreen')"
     >
@@ -1727,6 +1735,7 @@
 >
 
     <button
+        id="planningMonthsBackButton"
         class="back-button"
         onclick="showScreen('planningScreen')"
     >
@@ -1824,6 +1833,7 @@
 >
 
     <button
+        id="planningDayPartsBackButton"
         class="back-button"
         onclick="showScreen('planningScreen')"
     >

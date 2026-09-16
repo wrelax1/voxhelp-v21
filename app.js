@@ -3430,6 +3430,10 @@ const PLANNING_TRANSLATIONS = {
         daysTitle: "Jours de la semaine",
 		monthsTitle: "Mois",
         dayPartsTitle: "Moment de la journée",
+        deleteNumber: "⌫ EFFACER",
+        clearNumber: "🗑️ TOUT EFFACER",
+        speakNumber: "🔊 DIRE",
+		back: "← RETOUR",
 
         monday: {
             label: "LUNDI",
@@ -3562,6 +3566,10 @@ const PLANNING_TRANSLATIONS = {
         daysTitle: "Days of the week",
         monthsTitle: "Months",
         dayPartsTitle: "Time of day",
+        deleteNumber: "⌫ DELETE",
+        clearNumber: "🗑️ CLEAR ALL",
+        speakNumber: "🔊 SAY",
+		back: "← BACK",
 
         monday: {
             label: "MONDAY",
@@ -3694,6 +3702,10 @@ const PLANNING_TRANSLATIONS = {
         daysTitle: "Wochentage",
         monthsTitle: "Monate",
         dayPartsTitle: "Tageszeit",
+        deleteNumber: "⌫ LÖSCHEN",
+        clearNumber: "🗑️ ALLES LÖSCHEN",
+        speakNumber: "🔊 SAGEN",
+		back: "← ZURÜCK",
 
         monday: {
             label: "MONTAG",
@@ -3826,6 +3838,10 @@ const PLANNING_TRANSLATIONS = {
         daysTitle: "Giorni della settimana",
         monthsTitle: "Mesi",
         dayPartsTitle: "Momento della giornata",
+        deleteNumber: "⌫ CANCELLA",
+        clearNumber: "🗑️ CANCELLA TUTTO",
+        speakNumber: "🔊 DÌ",
+		back: "← INDIETRO",
 
         monday: {
             label: "LUNEDÌ",
@@ -3958,6 +3974,10 @@ const PLANNING_TRANSLATIONS = {
         daysTitle: "Días de la semana",
         monthsTitle: "Meses",
         dayPartsTitle: "Momento del día",
+        deleteNumber: "⌫ BORRAR",
+        clearNumber: "🗑️ BORRAR TODO",
+        speakNumber: "🔊 DECIR",
+		back: "← VOLVER",
 
         monday: {
             label: "LUNES"
@@ -4067,6 +4087,10 @@ const PLANNING_TRANSLATIONS = {
         daysTitle: "Dias da semana",
         monthsTitle: "Meses",
         dayPartsTitle: "Momento do dia",
+        deleteNumber: "⌫ APAGAR",
+        clearNumber: "🗑️ APAGAR TUDO",
+        speakNumber: "🔊 DIZER",
+		back: "← VOLTAR",
 
         monday: {
             label: "SEGUNDA-FEIRA"
@@ -8108,7 +8132,28 @@ function updatePlanningLanguage() {
             translation.afternoon.label,
 
         planningEveningButton:
-            translation.evening.label
+            translation.evening.label,
+
+        planningDeleteNumberButton:
+            translation.deleteNumber,
+
+        planningClearNumberButton:
+            translation.clearNumber,
+
+        planningSpeakNumberButton:
+            translation.speakNumber,
+
+        planningNumbersBackButton:
+            translation.back,
+
+        planningDaysBackButton:
+            translation.back,
+
+        planningMonthsBackButton:
+            translation.back,
+
+        planningDayPartsBackButton:
+            translation.back
     };
 
     Object.entries(elements).forEach(
