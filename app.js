@@ -4223,8 +4223,8 @@ const QUESTIONS_TRANSLATIONS = {
         },
 
         nextGoal: {
-            label: "QUEL EST LE<br>PROCHAIN OBJECTIF ?",
-            speech: "Quel est le prochain objectif ?"
+            label: "QUELS SONT<br>MES OBJECTIFS ?",
+            speech: "Quels sont mes objectifs ?"
         },
 
         exams: {
@@ -4329,8 +4329,8 @@ const QUESTIONS_TRANSLATIONS = {
         },
 
         nextGoal: {
-            label: "WHAT IS THE<br>NEXT GOAL?",
-            speech: "What is the next goal?"
+            label: "WHAT ARE<br>MY GOALS?",
+            speech: "What are my goals?"
         },
 
         exams: {
@@ -4435,8 +4435,8 @@ const QUESTIONS_TRANSLATIONS = {
         },
 
         nextGoal: {
-            label: "WAS IST DAS<br>NÄCHSTE ZIEL?",
-            speech: "Was ist das nächste Ziel?"
+            label: "WAS SIND<br>MEINE ZIELE?",
+            speech: "Was sind meine Ziele?"
         },
 
         exams: {
@@ -4541,8 +4541,8 @@ const QUESTIONS_TRANSLATIONS = {
         },
 
         nextGoal: {
-            label: "QUAL È IL<br>PROSSIMO OBIETTIVO?",
-            speech: "Qual è il prossimo obiettivo?"
+            label: "QUALI SONO<br>I MIEI OBIETTIVI?",
+            speech: "Quali sono i miei obiettivi?"
         },
 
         exams: {
@@ -4643,7 +4643,7 @@ const QUESTIONS_TRANSLATIONS = {
         },
 
         nextGoal: {
-            label: "¿CUÁL ES EL<br>PRÓXIMO OBJETIVO?"
+            label: "¿CUÁLES SON<br>MIS OBJETIVOS?"
         },
 
         exams: {
@@ -4729,7 +4729,7 @@ const QUESTIONS_TRANSLATIONS = {
         },
 
         nextGoal: {
-            label: "QUAL É O<br>PRÓXIMO OBJETIVO?"
+            label: "QUAIS SÃO<br>OS MEUS OBJETIVOS?"
         },
 
         exams: {
@@ -7104,14 +7104,8 @@ function updateQuestionsLanguage() {
         questionsWhatHappenedButton:
             translation.whatHappened.label,
 
-        questionsInjuriesButton:
-            translation.injuries.label,
-
         questionsImprovingButton:
             translation.improving.label,
-
-        questionsConcernButton:
-            translation.concern.label,
 
         questionsNextGoalButton:
             translation.nextGoal.label,
@@ -7128,9 +7122,6 @@ function updateQuestionsLanguage() {
         questionsSpeakWhenButton:
             translation.speakWhen.label,
 
-        questionsSpeakNormallyButton:
-            translation.speakNormally.label,
-
         questionsTracheostomyHowLongButton:
             translation.tracheostomyHowLong.label,
 
@@ -7143,20 +7134,8 @@ function updateQuestionsLanguage() {
         questionsWalkWhenButton:
             translation.walkWhen.label,
 
-        questionsRehabilitationButton:
-            translation.rehabilitation.label,
-
-        questionsLeaveICUButton:
-            translation.leaveICU.label,
-
-        questionsLeaveHospitalButton:
-            translation.leaveHospital.label,
-
         questionsGoHomeButton:
             translation.goHome.label,
-
-        questionsImproveBeforeHomeButton:
-            translation.improveBeforeHome.label,
 
         questionsExplainNextButton:
             translation.explainNext.label
