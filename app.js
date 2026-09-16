@@ -160,7 +160,7 @@ const HOME_TRANSLATIONS = {
         pain: "I'M IN PAIN",
         position: "POSITION",
         care: "I NEED CARE",
-        hygiene: "TOILET /<br>HYGIENE",
+        hygiene: "DAILY LIVING",
         environment: "MY ROOM",
         questions: "QUESTIONS<br>FOR THE DOCTOR",
         careTeam: "CARE TEAM",
@@ -182,7 +182,7 @@ const HOME_TRANSLATIONS = {
         pain: "ICH HABE SCHMERZEN",
         position: "POSITION",
         care: "ICH BRAUCHE PFLEGE",
-        hygiene: "TOILETTE /<br>HYGIENE",
+        hygiene: "ALLTAG",
         environment: "MEIN ZIMMER",
         questions: "FRAGEN AN<br>DEN ARZT",
         careTeam: "BEHANDLUNGSTEAM",
@@ -204,7 +204,7 @@ const HOME_TRANSLATIONS = {
         pain: "HO DOLORE",
         position: "POSIZIONE",
         care: "HO BISOGNO DI CURE",
-        hygiene: "TOILETTE /<br>IGIENE",
+        hygiene: "VITA QUOTIDIANA",
         environment: "LA MIA STANZA",
         questions: "DOMANDE<br>AL MEDICO",
         careTeam: "TEAM CURANTE",
@@ -226,7 +226,7 @@ const HOME_TRANSLATIONS = {
         pain: "TENGO DOLOR",
         position: "POSICIÓN",
         care: "NECESITO CUIDADOS",
-        hygiene: "ASEO /<br>HIGIENE",
+        hygiene: "VIDA DIARIA",
         environment: "MI HABITACIÓN",
         questions: "PREGUNTAS<br>AL MÉDICO",
         careTeam: "EQUIPO ASISTENCIAL",
@@ -248,7 +248,7 @@ const HOME_TRANSLATIONS = {
         pain: "TENHO DOR",
         position: "POSIÇÃO",
         care: "PRECISO DE CUIDADOS",
-        hygiene: "HIGIENE /<br>CASA DE BANHO",
+        hygiene: "VIDA QUOTIDIANA",
         environment: "O MEU QUARTO",
         questions: "PERGUNTAS<br>AO MÉDICO",
         careTeam: "EQUIPA DE CUIDADOS",
@@ -3323,51 +3323,31 @@ const HYGIENE_TRANSLATIONS = {
 
     fr: {
 
-        title: "Toilettes / Hygiène",
+        title: "Vie quotidienne",
+
+        change: {
+            label: "BESOIN<br>D'ÊTRE CHANGÉ",
+            speech: "Besoin d’être changé"
+        },
 
         urinate: {
-            label: "J'AI BESOIN<br>D'URINER",
-            speech: "J’ai besoin d’uriner"
+            label: "BESOIN<br>D'URINER",
+            speech: "Besoin d’uriner"
         },
 
         stool: {
-            label: "J'AI BESOIN<br>D'ALLER À LA SELLE",
-            speech: "J’ai besoin d’aller à la selle"
+            label: "BESOIN D'ALLER<br>À LA SELLE",
+            speech: "Besoin d’aller à la selle"
         },
 
-        change: {
-            label: "J'AI BESOIN<br>D'ÊTRE CHANGÉ",
-            speech: "J’ai besoin d’être changé"
+        hungry: {
+            label: "J'AI FAIM",
+            speech: "J’ai faim"
         },
 
-        wet: {
-            label: "JE SUIS<br>MOUILLÉ",
-            speech: "Je suis mouillé"
-        },
-
-        clean: {
-            label: "J'AI BESOIN<br>D'ÊTRE NETTOYÉ",
-            speech: "J’ai besoin d’être nettoyé"
-        },
-
-        wash: {
-            label: "JE VEUX<br>ME LAVER",
-            speech: "Je voudrais me laver"
-        },
-
-        face: {
-            label: "LAVEZ-MOI<br>LE VISAGE",
-            speech: "Lavez-moi le visage, s’il vous plaît"
-        },
-
-        teeth: {
-            label: "BROSSER<br>MES DENTS",
-            speech: "Je voudrais me brosser les dents"
-        },
-
-        shave: {
-            label: "ME RASER",
-            speech: "Je voudrais me raser"
+        thirsty: {
+            label: "J'AI SOIF",
+            speech: "J’ai soif"
         },
 
         shower: {
@@ -3375,65 +3355,91 @@ const HYGIENE_TRANSLATIONS = {
             speech: "Je voudrais prendre une douche"
         },
 
-        itch: {
-            label: "ÇA ME<br>GRATTE",
-            speech: "Ça me gratte"
+        teeth: {
+            label: "BROSSER<br>MES DENTS",
+            speech: "Je voudrais me brosser les dents"
         },
 
-        scratch: {
-            label: "GRATTEZ-MOI",
-            speech: "J’ai besoin qu’on me gratte"
+        face: {
+            label: "ME LAVER<br>LE VISAGE",
+            speech: "Je voudrais me laver le visage"
+        },
+
+        shave: {
+            label: "ME RASER",
+            speech: "Je voudrais me raser"
+        },
+
+        comb: {
+            label: "ME COIFFER",
+            speech: "Je voudrais me coiffer"
+        },
+
+        glasses: {
+            label: "LUNETTES",
+            speech: "Je voudrais mes lunettes"
+        },
+
+        hearingAid: {
+            label: "APPAREIL<br>AUDITIF",
+            speech: "Je voudrais mon appareil auditif"
+        },
+
+        dentures: {
+            label: "DENTIER",
+            speech: "Je voudrais mon dentier"
+        },
+
+        tshirt: {
+            label: "T-SHIRT",
+            speech: "Je voudrais mon t-shirt"
+        },
+
+        pants: {
+            label: "PANTALON",
+            speech: "Je voudrais mon pantalon"
+        },
+
+        sweater: {
+            label: "PULL",
+            speech: "Je voudrais mon pull"
+        },
+
+        shoes: {
+            label: "CHAUSSURES",
+            speech: "Je voudrais mes chaussures"
         }
+
     },
 
 
     en: {
 
-        title: "Toilet / Hygiene",
+        title: "Daily living",
+
+        change: {
+            label: "NEED TO<br>BE CHANGED",
+            speech: "I need to be changed"
+        },
 
         urinate: {
-            label: "I NEED<br>TO URINATE",
+            label: "NEED TO<br>URINATE",
             speech: "I need to urinate"
         },
 
         stool: {
-            label: "I NEED A<br>BOWEL MOVEMENT",
+            label: "NEED A<br>BOWEL MOVEMENT",
             speech: "I need to have a bowel movement"
         },
 
-        change: {
-            label: "I NEED<br>TO BE CHANGED",
-            speech: "I need to be changed"
+        hungry: {
+            label: "I'M HUNGRY",
+            speech: "I'm hungry"
         },
 
-        wet: {
-            label: "I'M<br>WET",
-            speech: "I'm wet"
-        },
-
-        clean: {
-            label: "I NEED<br>TO BE CLEANED",
-            speech: "I need to be cleaned"
-        },
-
-        wash: {
-            label: "I WANT<br>TO WASH",
-            speech: "I would like to wash"
-        },
-
-        face: {
-            label: "WASH<br>MY FACE",
-            speech: "Please wash my face"
-        },
-
-        teeth: {
-            label: "BRUSH<br>MY TEETH",
-            speech: "I would like to brush my teeth"
-        },
-
-        shave: {
-            label: "SHAVE",
-            speech: "I would like to shave"
+        thirsty: {
+            label: "I'M THIRSTY",
+            speech: "I'm thirsty"
         },
 
         shower: {
@@ -3441,65 +3447,91 @@ const HYGIENE_TRANSLATIONS = {
             speech: "I would like to take a shower"
         },
 
-        itch: {
-            label: "I'M<br>ITCHY",
-            speech: "I'm itchy"
+        teeth: {
+            label: "BRUSH<br>MY TEETH",
+            speech: "I would like to brush my teeth"
         },
 
-        scratch: {
-            label: "SCRATCH ME",
-            speech: "Please scratch me"
+        face: {
+            label: "WASH<br>MY FACE",
+            speech: "I would like to wash my face"
+        },
+
+        shave: {
+            label: "SHAVE",
+            speech: "I would like to shave"
+        },
+
+        comb: {
+            label: "COMB<br>MY HAIR",
+            speech: "I would like to comb my hair"
+        },
+
+        glasses: {
+            label: "GLASSES",
+            speech: "I would like my glasses"
+        },
+
+        hearingAid: {
+            label: "HEARING<br>AID",
+            speech: "I would like my hearing aid"
+        },
+
+        dentures: {
+            label: "DENTURES",
+            speech: "I would like my dentures"
+        },
+
+        tshirt: {
+            label: "T-SHIRT",
+            speech: "I would like my T-shirt"
+        },
+
+        pants: {
+            label: "PANTS",
+            speech: "I would like my pants"
+        },
+
+        sweater: {
+            label: "SWEATER",
+            speech: "I would like my sweater"
+        },
+
+        shoes: {
+            label: "SHOES",
+            speech: "I would like my shoes"
         }
+
     },
 
 
     de: {
 
-        title: "Toilette / Hygiene",
+        title: "Alltag",
+
+        change: {
+            label: "MUSS<br>GEWECHSELT WERDEN",
+            speech: "Ich muss gewechselt werden"
+        },
 
         urinate: {
-            label: "ICH MUSS<br>WASSER LASSEN",
+            label: "MUSS<br>WASSER LASSEN",
             speech: "Ich muss Wasser lassen"
         },
 
         stool: {
-            label: "ICH MUSS<br>AUF DIE TOILETTE",
+            label: "MUSS ZUR<br>TOILETTE",
             speech: "Ich muss Stuhlgang haben"
         },
 
-        change: {
-            label: "BITTE<br>WECHSELN",
-            speech: "Ich muss gewechselt werden"
+        hungry: {
+            label: "ICH HABE HUNGER",
+            speech: "Ich habe Hunger"
         },
 
-        wet: {
-            label: "ICH BIN<br>NASS",
-            speech: "Ich bin nass"
-        },
-
-        clean: {
-            label: "BITTE<br>SAUBER MACHEN",
-            speech: "Ich muss sauber gemacht werden"
-        },
-
-        wash: {
-            label: "ICH MÖCHTE<br>MICH WASCHEN",
-            speech: "Ich möchte mich waschen"
-        },
-
-        face: {
-            label: "GESICHT<br>WASCHEN",
-            speech: "Bitte waschen Sie mein Gesicht"
-        },
-
-        teeth: {
-            label: "ZÄHNE<br>PUTZEN",
-            speech: "Ich möchte meine Zähne putzen"
-        },
-
-        shave: {
-            label: "RASIEREN",
-            speech: "Ich möchte mich rasieren"
+        thirsty: {
+            label: "ICH HABE DURST",
+            speech: "Ich habe Durst"
         },
 
         shower: {
@@ -3507,65 +3539,91 @@ const HYGIENE_TRANSLATIONS = {
             speech: "Ich möchte duschen"
         },
 
-        itch: {
-            label: "ES JUCKT",
-            speech: "Es juckt"
+        teeth: {
+            label: "ZÄHNE<br>PUTZEN",
+            speech: "Ich möchte meine Zähne putzen"
         },
 
-        scratch: {
-            label: "BITTE<br>KRATZEN",
-            speech: "Bitte kratzen Sie mich"
+        face: {
+            label: "GESICHT<br>WASCHEN",
+            speech: "Ich möchte mein Gesicht waschen"
+        },
+
+        shave: {
+            label: "RASIEREN",
+            speech: "Ich möchte mich rasieren"
+        },
+
+        comb: {
+            label: "HAARE<br>KÄMMEN",
+            speech: "Ich möchte meine Haare kämmen"
+        },
+
+        glasses: {
+            label: "BRILLE",
+            speech: "Ich möchte meine Brille"
+        },
+
+        hearingAid: {
+            label: "HÖRGERÄT",
+            speech: "Ich möchte mein Hörgerät"
+        },
+
+        dentures: {
+            label: "ZAHNPROTHESE",
+            speech: "Ich möchte meine Zahnprothese"
+        },
+
+        tshirt: {
+            label: "T-SHIRT",
+            speech: "Ich möchte mein T-Shirt"
+        },
+
+        pants: {
+            label: "HOSE",
+            speech: "Ich möchte meine Hose"
+        },
+
+        sweater: {
+            label: "PULLOVER",
+            speech: "Ich möchte meinen Pullover"
+        },
+
+        shoes: {
+            label: "SCHUHE",
+            speech: "Ich möchte meine Schuhe"
         }
+
     },
 
 
     it: {
 
-        title: "Toilette / Igiene",
-
-        urinate: {
-            label: "DEVO<br>URINARE",
-            speech: "Ho bisogno di urinare"
-        },
-
-        stool: {
-            label: "DEVO ANDARE<br>DI CORPO",
-            speech: "Ho bisogno di andare di corpo"
-        },
+        title: "Vita quotidiana",
 
         change: {
             label: "HO BISOGNO<br>DI ESSERE CAMBIATO",
             speech: "Ho bisogno di essere cambiato"
         },
 
-        wet: {
-            label: "SONO<br>BAGNATO",
-            speech: "Sono bagnato"
+        urinate: {
+            label: "HO BISOGNO<br>DI URINARE",
+            speech: "Ho bisogno di urinare"
         },
 
-        clean: {
-            label: "HO BISOGNO<br>DI ESSERE PULITO",
-            speech: "Ho bisogno di essere pulito"
+        stool: {
+            label: "HO BISOGNO<br>DI ANDARE DI CORPO",
+            speech: "Ho bisogno di andare di corpo"
         },
 
-        wash: {
-            label: "VOGLIO<br>LAVARMI",
-            speech: "Vorrei lavarmi"
+        hungry: {
+            label: "HO FAME",
+            speech: "Ho fame"
         },
 
-        face: {
-            label: "LAVATEMI<br>IL VISO",
-            speech: "Lavatemi il viso, per favore"
-        },
-
-        teeth: {
-            label: "LAVARMI<br>I DENTI",
-            speech: "Vorrei lavarmi i denti"
-        },
-
-        shave: {
-            label: "FARMI<br>LA BARBA",
-            speech: "Vorrei farmi la barba"
+        thirsty: {
+            label: "HO SETE",
+            speech: "Ho sete"
         },
 
         shower: {
@@ -3573,21 +3631,71 @@ const HYGIENE_TRANSLATIONS = {
             speech: "Vorrei fare una doccia"
         },
 
-        itch: {
-            label: "MI<br>PRUDE",
-            speech: "Mi prude"
+        teeth: {
+            label: "LAVARMI<br>I DENTI",
+            speech: "Vorrei lavarmi i denti"
         },
 
-        scratch: {
-            label: "GRATTATEMI",
-            speech: "Ho bisogno che mi grattiate"
+        face: {
+            label: "LAVARMI<br>IL VISO",
+            speech: "Vorrei lavarmi il viso"
+        },
+
+        shave: {
+            label: "FARMI<br>LA BARBA",
+            speech: "Vorrei farmi la barba"
+        },
+
+        comb: {
+            label: "PETTINARMI",
+            speech: "Vorrei pettinarmi"
+        },
+
+        glasses: {
+            label: "OCCHIALI",
+            speech: "Vorrei i miei occhiali"
+        },
+
+        hearingAid: {
+            label: "APPARECCHIO<br>ACUSTICO",
+            speech: "Vorrei il mio apparecchio acustico"
+        },
+
+        dentures: {
+            label: "DENTIERA",
+            speech: "Vorrei la mia dentiera"
+        },
+
+        tshirt: {
+            label: "T-SHIRT",
+            speech: "Vorrei la mia maglietta"
+        },
+
+        pants: {
+            label: "PANTALONI",
+            speech: "Vorrei i miei pantaloni"
+        },
+
+        sweater: {
+            label: "MAGLIONE",
+            speech: "Vorrei il mio maglione"
+        },
+
+        shoes: {
+            label: "SCARPE",
+            speech: "Vorrei le mie scarpe"
         }
+
     },
 
 
     es: {
 
-        title: "Aseo / Higiene",
+        title: "Vida diaria",
+
+        change: {
+            label: "NECESITO<br>QUE ME CAMBIEN"
+        },
 
         urinate: {
             label: "NECESITO<br>ORINAR"
@@ -3597,51 +3705,72 @@ const HYGIENE_TRANSLATIONS = {
             label: "NECESITO<br>DEFECAR"
         },
 
-        change: {
-            label: "NECESITO<br>QUE ME CAMBIEN"
+        hungry: {
+            label: "TENGO HAMBRE"
         },
 
-        wet: {
-            label: "ESTOY<br>MOJADO/A"
-        },
-
-        clean: {
-            label: "NECESITO<br>QUE ME LIMPIEN"
-        },
-
-        wash: {
-            label: "QUIERO<br>LAVARME"
-        },
-
-        face: {
-            label: "LÁVEME<br>LA CARA"
-        },
-
-        teeth: {
-            label: "CEPILLARME<br>LOS DIENTES"
-        },
-
-        shave: {
-            label: "AFEITARME"
+        thirsty: {
+            label: "TENGO SED"
         },
 
         shower: {
             label: "DARME UNA<br>DUCHA"
         },
 
-        itch: {
-            label: "ME<br>PICA"
+        teeth: {
+            label: "CEPILLARME<br>LOS DIENTES"
         },
 
-        scratch: {
-            label: "RÁSQUEME"
+        face: {
+            label: "LAVARME<br>LA CARA"
+        },
+
+        shave: {
+            label: "AFEITARME"
+        },
+
+        comb: {
+            label: "PEINARME"
+        },
+
+        glasses: {
+            label: "GAFAS"
+        },
+
+        hearingAid: {
+            label: "AUDÍFONO"
+        },
+
+        dentures: {
+            label: "DENTADURA"
+        },
+
+        tshirt: {
+            label: "CAMISETA"
+        },
+
+        pants: {
+            label: "PANTALÓN"
+        },
+
+        sweater: {
+            label: "JERSEY"
+        },
+
+        shoes: {
+            label: "ZAPATOS"
         }
+
     },
 
 
     pt: {
 
-        title: "Casa de banho / Higiene",
+        title: "Vida quotidiana",
+
+        change: {
+            label: "PRECISO<br>QUE ME MUDEM"
+        },
 
         urinate: {
             label: "PRECISO<br>DE URINAR"
@@ -3651,45 +3780,62 @@ const HYGIENE_TRANSLATIONS = {
             label: "PRECISO<br>DE EVACUAR"
         },
 
-        change: {
-            label: "PRECISO<br>QUE ME MUDEM"
+        hungry: {
+            label: "TENHO FOME"
         },
 
-        wet: {
-            label: "ESTOU<br>MOLHADO/A"
-        },
-
-        clean: {
-            label: "PRECISO<br>QUE ME LIMPEM"
-        },
-
-        wash: {
-            label: "QUERO<br>LAVAR-ME"
-        },
-
-        face: {
-            label: "LAVEM-ME<br>O ROSTO"
-        },
-
-        teeth: {
-            label: "LAVAR<br>OS DENTES"
-        },
-
-        shave: {
-            label: "FAZER<br>A BARBA"
+        thirsty: {
+            label: "TENHO SEDE"
         },
 
         shower: {
             label: "TOMAR<br>BANHO"
         },
 
-        itch: {
-            label: "TENHO<br>COMICHÃO"
+        teeth: {
+            label: "LAVAR<br>OS DENTES"
         },
 
-        scratch: {
-            label: "COCEM-ME"
+        face: {
+            label: "LAVAR<br>O ROSTO"
+        },
+
+        shave: {
+            label: "FAZER<br>A BARBA"
+        },
+
+        comb: {
+            label: "PENTEAR-ME"
+        },
+
+        glasses: {
+            label: "ÓCULOS"
+        },
+
+        hearingAid: {
+            label: "APARELHO<br>AUDITIVO"
+        },
+
+        dentures: {
+            label: "DENTADURA"
+        },
+
+        tshirt: {
+            label: "T-SHIRT"
+        },
+
+        pants: {
+            label: "CALÇAS"
+        },
+
+        sweater: {
+            label: "CAMISOLA"
+        },
+
+        shoes: {
+            label: "SAPATOS"
         }
+
     }
 
 };
@@ -7595,41 +7741,56 @@ function updateHygieneLanguage() {
 
     const elements = {
 
+        hygieneChangeButton:
+            translation.change.label,
+
         hygieneUrinateButton:
             translation.urinate.label,
 
         hygieneStoolButton:
             translation.stool.label,
 
-        hygieneChangeButton:
-            translation.change.label,
+        hygieneHungryButton:
+            translation.hungry.label,
 
-        hygieneWetButton:
-            translation.wet.label,
-
-        hygieneCleanButton:
-            translation.clean.label,
-
-        hygieneWashButton:
-            translation.wash.label,
-
-        hygieneFaceButton:
-            translation.face.label,
-
-        hygieneTeethButton:
-            translation.teeth.label,
-
-        hygieneShaveButton:
-            translation.shave.label,
+        hygieneThirstyButton:
+            translation.thirsty.label,
 
         hygieneShowerButton:
             translation.shower.label,
 
-        hygieneItchButton:
-            translation.itch.label,
+        hygieneTeethButton:
+            translation.teeth.label,
 
-        hygieneScratchButton:
-            translation.scratch.label
+        hygieneFaceButton:
+            translation.face.label,
+
+        hygieneShaveButton:
+            translation.shave.label,
+
+        hygieneCombButton:
+            translation.comb.label,
+
+        hygieneGlassesButton:
+            translation.glasses.label,
+
+        hygieneHearingAidButton:
+            translation.hearingAid.label,
+
+        hygieneDenturesButton:
+            translation.dentures.label,
+
+        hygieneTshirtButton:
+            translation.tshirt.label,
+
+        hygienePantsButton:
+            translation.pants.label,
+
+        hygieneSweaterButton:
+            translation.sweater.label,
+
+        hygieneShoesButton:
+            translation.shoes.label
     };
 
     Object.entries(elements).forEach(
@@ -8173,9 +8334,6 @@ function updateRespirationLanguage() {
         respirationTracheostomyPainButton:
             translation.tracheostomyPain.label,
 
-        respirationDryThroatButton:
-            translation.dryThroat.label,
-
         respirationDryMouthButton:
             translation.dryMouth.label,
 
@@ -8183,10 +8341,8 @@ function updateRespirationLanguage() {
             translation.better.label,
 
         respirationNotBetterButton:
-            translation.notBetter.label,
+            translation.notBetter.label
 
-        respirationStayButton:
-            translation.stay.label
     };
 
 

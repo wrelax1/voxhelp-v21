@@ -278,14 +278,6 @@
         </button>
 
         <button
-            onclick="speakRespirationPhrase('dryThroat')"
-        >
-            <span id="respirationDryThroatButton">
-                GORGE SÈCHE
-            </span>
-        </button>
-
-        <button
             onclick="speakRespirationPhrase('dryMouth')"
         >
             <span id="respirationDryMouthButton">
@@ -307,15 +299,6 @@
             <span id="respirationNotBetterButton">
                 ÇA NE VA<br>
                 PAS MIEUX
-            </span>
-        </button>
-
-        <button
-            onclick="speakRespirationPhrase('stay')"
-        >
-            <span id="respirationStayButton">
-                RESTEZ<br>
-                AVEC MOI
             </span>
         </button>
 
@@ -847,70 +830,41 @@
     </button>
 
     <h1 id="hygieneTitle">
-        Toilettes / Hygiène
+        Vie quotidienne
     </h1>
 
     <div class="phrase-buttons">
 
+        <button onclick="speakHygienePhrase('change')">
+            <span id="hygieneChangeButton">
+                BESOIN<br>
+                D'ÊTRE CHANGÉ
+            </span>
+        </button>
+
         <button onclick="speakHygienePhrase('urinate')">
             <span id="hygieneUrinateButton">
-                J'AI BESOIN<br>
+                BESOIN<br>
                 D'URINER
             </span>
         </button>
 
         <button onclick="speakHygienePhrase('stool')">
             <span id="hygieneStoolButton">
-                J'AI BESOIN<br>
-                D'ALLER À LA SELLE
+                BESOIN D'ALLER<br>
+                À LA SELLE
             </span>
         </button>
 
-        <button onclick="speakHygienePhrase('change')">
-            <span id="hygieneChangeButton">
-                J'AI BESOIN<br>
-                D'ÊTRE CHANGÉ
+        <button onclick="speakHygienePhrase('hungry')">
+            <span id="hygieneHungryButton">
+                J'AI FAIM
             </span>
         </button>
 
-        <button onclick="speakHygienePhrase('wet')">
-            <span id="hygieneWetButton">
-                JE SUIS<br>
-                MOUILLÉ
-            </span>
-        </button>
-
-        <button onclick="speakHygienePhrase('clean')">
-            <span id="hygieneCleanButton">
-                J'AI BESOIN<br>
-                D'ÊTRE NETTOYÉ
-            </span>
-        </button>
-
-        <button onclick="speakHygienePhrase('wash')">
-            <span id="hygieneWashButton">
-                JE VEUX<br>
-                ME LAVER
-            </span>
-        </button>
-
-        <button onclick="speakHygienePhrase('face')">
-            <span id="hygieneFaceButton">
-                LAVEZ-MOI<br>
-                LE VISAGE
-            </span>
-        </button>
-
-        <button onclick="speakHygienePhrase('teeth')">
-            <span id="hygieneTeethButton">
-                BROSSER<br>
-                MES DENTS
-            </span>
-        </button>
-
-        <button onclick="speakHygienePhrase('shave')">
-            <span id="hygieneShaveButton">
-                ME RASER
+        <button onclick="speakHygienePhrase('thirsty')">
+            <span id="hygieneThirstyButton">
+                J'AI SOIF
             </span>
         </button>
 
@@ -921,16 +875,72 @@
             </span>
         </button>
 
-        <button onclick="speakHygienePhrase('itch')">
-            <span id="hygieneItchButton">
-                ÇA ME<br>
-                GRATTE
+        <button onclick="speakHygienePhrase('teeth')">
+            <span id="hygieneTeethButton">
+                BROSSER<br>
+                MES DENTS
             </span>
         </button>
 
-        <button onclick="speakHygienePhrase('scratch')">
-            <span id="hygieneScratchButton">
-                GRATTEZ-MOI
+        <button onclick="speakHygienePhrase('face')">
+            <span id="hygieneFaceButton">
+                ME LAVER<br>
+                LE VISAGE
+            </span>
+        </button>
+
+        <button onclick="speakHygienePhrase('shave')">
+            <span id="hygieneShaveButton">
+                ME RASER
+            </span>
+        </button>
+
+        <button onclick="speakHygienePhrase('comb')">
+            <span id="hygieneCombButton">
+                ME COIFFER
+            </span>
+        </button>
+
+        <button onclick="speakHygienePhrase('glasses')">
+            <span id="hygieneGlassesButton">
+                LUNETTES
+            </span>
+        </button>
+
+        <button onclick="speakHygienePhrase('hearingAid')">
+            <span id="hygieneHearingAidButton">
+                APPAREIL<br>
+                AUDITIF
+            </span>
+        </button>
+
+        <button onclick="speakHygienePhrase('dentures')">
+            <span id="hygieneDenturesButton">
+                DENTIER
+            </span>
+        </button>
+
+        <button onclick="speakHygienePhrase('tshirt')">
+            <span id="hygieneTshirtButton">
+                T-SHIRT
+            </span>
+        </button>
+
+        <button onclick="speakHygienePhrase('pants')">
+            <span id="hygienePantsButton">
+                PANTALON
+            </span>
+        </button>
+
+        <button onclick="speakHygienePhrase('sweater')">
+            <span id="hygieneSweaterButton">
+                PULL
+            </span>
+        </button>
+
+        <button onclick="speakHygienePhrase('shoes')">
+            <span id="hygieneShoesButton">
+                CHAUSSURES
             </span>
         </button>
 
@@ -1547,77 +1557,77 @@
         Équipe soignante
     </h1>
 
-<div class="phrase-buttons">
+    <div class="phrase-buttons">
 
-    <button onclick="speakCareTeamPhrase('nurse')">
-        <span id="careTeamNurseButton">
-            INFIRMIÈRE
-        </span>
-    </button>
+        <button onclick="speakCareTeamPhrase('nurse')">
+            <span id="careTeamNurseButton">
+                INFIRMIÈRE
+            </span>
+        </button>
 
-    <button onclick="speakCareTeamPhrase('doctor')">
-        <span id="careTeamDoctorButton">
-            MÉDECIN
-        </span>
-    </button>
+        <button onclick="speakCareTeamPhrase('doctor')">
+            <span id="careTeamDoctorButton">
+                MÉDECIN
+            </span>
+        </button>
 
-    <button onclick="speakCareTeamPhrase('physio')">
-        <span id="careTeamPhysioButton">
-            PHYSIO
-        </span>
-    </button>
+        <button onclick="speakCareTeamPhrase('physio')">
+            <span id="careTeamPhysioButton">
+                PHYSIO
+            </span>
+        </button>
 
-    <button onclick="speakCareTeamPhrase('ergo')">
-        <span id="careTeamErgoButton">
-            ERGO
-        </span>
-    </button>
+        <button onclick="speakCareTeamPhrase('ergo')">
+            <span id="careTeamErgoButton">
+                ERGO
+            </span>
+        </button>
 
-    <button onclick="speakCareTeamPhrase('logo')">
-        <span id="careTeamLogoButton">
-            LOGO
-        </span>
-    </button>
+        <button onclick="speakCareTeamPhrase('logo')">
+            <span id="careTeamLogoButton">
+                LOGO
+            </span>
+        </button>
 
-    <button onclick="speakCareTeamPhrase('assistant')">
-        <span id="careTeamAssistantButton">
-            AIDE-SOIGNANTE
-        </span>
-    </button>
+        <button onclick="speakCareTeamPhrase('assistant')">
+            <span id="careTeamAssistantButton">
+                AIDE-SOIGNANTE
+            </span>
+        </button>
 
-    <button onclick="speakCareTeamPhrase('dietitian')">
-        <span id="careTeamDietitianButton">
-            DIÉTÉTICIENNE
-        </span>
-    </button>
+        <button onclick="speakCareTeamPhrase('dietitian')">
+            <span id="careTeamDietitianButton">
+                DIÉTÉTICIENNE
+            </span>
+        </button>
 
-    <button onclick="speakCareTeamPhrase('neuropsychologist')">
-        <span id="careTeamNeuropsychologistButton">
-            NEUROPSY
-        </span>
-    </button>
+        <button onclick="speakCareTeamPhrase('neuropsychologist')">
+            <span id="careTeamNeuropsychologistButton">
+                NEUROPSY
+            </span>
+        </button>
 
-    <button onclick="speakCareTeamPhrase('psychologist')">
-        <span id="careTeamPsychologistButton">
-            PSY
-        </span>
-    </button>
+        <button onclick="speakCareTeamPhrase('psychologist')">
+            <span id="careTeamPsychologistButton">
+                PSY
+            </span>
+        </button>
 
-    <button onclick="speakCareTeamPhrase('socialWorker')">
-        <span id="careTeamSocialWorkerButton">
-            ASSISTANTE<br>
-            SOCIALE
-        </span>
-    </button>
+        <button onclick="speakCareTeamPhrase('socialWorker')">
+            <span id="careTeamSocialWorkerButton">
+                ASSISTANTE<br>
+                SOCIALE
+            </span>
+        </button>
 
-    <button onclick="speakCareTeamPhrase('hospitality')">
-        <span id="careTeamHospitalityButton">
-            AGENT<br>
-            HÔTELIER
-        </span>
-    </button>
+        <button onclick="speakCareTeamPhrase('hospitality')">
+            <span id="careTeamHospitalityButton">
+                AGENT<br>
+                HÔTELIER
+            </span>
+        </button>
 
-</div>
+    </div>
 
 </section>
 
@@ -1672,7 +1682,6 @@
     </div>
 
 </section>
-
 
 <section
     id="talkScreen"
