@@ -1,6 +1,6 @@
 {
-	"name": "VoxHelp - Communication",
-	"short_name": "VoxHelp",
+	"name": "VoxHelp 2.1",
+	"short_name": "VoxHelp 2.1",
 	"description": "Application de communication vocale",
     "lang": "fr",
     "start_url": "./",
