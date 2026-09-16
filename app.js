@@ -3425,6 +3425,15 @@ const PLANNING_TRANSLATIONS = {
         days: "JOURS DE<br>LA SEMAINE",
         months: "MOIS",
         dayParts: "MOMENT DE<br>LA JOURNÉE",
+        date: "DATE",
+
+        dateDayTitle: "Quel jour ?",
+        dateMonthTitle: "Quel mois ?",
+        dateYearTitle: "Quelle année ?",
+
+        dateClear: "EFFACER",
+        dateValidate: "VALIDER",
+        dateSpeak: "🔊 DIRE",
 
         numbersTitle: "Chiffres",
         daysTitle: "Jours de la semaine",
@@ -3434,6 +3443,20 @@ const PLANNING_TRANSLATIONS = {
         clearNumber: "🗑️ TOUT EFFACER",
         speakNumber: "🔊 DIRE",
 		back: "← RETOUR",
+        today: {
+            label: "AUJOURD'HUI",
+            speech: "Aujourd’hui"
+        },
+
+        tomorrow: {
+            label: "DEMAIN",
+            speech: "Demain"
+        },
+
+        yesterday: {
+            label: "HIER",
+            speech: "Hier"
+        },		
 
         monday: {
             label: "LUNDI",
@@ -3561,6 +3584,15 @@ const PLANNING_TRANSLATIONS = {
         days: "DAYS OF<br>THE WEEK",
         months: "MONTHS",
         dayParts: "TIME OF<br>DAY",
+        date: "DATE",
+
+        dateDayTitle: "What day?",
+        dateMonthTitle: "What month?",
+        dateYearTitle: "What year?",
+
+        dateClear: "CLEAR",
+        dateValidate: "CONFIRM",
+        dateSpeak: "🔊 SAY",
 
         numbersTitle: "Numbers",
         daysTitle: "Days of the week",
@@ -3570,6 +3602,20 @@ const PLANNING_TRANSLATIONS = {
         clearNumber: "🗑️ CLEAR ALL",
         speakNumber: "🔊 SAY",
 		back: "← BACK",
+        today: {
+            label: "TODAY",
+            speech: "Today"
+        },
+
+        tomorrow: {
+            label: "TOMORROW",
+            speech: "Tomorrow"
+        },
+
+        yesterday: {
+            label: "YESTERDAY",
+            speech: "Yesterday"
+        },
 
         monday: {
             label: "MONDAY",
@@ -3697,6 +3743,15 @@ const PLANNING_TRANSLATIONS = {
         days: "WOCHEN-<br>TAGE",
         months: "MONATE",
         dayParts: "TAGES-<br>ZEIT",
+        date: "DATUM",
+
+        dateDayTitle: "Welcher Tag?",
+        dateMonthTitle: "Welcher Monat?",
+        dateYearTitle: "Welches Jahr?",
+
+        dateClear: "LÖSCHEN",
+        dateValidate: "BESTÄTIGEN",
+        dateSpeak: "🔊 SAGEN",
 
         numbersTitle: "Zahlen",
         daysTitle: "Wochentage",
@@ -3706,6 +3761,20 @@ const PLANNING_TRANSLATIONS = {
         clearNumber: "🗑️ ALLES LÖSCHEN",
         speakNumber: "🔊 SAGEN",
 		back: "← ZURÜCK",
+        today: {
+            label: "HEUTE",
+            speech: "Heute"
+        },
+
+        tomorrow: {
+            label: "MORGEN",
+            speech: "Morgen"
+        },
+
+        yesterday: {
+            label: "GESTERN",
+            speech: "Gestern"
+        },
 
         monday: {
             label: "MONTAG",
@@ -3833,6 +3902,15 @@ const PLANNING_TRANSLATIONS = {
         days: "GIORNI DELLA<br>SETTIMANA",
         months: "MESI",
         dayParts: "MOMENTO DELLA<br>GIORNATA",
+        date: "DATA",
+
+        dateDayTitle: "Quale giorno?",
+        dateMonthTitle: "Quale mese?",
+        dateYearTitle: "Quale anno?",
+
+        dateClear: "CANCELLA",
+        dateValidate: "CONFERMA",
+        dateSpeak: "🔊 DÌ",
 
         numbersTitle: "Numeri",
         daysTitle: "Giorni della settimana",
@@ -3842,6 +3920,20 @@ const PLANNING_TRANSLATIONS = {
         clearNumber: "🗑️ CANCELLA TUTTO",
         speakNumber: "🔊 DÌ",
 		back: "← INDIETRO",
+        today: {
+            label: "OGGI",
+            speech: "Oggi"
+        },
+
+        tomorrow: {
+            label: "DOMANI",
+            speech: "Domani"
+        },
+
+        yesterday: {
+            label: "IERI",
+            speech: "Ieri"
+        },
 
         monday: {
             label: "LUNEDÌ",
@@ -3969,6 +4061,15 @@ const PLANNING_TRANSLATIONS = {
         days: "DÍAS DE<br>LA SEMANA",
         months: "MESES",
         dayParts: "MOMENTO<br>DEL DÍA",
+        date: "FECHA",
+
+        dateDayTitle: "¿Qué día?",
+        dateMonthTitle: "¿Qué mes?",
+        dateYearTitle: "¿Qué año?",
+
+        dateClear: "BORRAR",
+        dateValidate: "VALIDAR",
+        dateSpeak: "🔊 DECIR",
 
         numbersTitle: "Números",
         daysTitle: "Días de la semana",
@@ -3978,6 +4079,17 @@ const PLANNING_TRANSLATIONS = {
         clearNumber: "🗑️ BORRAR TODO",
         speakNumber: "🔊 DECIR",
 		back: "← VOLVER",
+        today: {
+            label: "HOY"
+        },
+
+        tomorrow: {
+            label: "MAÑANA"
+        },
+
+        yesterday: {
+            label: "AYER"
+        },
 
         monday: {
             label: "LUNES"
@@ -4082,6 +4194,15 @@ const PLANNING_TRANSLATIONS = {
         days: "DIAS DA<br>SEMANA",
         months: "MESES",
         dayParts: "MOMENTO<br>DO DIA",
+        date: "DATA",
+
+        dateDayTitle: "Que dia?",
+        dateMonthTitle: "Que mês?",
+        dateYearTitle: "Que ano?",
+
+        dateClear: "APAGAR",
+        dateValidate: "VALIDAR",
+        dateSpeak: "🔊 DIZER",
 
         numbersTitle: "Números",
         daysTitle: "Dias da semana",
@@ -4091,6 +4212,17 @@ const PLANNING_TRANSLATIONS = {
         clearNumber: "🗑️ APAGAR TUDO",
         speakNumber: "🔊 DIZER",
 		back: "← VOLTAR",
+        today: {
+            label: "HOJE"
+        },
+
+        tomorrow: {
+            label: "AMANHÃ"
+        },
+
+        yesterday: {
+            label: "ONTEM"
+        },
 
         monday: {
             label: "SEGUNDA-FEIRA"
@@ -8000,10 +8132,7 @@ function appendPlanningDigit(digit) {
 function deletePlanningDigit() {
 
     planningNumber =
-        planningNumber.slice(
-            0,
-            -1
-        );
+        "";
 
     updatePlanningNumberDisplay();
 }
@@ -8026,6 +8155,370 @@ function speakPlanningNumber() {
 
     speak(
         planningNumber,
+        caregiverLanguage
+    );
+}
+
+let planningDateDay = "";
+let planningDateMonth = "";
+let planningDateYear = "";
+
+
+function openPlanningDate() {
+
+    planningDateDay = "";
+    planningDateMonth = "";
+    planningDateYear = "";
+
+    updatePlanningDateDisplays();
+
+    showScreen(
+        "planningDateDayScreen"
+    );
+}
+
+
+function getPlanningDateActivePart() {
+
+    const activeScreen =
+        document.querySelector(
+            ".screen.active"
+        );
+
+    if (!activeScreen) {
+        return "";
+    }
+
+    if (
+        activeScreen.id ===
+        "planningDateDayScreen"
+    ) {
+        return "day";
+    }
+
+    if (
+        activeScreen.id ===
+        "planningDateMonthScreen"
+    ) {
+        return "month";
+    }
+
+    if (
+        activeScreen.id ===
+        "planningDateYearScreen"
+    ) {
+        return "year";
+    }
+
+    return "";
+}
+
+
+function formatPlanningDatePart(
+    value,
+    length
+) {
+
+    return (
+        value +
+        "_".repeat(
+            Math.max(
+                0,
+                length - value.length
+            )
+        )
+    );
+}
+
+
+function getPlanningDateDisplay() {
+
+    return (
+        formatPlanningDatePart(
+            planningDateDay,
+            2
+        ) +
+        " . " +
+        formatPlanningDatePart(
+            planningDateMonth,
+            2
+        ) +
+        " . " +
+        formatPlanningDatePart(
+            planningDateYear,
+            4
+        )
+    );
+}
+
+
+function updatePlanningDateDisplays() {
+
+    const value =
+        getPlanningDateDisplay();
+
+    [
+        "planningDateDayDisplay",
+        "planningDateMonthDisplay",
+        "planningDateYearDisplay"
+    ].forEach(
+        function(id) {
+
+            const display =
+                document.getElementById(
+                    id
+                );
+
+            if (display) {
+                display.textContent =
+                    value;
+            }
+        }
+    );
+}
+
+
+function appendPlanningDateDigit(digit) {
+
+    const part =
+        getPlanningDateActivePart();
+
+    if (
+        part === "day" &&
+        planningDateDay.length < 2
+    ) {
+        planningDateDay +=
+            digit;
+    }
+
+    if (
+        part === "month" &&
+        planningDateMonth.length < 2
+    ) {
+        planningDateMonth +=
+            digit;
+    }
+
+    if (
+        part === "year" &&
+        planningDateYear.length < 4
+    ) {
+        planningDateYear +=
+            digit;
+    }
+
+    updatePlanningDateDisplays();
+}
+
+
+function clearPlanningDatePart() {
+
+    const part =
+        getPlanningDateActivePart();
+
+    if (part === "day") {
+        planningDateDay = "";
+    }
+
+    if (part === "month") {
+        planningDateMonth = "";
+    }
+
+    if (part === "year") {
+        planningDateYear = "";
+    }
+
+    updatePlanningDateDisplays();
+}
+
+
+function validatePlanningDateDay() {
+
+    const day =
+        Number(
+            planningDateDay
+        );
+
+    if (
+        !day ||
+        day < 1 ||
+        day > 31
+    ) {
+        planningDateDay = "";
+        updatePlanningDateDisplays();
+        return;
+    }
+
+    planningDateDay =
+        String(day).padStart(
+            2,
+            "0"
+        );
+
+    updatePlanningDateDisplays();
+
+    showScreen(
+        "planningDateMonthScreen"
+    );
+}
+
+
+function validatePlanningDateMonth() {
+
+    const month =
+        Number(
+            planningDateMonth
+        );
+
+    if (
+        !month ||
+        month < 1 ||
+        month > 12
+    ) {
+        planningDateMonth = "";
+        updatePlanningDateDisplays();
+        return;
+    }
+
+    planningDateMonth =
+        String(month).padStart(
+            2,
+            "0"
+        );
+
+    updatePlanningDateDisplays();
+
+    showScreen(
+        "planningDateYearScreen"
+    );
+}
+
+function speakPlanningDate() {
+
+    if (
+        planningDateDay.length !== 2 ||
+        planningDateMonth.length !== 2 ||
+        planningDateYear.length !== 4
+    ) {
+        return;
+    }
+
+    const day =
+        Number(
+            planningDateDay
+        );
+
+    const month =
+        Number(
+            planningDateMonth
+        );
+
+    const year =
+        Number(
+            planningDateYear
+        );
+
+    if (
+        day < 1 ||
+        month < 1 ||
+        month > 12 ||
+        year < 1000
+    ) {
+        return;
+    }
+
+    const leapYear =
+        (
+            year % 4 === 0 &&
+            year % 100 !== 0
+        ) ||
+        year % 400 === 0;
+
+    const daysInMonth = [
+        31,
+        leapYear ? 29 : 28,
+        31,
+        30,
+        31,
+        30,
+        31,
+        31,
+        30,
+        31,
+        30,
+        31
+    ];
+
+    if (
+        day >
+        daysInMonth[
+            month - 1
+        ]
+    ) {
+        return;
+    }
+
+    const monthKeys = [
+        "january",
+        "february",
+        "march",
+        "april",
+        "may",
+        "june",
+        "july",
+        "august",
+        "september",
+        "october",
+        "november",
+        "december"
+    ];
+
+    const translation =
+        PLANNING_TRANSLATIONS[
+            caregiverLanguage
+        ];
+
+    if (!translation) {
+        return;
+    }
+
+    const monthTranslation =
+        translation[
+            monthKeys[
+                month - 1
+            ]
+        ];
+
+    if (
+        !monthTranslation ||
+        !monthTranslation.speech
+    ) {
+        return;
+    }
+
+    const monthName =
+        monthTranslation.speech;
+
+    let spokenDate =
+        day +
+        " " +
+        monthName +
+        " " +
+        year;
+
+    if (
+        caregiverLanguage === "de"
+    ) {
+        spokenDate =
+            day +
+            ". " +
+            monthName +
+            " " +
+            year;
+    }
+
+    speak(
+        spokenDate,
         caregiverLanguage
     );
 }
@@ -8064,6 +8557,36 @@ function updatePlanningLanguage() {
 
         planningDayPartsButton:
             translation.dayParts,
+
+        planningDateButton:
+            translation.date,
+
+        planningDateDayTitle:
+            translation.dateDayTitle,
+
+        planningDateMonthTitle:
+            translation.dateMonthTitle,
+
+        planningDateYearTitle:
+            translation.dateYearTitle,
+
+        planningDateDayClearButton:
+            translation.dateClear,
+
+        planningDateDayValidateButton:
+            translation.dateValidate,
+
+        planningDateMonthClearButton:
+            translation.dateClear,
+
+        planningDateMonthValidateButton:
+            translation.dateValidate,
+
+        planningDateYearClearButton:
+            translation.dateClear,
+
+        planningDateYearSpeakButton:
+            translation.dateSpeak,
 
         planningMondayButton:
             translation.monday.label,
@@ -8153,7 +8676,25 @@ function updatePlanningLanguage() {
             translation.back,
 
         planningDayPartsBackButton:
-            translation.back
+            translation.back,
+
+        planningDateDayBackButton:
+            translation.back,
+
+        planningDateMonthBackButton:
+            translation.back,
+
+        planningDateYearBackButton:
+            translation.back,
+
+        planningTodayButton:
+            translation.today.label,
+
+        planningTomorrowButton:
+            translation.tomorrow.label,
+
+        planningYesterdayButton:
+            translation.yesterday.label
     };
 
     Object.entries(elements).forEach(
@@ -8281,6 +8822,30 @@ function speakPlanningDayPart(dayPartKey) {
 
     speak(
         dayPart.speech,
+        caregiverLanguage
+    );
+}
+
+function speakPlanningRelativeDay(dayKey) {
+
+    const translation =
+        PLANNING_TRANSLATIONS[
+            caregiverLanguage
+        ];
+
+    if (!translation) {
+        return;
+    }
+
+    const day =
+        translation[dayKey];
+
+    if (!day) {
+        return;
+    }
+
+    speak(
+        day.speech,
         caregiverLanguage
     );
 }

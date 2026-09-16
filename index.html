@@ -1368,10 +1368,6 @@
 </section>
 
 <!-- ======================================= -->
-<!-- FAMILLE / AMIS -->
-<!-- ======================================= -->
-
-<!-- ======================================= -->
 <!-- ÉQUIPE SOIGNANTE -->
 <!-- ======================================= -->
 
@@ -1541,7 +1537,13 @@
 
     <div class="phrase-buttons">
 
-        <button onclick="showScreen('planningNumbersScreen')">
+        <button onclick="openPlanningDate()">
+            <span id="planningDateButton">
+                DATE
+            </span>
+        </button>
+
+        <button onclick="clearPlanningNumber(); showScreen('planningNumbersScreen')">
             <span id="planningNumbersButton">
                 CHIFFRES
             </span>
@@ -1554,16 +1556,193 @@
             </span>
         </button>
 
+        <button onclick="showScreen('planningDayPartsScreen')">
+            <span id="planningDayPartsButton">
+                MOMENT DE<br>
+                LA JOURNÉE
+            </span>
+        </button>
+
         <button onclick="showScreen('planningMonthsScreen')">
             <span id="planningMonthsButton">
                 MOIS
             </span>
         </button>
 
-        <button onclick="showScreen('planningDayPartsScreen')">
-            <span id="planningDayPartsButton">
-                MOMENT DE<br>
-                LA JOURNÉE
+        <button onclick="speakPlanningRelativeDay('today')">
+            <span id="planningTodayButton">
+                AUJOURD'HUI
+            </span>
+        </button>
+
+        <button onclick="speakPlanningRelativeDay('tomorrow')">
+            <span id="planningTomorrowButton">
+                DEMAIN
+            </span>
+        </button>
+
+        <button onclick="speakPlanningRelativeDay('yesterday')">
+            <span id="planningYesterdayButton">
+                HIER
+            </span>
+        </button>
+
+    </div>
+
+</section>
+
+<section
+    id="planningDateDayScreen"
+    class="screen"
+>
+
+    <button
+        id="planningDateDayBackButton"
+        class="back-button"
+        onclick="showScreen('planningScreen')"
+    >
+        ← RETOUR
+    </button>
+
+    <h1 id="planningDateDayTitle">
+        Quel jour ?
+    </h1>
+
+    <h2 id="planningDateDayDisplay">
+        __ . __ . ____
+    </h2>
+
+    <div class="date-keypad">
+
+        <button onclick="appendPlanningDateDigit('1')">1</button>
+        <button onclick="appendPlanningDateDigit('2')">2</button>
+        <button onclick="appendPlanningDateDigit('3')">3</button>
+
+        <button onclick="appendPlanningDateDigit('4')">4</button>
+        <button onclick="appendPlanningDateDigit('5')">5</button>
+        <button onclick="appendPlanningDateDigit('6')">6</button>
+
+        <button onclick="appendPlanningDateDigit('7')">7</button>
+        <button onclick="appendPlanningDateDigit('8')">8</button>
+        <button onclick="appendPlanningDateDigit('9')">9</button>
+
+        <button onclick="appendPlanningDateDigit('0')">0</button>
+
+        <button onclick="clearPlanningDatePart()">
+            <span id="planningDateDayClearButton">
+                EFFACER
+            </span>
+        </button>
+
+        <button onclick="validatePlanningDateDay()">
+            <span id="planningDateDayValidateButton">
+                VALIDER
+            </span>
+        </button>
+
+    </div>
+
+</section>
+
+<section
+    id="planningDateMonthScreen"
+    class="screen"
+>
+
+    <button
+		id="planningDateMonthBackButton"
+        class="back-button"
+        onclick="showScreen('planningDateDayScreen')"
+    >
+        ← RETOUR
+    </button>
+
+    <h1 id="planningDateMonthTitle">
+        Quel mois ?
+    </h1>
+
+    <h2 id="planningDateMonthDisplay">
+        __ . __ . ____
+    </h2>
+
+    <div class="date-keypad">
+
+        <button onclick="appendPlanningDateDigit('1')">1</button>
+        <button onclick="appendPlanningDateDigit('2')">2</button>
+        <button onclick="appendPlanningDateDigit('3')">3</button>
+
+        <button onclick="appendPlanningDateDigit('4')">4</button>
+        <button onclick="appendPlanningDateDigit('5')">5</button>
+        <button onclick="appendPlanningDateDigit('6')">6</button>
+
+        <button onclick="appendPlanningDateDigit('7')">7</button>
+        <button onclick="appendPlanningDateDigit('8')">8</button>
+        <button onclick="appendPlanningDateDigit('9')">9</button>
+
+        <button onclick="appendPlanningDateDigit('0')">0</button>
+
+        <button onclick="clearPlanningDatePart()">
+            <span id="planningDateMonthClearButton">
+                EFFACER
+            </span>
+        </button>
+
+        <button onclick="validatePlanningDateMonth()">
+            <span id="planningDateMonthValidateButton">
+                VALIDER
+            </span>
+        </button>
+
+    </div>
+
+</section>
+
+<section
+    id="planningDateYearScreen"
+    class="screen"
+>
+
+    <button
+		id="planningDateYearBackButton"
+        class="back-button"
+        onclick="showScreen('planningDateMonthScreen')"
+    >
+        ← RETOUR
+    </button>
+
+    <h1 id="planningDateYearTitle">
+        Quelle année ?
+    </h1>
+
+    <h2 id="planningDateYearDisplay">
+        __ . __ . ____
+    </h2>
+
+    <div class="date-keypad">
+
+        <button onclick="appendPlanningDateDigit('1')">1</button>
+        <button onclick="appendPlanningDateDigit('2')">2</button>
+        <button onclick="appendPlanningDateDigit('3')">3</button>
+
+        <button onclick="appendPlanningDateDigit('4')">4</button>
+        <button onclick="appendPlanningDateDigit('5')">5</button>
+        <button onclick="appendPlanningDateDigit('6')">6</button>
+
+        <button onclick="appendPlanningDateDigit('7')">7</button>
+        <button onclick="appendPlanningDateDigit('8')">8</button>
+        <button onclick="appendPlanningDateDigit('9')">9</button>
+
+        <button onclick="appendPlanningDateDigit('0')">0</button>
+
+        <button onclick="clearPlanningDatePart()">
+            <span id="planningDateYearClearButton">
+                EFFACER
+            </span>
+        </button>
+
+        <button onclick="speakPlanningDate()">
+            <span id="planningDateYearSpeakButton">
+                🔊 DIRE
             </span>
         </button>
 
@@ -1594,7 +1773,7 @@
 
     <div
         id="planningNumbersButtons"
-        class="phrase-buttons"
+        class="planning-number-keypad"
     >
 
         <button onclick="appendPlanningDigit('1')">
@@ -1643,12 +1822,6 @@
             </span>
         </button>
 
-        <button onclick="clearPlanningNumber()">
-            <span id="planningClearNumberButton">
-                🗑️ TOUT EFFACER
-            </span>
-        </button>
-
         <button onclick="speakPlanningNumber()">
             <span id="planningSpeakNumberButton">
                 🔊 DIRE
@@ -1656,9 +1829,7 @@
         </button>
 
     </div>
-
 </section>
-
 
 <section
     id="planningDaysScreen"
@@ -1876,6 +2047,10 @@
     </div>
 
 </section>
+
+<!-- ======================================= -->
+<!-- FAMILLE / AMIS -->
+<!-- ======================================= -->
 
 <section
     id="talkScreen"
