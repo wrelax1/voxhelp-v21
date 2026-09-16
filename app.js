@@ -6821,9 +6821,6 @@ function updateTalkLanguage() {
         talkTellMeButton:
             translation.tellMe.label,
 
-        talkGettingBetterButton:
-            translation.gettingBetter.label,
-
         talkDoingWellButton:
             translation.doingWell.label,
 
@@ -6833,17 +6830,9 @@ function updateTalkLanguage() {
         talkDontKnowButton:
             translation.dontKnow.label,
 
-        talkAsYouWantButton:
-            translation.asYouWant.label,
-
-        talkMaybeButton:
-            translation.maybe.label,
-
         talkChangeSubjectButton:
-            translation.changeSubject.label,
+            translation.changeSubject.label
 
-        talkContinueButton:
-            translation.continue.label
     };
 
     Object.entries(elements).forEach(
