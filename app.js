@@ -141,6 +141,9 @@ const HOME_TRANSLATIONS = {
         hygiene: "VIE QUOTIDIENNE",
         environment: "ENVIRONNEMENT",
         questions: "QUESTIONS<br>MÉDECIN",
+		careTeam: "ÉQUIPE SOIGNANTE",
+        movement: "DÉPLACEMENTS",
+        planning: "PLANNING / TEMPS",
         understand: "COMPRENDRE",
         talk: "FAMILLE / AMIS",
         emotions: "ÉMOTIONS",
@@ -160,6 +163,9 @@ const HOME_TRANSLATIONS = {
         hygiene: "TOILET /<br>HYGIENE",
         environment: "MY ROOM",
         questions: "QUESTIONS<br>FOR THE DOCTOR",
+        careTeam: "CARE TEAM",
+        movement: "GETTING AROUND",
+        planning: "PLANNING / TIME",
         understand: "UNDERSTAND",
         talk: "FAMILY / FRIENDS",
         emotions: "EMOTIONS",
@@ -179,6 +185,9 @@ const HOME_TRANSLATIONS = {
         hygiene: "TOILETTE /<br>HYGIENE",
         environment: "MEIN ZIMMER",
         questions: "FRAGEN AN<br>DEN ARZT",
+        careTeam: "BEHANDLUNGSTEAM",
+        movement: "MOBILITÄT",
+        planning: "PLANUNG / ZEIT",
         understand: "VERSTEHEN",
         talk: "FAMILIE / FREUNDE",
         emotions: "GEFÜHLE",
@@ -198,6 +207,9 @@ const HOME_TRANSLATIONS = {
         hygiene: "TOILETTE /<br>IGIENE",
         environment: "LA MIA STANZA",
         questions: "DOMANDE<br>AL MEDICO",
+        careTeam: "TEAM CURANTE",
+        movement: "SPOSTAMENTI",
+        planning: "PIANIFICAZIONE / TEMPO",
         understand: "CAPIRE",
         talk: "FAMIGLIA / AMICI",
         emotions: "EMOZIONI",
@@ -217,6 +229,9 @@ const HOME_TRANSLATIONS = {
         hygiene: "ASEO /<br>HIGIENE",
         environment: "MI HABITACIÓN",
         questions: "PREGUNTAS<br>AL MÉDICO",
+        careTeam: "EQUIPO ASISTENCIAL",
+        movement: "DESPLAZAMIENTOS",
+        planning: "PLANIFICACIÓN / TIEMPO",
         understand: "COMPRENDER",
         talk: "FAMILIA / AMIGOS",
         emotions: "EMOCIONES",
@@ -236,6 +251,9 @@ const HOME_TRANSLATIONS = {
         hygiene: "HIGIENE /<br>CASA DE BANHO",
         environment: "O MEU QUARTO",
         questions: "PERGUNTAS<br>AO MÉDICO",
+        careTeam: "EQUIPA DE CUIDADOS",
+        movement: "DESLOCAÇÕES",
+        planning: "PLANEAMENTO / TEMPO",
         understand: "COMPREENDER",
         talk: "FAMÍLIA / AMIGOS",
         emotions: "EMOÇÕES",
@@ -2948,14 +2966,6 @@ const CARE_TRANSLATIONS = {
 
 };
 
-/* =========================================
-   TOILETTES / HYGIÈNE — TRADUCTIONS
-   ========================================= */
-
-/* =========================================
-   ÉQUIPE SOIGNANTE — TRADUCTIONS
-   ========================================= */
-
 const CARE_TEAM_TRANSLATIONS = {
 
     fr: {
@@ -2974,12 +2984,12 @@ const CARE_TEAM_TRANSLATIONS = {
 
         physio: {
             label: "PHYSIO",
-            speech: "Je voudrais voir le physio thérapeute"
+            speech: "Je voudrais voir le physiothérapeute"
         },
 
         ergo: {
             label: "ERGO",
-            speech: "Je voudrais voir l’ergo thérapeute"
+            speech: "Je voudrais voir l’ergothérapeute"
         },
 
         logo: {
@@ -3015,6 +3025,294 @@ const CARE_TEAM_TRANSLATIONS = {
         hospitality: {
             label: "AGENT<br>HÔTELIER",
             speech: "Je voudrais voir l’agent hôtelier"
+        }
+
+    },
+
+
+    en: {
+
+        title: "Care team",
+
+        nurse: {
+            label: "NURSE",
+            speech: "I would like to see a nurse"
+        },
+
+        doctor: {
+            label: "DOCTOR",
+            speech: "I would like to see a doctor"
+        },
+
+        physio: {
+            label: "PHYSIOTHERAPIST",
+            speech: "I would like to see the physiotherapist"
+        },
+
+        ergo: {
+            label: "OCCUPATIONAL<br>THERAPIST",
+            speech: "I would like to see the occupational therapist"
+        },
+
+        logo: {
+            label: "SPEECH<br>THERAPIST",
+            speech: "I would like to see the speech therapist"
+        },
+
+        assistant: {
+            label: "NURSING<br>ASSISTANT",
+            speech: "I would like to see a nursing assistant"
+        },
+
+        dietitian: {
+            label: "DIETITIAN",
+            speech: "I would like to see the dietitian"
+        },
+
+        neuropsychologist: {
+            label: "NEUROPSYCHOLOGIST",
+            speech: "I would like to see the neuropsychologist"
+        },
+
+        psychologist: {
+            label: "PSYCHOLOGIST",
+            speech: "I would like to see the psychologist"
+        },
+
+        socialWorker: {
+            label: "SOCIAL<br>WORKER",
+            speech: "I would like to see the social worker"
+        },
+
+        hospitality: {
+            label: "HOSPITALITY<br>ASSISTANT",
+            speech: "I would like to see the hospitality assistant"
+        }
+
+    },
+
+
+    de: {
+
+        title: "Behandlungsteam",
+
+        nurse: {
+            label: "PFLEGEKRAFT",
+            speech: "Ich möchte eine Pflegekraft sehen"
+        },
+
+        doctor: {
+            label: "ARZT",
+            speech: "Ich möchte einen Arzt sehen"
+        },
+
+        physio: {
+            label: "PHYSIOTHERAPIE",
+            speech: "Ich möchte den Physiotherapeuten sehen"
+        },
+
+        ergo: {
+            label: "ERGOTHERAPIE",
+            speech: "Ich möchte den Ergotherapeuten sehen"
+        },
+
+        logo: {
+            label: "LOGOPÄDIE",
+            speech: "Ich möchte den Logopäden sehen"
+        },
+
+        assistant: {
+            label: "PFLEGEASSISTENZ",
+            speech: "Ich möchte eine Pflegeassistenz sehen"
+        },
+
+        dietitian: {
+            label: "ERNÄHRUNGS-<br>BERATUNG",
+            speech: "Ich möchte die Ernährungsberaterin sehen"
+        },
+
+        neuropsychologist: {
+            label: "NEUROPSYCHOLOGIE",
+            speech: "Ich möchte den Neuropsychologen sehen"
+        },
+
+        psychologist: {
+            label: "PSYCHOLOGIE",
+            speech: "Ich möchte den Psychologen sehen"
+        },
+
+        socialWorker: {
+            label: "SOZIALDIENST",
+            speech: "Ich möchte die Sozialarbeiterin sehen"
+        },
+
+        hospitality: {
+            label: "HOTELLERIE",
+            speech: "Ich möchte jemanden vom Hotellerie-Service sehen"
+        }
+
+    },
+
+
+    it: {
+
+        title: "Équipe curante",
+
+        nurse: {
+            label: "INFERMIERE",
+            speech: "Vorrei vedere un infermiere"
+        },
+
+        doctor: {
+            label: "MEDICO",
+            speech: "Vorrei vedere un medico"
+        },
+
+        physio: {
+            label: "FISIOTERAPISTA",
+            speech: "Vorrei vedere il fisioterapista"
+        },
+
+        ergo: {
+            label: "ERGOTERAPISTA",
+            speech: "Vorrei vedere l’ergoterapista"
+        },
+
+        logo: {
+            label: "LOGOPEDISTA",
+            speech: "Vorrei vedere il logopedista"
+        },
+
+        assistant: {
+            label: "OPERATORE<br>SOCIO-SANITARIO",
+            speech: "Vorrei vedere un operatore socio-sanitario"
+        },
+
+        dietitian: {
+            label: "DIETISTA",
+            speech: "Vorrei vedere la dietista"
+        },
+
+        neuropsychologist: {
+            label: "NEUROPSICOLOGO",
+            speech: "Vorrei vedere il neuropsicologo"
+        },
+
+        psychologist: {
+            label: "PSICOLOGO",
+            speech: "Vorrei vedere lo psicologo"
+        },
+
+        socialWorker: {
+            label: "ASSISTENTE<br>SOCIALE",
+            speech: "Vorrei vedere l’assistente sociale"
+        },
+
+        hospitality: {
+            label: "SERVIZIO<br>ALBERGHIERO",
+            speech: "Vorrei vedere un addetto al servizio alberghiero"
+        }
+
+    },
+
+
+    es: {
+
+        title: "Equipo asistencial",
+
+        nurse: {
+            label: "ENFERMERO/A"
+        },
+
+        doctor: {
+            label: "MÉDICO"
+        },
+
+        physio: {
+            label: "FISIOTERAPEUTA"
+        },
+
+        ergo: {
+            label: "TERAPEUTA<br>OCUPACIONAL"
+        },
+
+        logo: {
+            label: "LOGOPEDA"
+        },
+
+        assistant: {
+            label: "AUXILIAR DE<br>ENFERMERÍA"
+        },
+
+        dietitian: {
+            label: "DIETISTA"
+        },
+
+        neuropsychologist: {
+            label: "NEUROPSICÓLOGO/A"
+        },
+
+        psychologist: {
+            label: "PSICÓLOGO/A"
+        },
+
+        socialWorker: {
+            label: "TRABAJADOR/A<br>SOCIAL"
+        },
+
+        hospitality: {
+            label: "PERSONAL DE<br>HOSTELERÍA"
+        }
+
+    },
+
+
+    pt: {
+
+        title: "Equipa de cuidados",
+
+        nurse: {
+            label: "ENFERMEIRO/A"
+        },
+
+        doctor: {
+            label: "MÉDICO"
+        },
+
+        physio: {
+            label: "FISIOTERAPEUTA"
+        },
+
+        ergo: {
+            label: "TERAPEUTA<br>OCUPACIONAL"
+        },
+
+        logo: {
+            label: "TERAPEUTA<br>DA FALA"
+        },
+
+        assistant: {
+            label: "AUXILIAR<br>DE SAÚDE"
+        },
+
+        dietitian: {
+            label: "DIETISTA"
+        },
+
+        neuropsychologist: {
+            label: "NEUROPSICÓLOGO/A"
+        },
+
+        psychologist: {
+            label: "PSICÓLOGO/A"
+        },
+
+        socialWorker: {
+            label: "ASSISTENTE<br>SOCIAL"
+        },
+
+        hospitality: {
+            label: "SERVIÇO<br>HOTELEIRO"
         }
 
     }
@@ -7983,6 +8281,15 @@ function updateHomeLanguage() {
 
         homeQuestionsButton:
             translation.questions,
+
+        homeCareTeamButton:
+            translation.careTeam,
+
+        homeMovementButton:
+            translation.movement,
+
+        homePlanningButton:
+            translation.planning,
 
         homeUnderstandButton:
             translation.understand,
